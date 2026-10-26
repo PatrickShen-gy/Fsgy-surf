@@ -1,0 +1,802 @@
+[
+  {
+    "reference_id": "CH1",
+    "related_geometry_ids": [
+      "HOLD_1"
+    ],
+    "geometry_status": "approximate_cargo_geometry",
+    "note": "同号货舱近似包络；缺舱口围板以上容积、局部墩座等",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "CH2",
+    "related_geometry_ids": [
+      "HOLD_2"
+    ],
+    "geometry_status": "approximate_cargo_geometry",
+    "note": "同号货舱近似包络；缺舱口围板以上容积、局部墩座等",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "CH3",
+    "related_geometry_ids": [
+      "HOLD_3"
+    ],
+    "geometry_status": "approximate_cargo_geometry",
+    "note": "同号货舱近似包络；缺舱口围板以上容积、局部墩座等",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "CH4",
+    "related_geometry_ids": [
+      "HOLD_4"
+    ],
+    "geometry_status": "approximate_cargo_geometry",
+    "note": "同号货舱近似包络；缺舱口围板以上容积、局部墩座等",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "CH5",
+    "related_geometry_ids": [
+      "HOLD_5"
+    ],
+    "geometry_status": "approximate_cargo_geometry",
+    "note": "同号货舱近似包络；缺舱口围板以上容积、局部墩座等",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "FPT",
+    "related_geometry_ids": [
+      "FORE_PEAK"
+    ],
+    "geometry_status": "envelope_only",
+    "note": "艏艉包络还包含其它空间，高度边界与实际尖舱不同",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT1P",
+    "related_geometry_ids": [
+      "WBT_1_P",
+      "DB_1"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT1S",
+    "related_geometry_ids": [
+      "WBT_1_S",
+      "DB_1"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT2P",
+    "related_geometry_ids": [
+      "WBT_2_P",
+      "DB_2"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT2S",
+    "related_geometry_ids": [
+      "WBT_2_S",
+      "DB_2"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT3P",
+    "related_geometry_ids": [
+      "WBT_3_P",
+      "DB_3"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT3S",
+    "related_geometry_ids": [
+      "WBT_3_S",
+      "DB_3"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT4P",
+    "related_geometry_ids": [
+      "WBT_4_P",
+      "DB_4"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT4S",
+    "related_geometry_ids": [
+      "WBT_4_S",
+      "DB_4"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT5P",
+    "related_geometry_ids": [
+      "WBT_5_P",
+      "DB_5"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "WBT5S",
+    "related_geometry_ids": [
+      "WBT_5_S",
+      "DB_5"
+    ],
+    "geometry_status": "partial_geometry",
+    "note": "边舱和整段双层底尚未按真实左右水舱/管弄划分；不可直接相加当作单舱",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "APT",
+    "related_geometry_ids": [
+      "AFT_PEAK"
+    ],
+    "geometry_status": "envelope_only",
+    "note": "艏艉包络还包含其它空间，高度边界与实际尖舱不同",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "MDOSTORTKP",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 81
+  },
+  {
+    "reference_id": "MDOSTORTKS",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 81
+  },
+  {
+    "reference_id": "MDOSERVTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 81
+  },
+  {
+    "reference_id": "MDOSETTLTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 81
+  },
+  {
+    "reference_id": "FWTP",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "FWTS",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "CWT",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "DWT",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 81
+  },
+  {
+    "reference_id": "FOT1P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "FOT1S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "FOT2P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "FOT2S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "HFOTKP",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "HFOTKS",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 84,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO1_HFO_SERV_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO1_HFO_SETTL_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO2_HFO_SERV_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO2_HFO_SETTL_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "MELOSTORTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "MELOSETTLTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "GELOSTORTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "GELOSETTLTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO1CYLOTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "NO2CYLOTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "STLOSUTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "MELOSUMPTK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "BT",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "BILGE_SEP_OIL_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "SEWAGE_STO_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "LODRAIN_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "FODRAIN_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "FOOVERFLOW_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "SLUDGE_TK",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 85,
+    "location_page": 82
+  },
+  {
+    "reference_id": "BW",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "BWP",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "BWS",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "LOW_SEA_CH",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "HIGH_SEA_CH",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "CLP",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "CLS",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": false,
+    "capacity_page": null,
+    "location_page": 83
+  },
+  {
+    "reference_id": "SG",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "TUNNEL",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_DB",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_FPT",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_LSTOOL1",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_LSTOOL2",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_LSTOOL3",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_LSTOOL4",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL1P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL1S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL2P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL2S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL3P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL3S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL4P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "USTOOL4S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF1P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF1S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF2P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF2S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF3P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF3S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF4P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF4S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF5P",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF5S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  },
+  {
+    "reference_id": "V_COFF6S",
+    "related_geometry_ids": [],
+    "geometry_status": "reference_only",
+    "note": "02未提供该舱的独立闭合计算几何",
+    "has_reference_capacity": true,
+    "capacity_page": 86,
+    "location_page": 83
+  }
+]

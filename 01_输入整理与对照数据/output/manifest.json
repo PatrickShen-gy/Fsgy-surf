@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-10-26T06:33:07.602362+00:00",
+  "reader_sha256": "616290bb989f0222dad685ac605e6ec72ad4b7ec1c0858c7e0b778f82135ad0a",
+  "ezdxf_version": "1.4.5",
+  "drawings": [
+    {
+      "source_path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\35000DWT散货船_典型横剖面图.dxf",
+      "source_name": "35000DWT散货船_典型横剖面图.dxf",
+      "sha256": "d0b9aebaa16e8df36b207840d9220b78e92006b2deb9af54becb65f7115074e7",
+      "size_bytes": 566719,
+      "mtime_ns": 1792991374739082300,
+      "cache_path": "drawings/35000DWT散货船_典型横剖面图/entities.json.gz",
+      "reused_cache": true,
+      "counts": {
+        "modelspace_entities": 618,
+        "blocks": 31,
+        "modelspace_types": {
+          "LINE": 260,
+          "ARC": 92,
+          "LWPOLYLINE": 102,
+          "INSERT": 113,
+          "TEXT": 10,
+          "CIRCLE": 22,
+          "HATCH": 8,
+          "DIMENSION": 11
+        },
+        "block_entities": 295
+      },
+      "metadata": {
+        "dxf_version": "AC1032",
+        "encoding": "gbk",
+        "insunits": 4,
+        "geometry_units": "mm",
+        "coordinates": "原始图纸坐标，未转换为船体坐标；块实体坐标属于块的局部坐标系"
+      }
+    },
+    {
+      "source_path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\35000DWT散货船型线图_2010VER.dxf",
+      "source_name": "35000DWT散货船型线图_2010VER.dxf",
+      "sha256": "61f31173570267e5b787bc04b728e8fdbf95414c3b120edbd79d8d6236e30398",
+      "size_bytes": 3092109,
+      "mtime_ns": 1792991374236670900,
+      "cache_path": "drawings/35000DWT散货船型线图_2010VER/entities.json.gz",
+      "reused_cache": true,
+      "counts": {
+        "modelspace_entities": 2245,
+        "blocks": 57,
+        "modelspace_types": {
+          "TEXT": 1609,
+          "LINE": 263,
+          "LWPOLYLINE": 188,
+          "POLYLINE": 115,
+          "DIMENSION": 50,
+          "INSERT": 4,
+          "ARC": 7,
+          "POINT": 2,
+          "SPLINE": 4,
+          "CIRCLE": 1,
+          "REGION": 2
+        },
+        "block_entities": 856
+      },
+      "metadata": {
+        "dxf_version": "AC1032",
+        "encoding": "gbk",
+        "insunits": 0,
+        "geometry_units": "unspecified",
+        "coordinates": "原始图纸坐标，未转换为船体坐标；块实体坐标属于块的局部坐标系"
+      }
+    },
+    {
+      "source_path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\35000DWT散货船总布置图_2010VER.dxf",
+      "source_name": "35000DWT散货船总布置图_2010VER.dxf",
+      "sha256": "90a1d4a62747c4835ccc3197bd3494a9bcde5326f8b44d4c9bd2d01f466033fe",
+      "size_bytes": 38003809,
+      "mtime_ns": 1792991377311646700,
+      "cache_path": "drawings/35000DWT散货船总布置图_2010VER/entities.json.gz",
+      "reused_cache": true,
+      "counts": {
+        "modelspace_entities": 4353,
+        "blocks": 298,
+        "modelspace_types": {
+          "LINE": 2812,
+          "TEXT": 407,
+          "ARC": 378,
+          "CIRCLE": 117,
+          "INSERT": 229,
+          "DIMENSION": 7,
+          "SOLID": 26,
+          "LWPOLYLINE": 201,
+          "LEADER": 2,
+          "MTEXT": 2,
+          "POLYLINE": 155,
+          "SPLINE": 9,
+          "HATCH": 6,
+          "ELLIPSE": 1,
+          "ATTDEF": 1
+        },
+        "block_entities": 74845
+      },
+      "metadata": {
+        "dxf_version": "AC1032",
+        "encoding": "gbk",
+        "insunits": 4,
+        "geometry_units": "mm",
+        "coordinates": "原始图纸坐标，未转换为船体坐标；块实体坐标属于块的局部坐标系"
+      }
+    },
+    {
+      "source_path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,103,001舱容图-A.dxf",
+      "source_name": "DC081210,103,001舱容图-A.dxf",
+      "sha256": "08fb6cd931ccbc34d62e1fdaee1574d023167ac2ca8e2a6491be7242f9affd8a",
+      "size_bytes": 1269090,
+      "mtime_ns": 1792991373694536800,
+      "cache_path": "drawings/DC081210,103,001舱容图-A/entities.json.gz",
+      "reused_cache": true,
+      "counts": {
+        "modelspace_entities": 1750,
+        "blocks": 16,
+        "modelspace_types": {
+          "TEXT": 440,
+          "ARC": 13,
+          "LINE": 1206,
+          "DIMENSION": 6,
+          "SOLID": 4,
+          "CIRCLE": 3,
+          "LWPOLYLINE": 42,
+          "INSERT": 14,
+          "LEADER": 7,
+          "MTEXT": 1,
+          "POLYLINE": 13,
+          "OLE2FRAME": 1
+        },
+        "block_entities": 467
+      },
+      "metadata": {
+        "dxf_version": "AC1032",
+        "encoding": "gbk",
+        "insunits": 4,
+        "geometry_units": "mm",
+        "coordinates": "原始图纸坐标，未转换为船体坐标；块实体坐标属于块的局部坐标系"
+      }
+    }
+  ],
+  "derived_outputs": [
+    "principal_dimensions.json",
+    "quality_report.json",
+    "summary.md",
+    "hull_offsets.json",
+    "hull_offsets.csv"
+  ],
+  "pdf_sources": [
+    {
+      "name": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "status": "not_parsed"
+    }
+  ]
+}

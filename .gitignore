@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments and dependency copies
+.venv/
+venv/
+.cad_deps/
+
+# Temporary files
+tmp/
+*.tmp
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep output/ and CAD_mesh/ tracked: later stages reuse these files.

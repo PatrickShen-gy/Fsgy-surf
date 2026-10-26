@@ -1,0 +1,703 @@
+﻿case_id,curve_id,holds,mode,evaluation_x_m,local_draft_m,hold_payload_t,associated_WBT_mass_t,minimum_t,maximum_t,lower_margin_t,upper_margin_t,status,pdf_page,uncertainty_band_t,scope,pair_midpoint_assumed,ballast_dependence_needs_review
+LD00,H1,[1],seagoing,152.6,1.0804947064235118,0.0,0.0,0.0,4626.25870728746,0.0,4626.25870728746,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H1,[1],harbour,152.6,1.0804947064235118,0.0,0.0,0.0,5909.25870728746,0.0,5909.25870728746,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H2,[2],seagoing,125.8,1.637939973630293,0.0,0.0,0.0,6285.739468976522,0.0,6285.739468976522,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H2,[2],harbour,125.8,1.637939973630293,0.0,0.0,0.0,7782.739468976522,0.0,7782.739468976522,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H3,[3],seagoing,97.0,2.2369856339122074,0.0,0.0,0.0,7873.176810697518,0.0,7873.176810697518,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H3,[3],harbour,97.0,2.2369856339122074,0.0,0.0,0.0,9796.958993206386,0.0,9796.958993206386,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H4,[4],seagoing,68.19999999999999,2.836031294194122,0.0,0.0,0.0,7138.86080249689,0.0,7138.86080249689,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H4,[4],harbour,68.19999999999999,2.836031294194122,0.0,0.0,0.0,8637.86080249689,0.0,8637.86080249689,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H5,[5],seagoing,39.8,3.4267568758610096,0.0,0.0,0.0,7899.1591319329855,0.0,7899.1591319329855,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H5,[5],harbour,39.8,3.4267568758610096,0.0,0.0,0.0,9633.825465245949,0.0,9633.825465245949,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD00,H12,"[1, 2]",seagoing,138.2,1.3800175365644691,0.0,0.0,0.0,13446.722124769218,0.0,13446.722124769218,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H12,"[1, 2]",harbour,138.2,1.3800175365644691,0.0,0.0,0.0,16441.722124769218,0.0,16441.722124769218,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H23,"[2, 3]",seagoing,111.39999999999999,1.9374628037712505,0.0,0.0,0.0,12988.452826480352,0.0,12988.452826480352,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H23,"[2, 3]",harbour,111.39999999999999,1.9374628037712505,0.0,0.0,0.0,15983.452826480352,0.0,15983.452826480352,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H34,"[3, 4]",seagoing,82.6,2.5365084640531648,0.0,0.0,0.0,13853.823022789195,0.0,13853.823022789195,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H34,"[3, 4]",harbour,82.6,2.5365084640531648,0.0,0.0,0.0,16852.191647765805,0.0,16852.191647765805,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H45,"[4, 5]",seagoing,54.199999999999996,3.1272340457200523,0.0,0.0,0.0,14970.340834826566,0.0,14970.340834826566,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD00,H45,"[4, 5]",harbour,54.199999999999996,3.1272340457200523,0.0,0.0,0.0,17973.70504462663,0.0,17973.70504462663,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD01A,H1,[1],seagoing,152.6,5.04352810719824,0.0,2418.8,0.0,6527.125555604531,0.0,6527.125555604531,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H1,[1],harbour,152.6,5.04352810719824,0.0,2418.8,0.0,7810.125555604531,0.0,7810.125555604531,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H2,[2],seagoing,125.8,5.420259814247567,0.0,2789.8,0.0,8952.255992517687,0.0,8952.255992517687,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H2,[2],harbour,125.8,5.420259814247567,0.0,2789.8,0.0,10449.255992517687,0.0,10449.255992517687,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H3,[3],seagoing,97.0,5.825105827793111,0.0,2818.6,0.0,10406.173052726394,0.0,10406.173052726394,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H3,[3],harbour,97.0,5.825105827793111,0.0,2818.6,0.0,12329.605856443259,0.0,12329.605856443259,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H4,[4],seagoing,68.19999999999999,6.229951841338656,0.0,1945.6,0.0,9534.517198823098,0.0,9534.517198823098,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H4,[4],harbour,68.19999999999999,6.229951841338656,0.0,1945.6,0.0,11033.517198823098,0.0,11033.517198823098,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H5,[5],seagoing,39.8,6.629174993584957,0.0,1858.4,0.0,9918.834122049637,0.0,9918.834122049637,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H5,[5],harbour,39.8,6.629174993584957,0.0,1858.4,0.0,11653.18863276107,0.0,11653.18863276107,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01A,H12,"[1, 2]",seagoing,138.2,5.245951113971013,0.0,5208.6,0.0,18026.176359537527,0.0,18026.176359537527,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H12,"[1, 2]",harbour,138.2,5.245951113971013,0.0,5208.6,0.0,21021.176359537527,0.0,21021.176359537527,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H23,"[2, 3]",seagoing,111.39999999999999,5.622682821020339,0.0,5608.4,0.0,18187.71396983948,0.0,18187.71396983948,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H23,"[2, 3]",harbour,111.39999999999999,5.622682821020339,0.0,5608.4,0.0,21182.71396983948,0.0,21182.71396983948,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H34,"[3, 4]",seagoing,82.6,6.027528834565883,0.0,4764.2,0.0,18782.14330750952,0.0,18782.14330750952,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H34,"[3, 4]",harbour,82.6,6.027528834565883,0.0,4764.2,0.0,21781.019274496084,0.0,21781.019274496084,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H45,"[4, 5]",seagoing,54.199999999999996,6.426751986812184,0.0,3804.0,0.0,19379.927666142255,0.0,19379.927666142255,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01A,H45,"[4, 5]",harbour,54.199999999999996,6.426751986812184,0.0,3804.0,0.0,22379.455784744998,0.0,22379.455784744998,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H1,[1],seagoing,152.6,5.224078064635102,0.0,2418.8,0.0,6613.7262459973235,0.0,6613.7262459973235,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H1,[1],harbour,152.6,5.224078064635102,0.0,2418.8,0.0,7896.7262459973235,0.0,7896.7262459973235,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H2,[2],seagoing,125.8,5.4341847024117245,0.0,2789.8,0.0,8962.072968855713,0.0,8962.072968855713,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H2,[2],harbour,125.8,5.4341847024117245,0.0,2789.8,0.0,10459.072968855713,0.0,10459.072968855713,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H3,[3],seagoing,97.0,5.659970940022423,0.0,2818.6,0.0,10289.59779115507,0.0,10289.59779115507,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H3,[3],harbour,97.0,5.659970940022423,0.0,2818.6,0.0,12213.04667421836,0.0,12213.04667421836,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H4,[4],seagoing,68.19999999999999,5.885757177633122,0.0,1945.6,0.0,9291.56155615749,0.0,9291.56155615749,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H4,[4],harbour,68.19999999999999,5.885757177633122,0.0,1945.6,0.0,10790.56155615749,0.0,10790.56155615749,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H5,[5],seagoing,39.8,6.108407495277005,0.0,1858.4,0.0,9590.40071537577,0.0,9590.40071537577,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H5,[5],harbour,39.8,6.108407495277005,0.0,1858.4,0.0,11324.80593373066,0.0,11324.80593373066,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01B,H12,"[1, 2]",seagoing,138.2,5.336971183440451,0.0,5208.6,0.0,18133.995657059022,0.0,18133.995657059022,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H12,"[1, 2]",harbour,138.2,5.336971183440451,0.0,5208.6,0.0,21128.995657059022,0.0,21128.995657059022,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H23,"[2, 3]",seagoing,111.39999999999999,5.547077821217074,0.0,5608.4,0.0,18081.047302481522,0.0,18081.047302481522,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H23,"[2, 3]",harbour,111.39999999999999,5.547077821217074,0.0,5608.4,0.0,21076.047302481522,0.0,21076.047302481522,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H34,"[3, 4]",seagoing,82.6,5.772864058827772,0.0,4764.2,0.0,18422.629627590897,0.0,18422.629627590897,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H34,"[3, 4]",harbour,82.6,5.772864058827772,0.0,4764.2,0.0,21421.468584727772,0.0,21421.468584727772,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H45,"[4, 5]",seagoing,54.199999999999996,5.995514376471656,0.0,3804.0,0.0,18803.607209131427,0.0,18803.607209131427,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01B,H45,"[4, 5]",harbour,54.199999999999996,5.995514376471656,0.0,3804.0,0.0,21803.63669394297,0.0,21803.63669394297,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H1,[1],seagoing,152.6,4.573110685580909,0.0,2418.8,0.0,6301.490091253317,0.0,6301.490091253317,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H1,[1],harbour,152.6,4.573110685580909,0.0,2418.8,0.0,7584.490091253317,0.0,7584.490091253317,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H2,[2],seagoing,125.8,4.982666513006827,0.0,2789.8,0.0,8643.754909182828,0.0,8643.754909182828,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H2,[2],harbour,125.8,4.982666513006827,0.0,2789.8,0.0,10140.754909182828,0.0,10140.754909182828,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H3,[3],seagoing,97.0,5.422786208151097,0.0,2818.6,0.0,10122.159689298485,0.0,10122.159689298485,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H3,[3],harbour,97.0,5.422786208151097,0.0,2818.6,0.0,12045.631667272377,0.0,12045.631667272377,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H4,[4],seagoing,68.19999999999999,5.862905903295367,0.0,1945.6,0.0,9275.431596492552,0.0,9275.431596492552,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H4,[4],harbour,68.19999999999999,5.862905903295367,0.0,1945.6,0.0,10774.431596492552,0.0,10774.431596492552,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H5,[5],seagoing,39.8,6.2969128248959665,0.0,1858.4,0.0,9709.285722186094,0.0,9709.285722186094,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H5,[5],harbour,39.8,6.2969128248959665,0.0,1858.4,0.0,11443.672585591654,0.0,11443.672585591654,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01C,H12,"[1, 2]",seagoing,138.2,4.793170533153044,0.0,5208.6,0.0,17489.82778894499,0.0,17489.82778894499,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H12,"[1, 2]",harbour,138.2,4.793170533153044,0.0,5208.6,0.0,20484.82778894499,0.0,20484.82778894499,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H23,"[2, 3]",seagoing,111.39999999999999,5.202726360578962,0.0,5608.4,0.0,17595.221989318496,0.0,17595.221989318496,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H23,"[2, 3]",harbour,111.39999999999999,5.202726360578962,0.0,5608.4,0.0,20590.221989318496,0.0,20590.221989318496,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H34,"[3, 4]",seagoing,82.6,5.642846055723232,0.0,4764.2,0.0,18239.08146857949,0.0,18239.08146857949,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H34,"[3, 4]",harbour,82.6,5.642846055723232,0.0,4764.2,0.0,21237.901530497194,0.0,21237.901530497194,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H45,"[4, 5]",seagoing,54.199999999999996,6.076852977323831,0.0,3804.0,0.0,18912.31085299665,0.0,18912.31085299665,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01C,H45,"[4, 5]",harbour,54.199999999999996,6.076852977323831,0.0,3804.0,0.0,21912.245771784823,0.0,21912.245771784823,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H1,[1],seagoing,152.6,4.725159099164896,0.0,2418.8,0.0,6374.420031400807,0.0,6374.420031400807,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H1,[1],harbour,152.6,4.725159099164896,0.0,2418.8,0.0,7657.420031400807,0.0,7657.420031400807,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H2,[2],seagoing,125.8,4.994906052857992,0.0,2789.8,0.0,8652.383723410327,0.0,8652.383723410327,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H2,[2],harbour,125.8,4.994906052857992,0.0,2789.8,0.0,10149.383723410327,0.0,10149.383723410327,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H3,[3],seagoing,97.0,5.284783376229677,0.0,2818.6,0.0,10024.738021194271,0.0,10024.738021194271,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H3,[3],harbour,97.0,5.284783376229677,0.0,2818.6,0.0,11948.223436639622,0.0,11948.223436639622,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H4,[4],seagoing,68.19999999999999,5.574660699601362,0.0,1945.6,0.0,9071.968829362993,0.0,9071.968829362993,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H4,[4],harbour,68.19999999999999,5.574660699601362,0.0,1945.6,0.0,10570.968829362993,0.0,10570.968829362993,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H5,[5],seagoing,39.8,5.8605119490373285,0.0,1858.4,0.0,9434.05997019618,0.0,9434.05997019618,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H5,[5],harbour,39.8,5.8605119490373285,0.0,1858.4,0.0,11168.4893263842,0.0,11168.4893263842,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01D,H12,"[1, 2]",seagoing,138.2,4.870097760850739,0.0,5208.6,0.0,17580.953182487192,0.0,17580.953182487192,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H12,"[1, 2]",harbour,138.2,4.870097760850739,0.0,5208.6,0.0,20575.953182487192,0.0,20575.953182487192,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H23,"[2, 3]",seagoing,111.39999999999999,5.139844714543835,0.0,5608.4,0.0,17506.505956807374,0.0,17506.505956807374,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H23,"[2, 3]",harbour,111.39999999999999,5.139844714543835,0.0,5608.4,0.0,20501.505956807374,0.0,20501.505956807374,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H34,"[3, 4]",seagoing,82.6,5.4297220379155196,0.0,4764.2,0.0,17938.211433848475,0.0,17938.211433848475,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H34,"[3, 4]",harbour,82.6,5.4297220379155196,0.0,4764.2,0.0,20937.000522939874,0.0,20937.000522939874,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H45,"[4, 5]",seagoing,54.199999999999996,5.715573287351487,0.0,3804.0,0.0,18429.48451540245,0.0,18429.48451540245,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01D,H45,"[4, 5]",harbour,54.199999999999996,5.715573287351487,0.0,3804.0,0.0,21429.839465802277,0.0,21429.839465802277,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H1,[1],seagoing,152.6,4.400272373993606,0.0,2418.8,0.0,6218.588287662366,0.0,6218.588287662366,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H1,[1],harbour,152.6,4.400272373993606,0.0,2418.8,0.0,7501.588287662366,0.0,7501.588287662366,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H2,[2],seagoing,125.8,4.9705487135418345,0.0,2789.8,0.0,8635.211921317188,0.0,8635.211921317188,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H2,[2],harbour,125.8,4.9705487135418345,0.0,2789.8,0.0,10132.211921317188,0.0,10132.211921317188,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H3,[3],seagoing,97.0,5.583382988877244,0.0,2818.6,0.0,10235.53132126193,0.0,10235.53132126193,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H3,[3],harbour,97.0,5.583382988877244,0.0,2818.6,0.0,12158.987661769343,0.0,12158.987661769343,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H4,[4],seagoing,68.19999999999999,6.196217264212654,0.0,1945.6,0.0,9510.705075249003,0.0,9510.705075249003,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H4,[4],harbour,68.19999999999999,6.196217264212654,0.0,1945.6,0.0,11009.705075249003,0.0,11009.705075249003,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H5,[5],seagoing,39.8,6.800539952390627,0.0,1858.4,0.0,10026.909179321723,0.0,10026.909179321723,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H5,[5],harbour,39.8,6.800539952390627,0.0,1858.4,0.0,11761.247004058589,0.0,11761.247004058589,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01E,H12,"[1, 2]",seagoing,138.2,4.706689511661311,0.0,5208.6,0.0,17387.38529422342,0.0,17387.38529422342,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H12,"[1, 2]",harbour,138.2,4.706689511661311,0.0,5208.6,0.0,20382.38529422342,0.0,20382.38529422342,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H23,"[2, 3]",seagoing,111.39999999999999,5.276965851209539,0.0,5608.4,0.0,17699.96213973873,0.0,17699.96213973873,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H23,"[2, 3]",harbour,111.39999999999999,5.276965851209539,0.0,5608.4,0.0,20694.96213973873,0.0,20694.96213973873,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H34,"[3, 4]",seagoing,82.6,5.889800126544949,0.0,4764.2,0.0,18587.70984293818,0.0,18587.70984293818,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H34,"[3, 4]",harbour,82.6,5.889800126544949,0.0,4764.2,0.0,21586.565794126458,0.0,21586.565794126458,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H45,"[4, 5]",seagoing,54.199999999999996,6.494122814722922,0.0,3804.0,0.0,19469.964308122653,0.0,19469.964308122653,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01E,H45,"[4, 5]",harbour,54.199999999999996,6.494122814722922,0.0,3804.0,0.0,22469.41409993812,0.0,22469.41409993812,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H1,[1],seagoing,152.6,5.382154696416203,0.0,2418.8,0.0,6689.547617774704,0.0,6689.547617774704,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H1,[1],harbour,152.6,5.382154696416203,0.0,2418.8,0.0,7972.547617774704,0.0,7972.547617774704,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H2,[2],seagoing,125.8,5.447720446085132,0.0,2789.8,0.0,8971.615600278885,0.0,8971.615600278885,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H2,[2],harbour,125.8,5.447720446085132,0.0,2789.8,0.0,10468.615600278885,0.0,10468.615600278885,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H3,[3],seagoing,97.0,5.5181791621472644,0.0,2818.6,0.0,10189.501355946219,0.0,10189.501355946219,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H3,[3],harbour,97.0,5.5181791621472644,0.0,2818.6,0.0,12112.964045414365,0.0,12112.964045414365,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H4,[4],seagoing,68.19999999999999,5.588637878209398,0.0,1945.6,0.0,9081.83485800739,0.0,9081.83485800739,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H4,[4],harbour,68.19999999999999,5.588637878209398,0.0,1945.6,0.0,10580.83485800739,0.0,10580.83485800739,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H5,[5],seagoing,39.8,5.65811800099289,0.0,1858.4,0.0,9306.415802573607,0.0,9306.415802573607,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H5,[5],harbour,39.8,5.65811800099289,0.0,1858.4,0.0,11040.864866059394,0.0,11040.864866059394,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD01F,H12,"[1, 2]",seagoing,138.2,5.417384054447269,0.0,5208.6,0.0,18229.250025839225,0.0,18229.250025839225,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H12,"[1, 2]",harbour,138.2,5.417384054447269,0.0,5208.6,0.0,21224.250025839225,0.0,21224.250025839225,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H23,"[2, 3]",seagoing,111.39999999999999,5.482949804116198,0.0,5608.4,0.0,17990.572838011925,0.0,17990.572838011925,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H23,"[2, 3]",harbour,111.39999999999999,5.482949804116198,0.0,5608.4,0.0,20985.572838011925,0.0,20985.572838011925,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H34,"[3, 4]",seagoing,82.6,5.553408520178332,0.0,4764.2,0.0,18112.821299958192,0.0,18112.821299958192,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H34,"[3, 4]",harbour,82.6,5.553408520178332,0.0,4764.2,0.0,21111.62836412331,0.0,21111.62836412331,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H45,"[4, 5]",seagoing,54.199999999999996,5.622888642961823,0.0,3804.0,0.0,18305.617637069747,0.0,18305.617637069747,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD01F,H45,"[4, 5]",harbour,54.199999999999996,5.622888642961823,0.0,3804.0,0.0,21306.080344649505,0.0,21306.080344649505,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD02,H1,[1],seagoing,152.6,2.889065340311866,0.0,2418.8,0.0,5493.738643269353,0.0,5493.738643269353,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD02,H1,[1],harbour,152.6,2.889065340311866,0.0,2418.8,0.0,6776.738643269353,0.0,6776.738643269353,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD02,H2,[2],seagoing,125.8,2.9397105221184088,0.0,0.0,0.0,7203.481178740631,0.0,7203.481178740631,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H2,[2],harbour,125.8,2.9397105221184088,0.0,0.0,0.0,8700.48117874063,0.0,8700.48117874063,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H3,[3],seagoing,97.0,2.994135195104544,0.0,0.0,0.0,8407.678691772926,0.0,8407.678691772926,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H3,[3],harbour,97.0,2.994135195104544,0.0,0.0,0.0,10331.387149884406,0.0,10331.387149884406,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H4,[4],seagoing,68.19999999999999,3.04855986809068,0.0,0.0,0.0,7288.877701945448,0.0,7288.877701945448,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H4,[4],harbour,68.19999999999999,3.04855986809068,0.0,0.0,0.0,8787.877701945448,0.0,8787.877701945448,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H5,[5],seagoing,39.8,3.1022286428408967,0.0,0.0,0.0,7694.488307661197,0.0,7694.488307661197,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H5,[5],harbour,39.8,3.1022286428408967,0.0,0.0,0.0,9429.186240607365,0.0,9429.186240607365,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD02,H12,"[1, 2]",seagoing,138.2,2.9162776768049334,0.0,2418.8,0.0,15266.523956348934,0.0,15266.523956348934,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD02,H12,"[1, 2]",harbour,138.2,2.9162776768049334,0.0,2418.8,0.0,18261.523956348934,0.0,18261.523956348934,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD02,H23,"[2, 3]",seagoing,111.39999999999999,2.9669228586114764,0.0,0.0,0.0,14440.857740357536,0.0,14440.857740357536,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD02,H23,"[2, 3]",harbour,111.39999999999999,2.9669228586114764,0.0,0.0,0.0,17435.857740357536,0.0,17435.857740357536,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD02,H34,"[3, 4]",seagoing,82.6,3.0213475315976117,0.0,0.0,0.0,14538.276837950762,0.0,14538.276837950762,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD02,H34,"[3, 4]",harbour,82.6,3.0213475315976117,0.0,0.0,0.0,17536.715923480715,0.0,17536.715923480715,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD02,H45,"[4, 5]",seagoing,54.199999999999996,3.0750163063478286,0.0,0.0,0.0,14900.555290390152,0.0,14900.555290390152,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD02,H45,"[4, 5]",harbour,54.199999999999996,3.0750163063478286,0.0,0.0,0.0,17903.98020966776,0.0,17903.98020966776,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD03A,H1,[1],seagoing,152.6,8.032880148013096,0.0,2418.8,0.0,7960.966661062562,0.0,7960.966661062562,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H1,[1],harbour,152.6,8.032880148013096,0.0,2418.8,0.0,9243.96666106256,0.0,9243.96666106256,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H2,[2],seagoing,125.8,8.110470702856112,0.0,2789.8,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H2,[2],harbour,125.8,8.110470702856112,0.0,2789.8,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H3,[3],seagoing,97.0,8.193851597612788,10223.4,2818.6,0.0,12078.364565013897,10223.4,1854.9645650138973,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H3,[3],harbour,97.0,8.193851597612788,10223.4,2818.6,0.0,14001.566721625619,10223.4,3778.166721625619,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H4,[4],seagoing,68.19999999999999,8.277232492369462,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H4,[4],harbour,68.19999999999999,8.277232492369462,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H5,[5],seagoing,39.8,8.359455319143406,0.0,1858.4,0.0,11010.073232920335,0.0,11010.073232920335,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H5,[5],harbour,39.8,8.359455319143406,0.0,1858.4,0.0,12744.25926453483,0.0,12744.25926453483,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03A,H12,"[1, 2]",seagoing,138.2,8.074570595391434,0.0,5208.6,440.32635418026496,19963.0,-440.32635418026496,19963.0,outside_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H12,"[1, 2]",harbour,138.2,8.074570595391434,0.0,5208.6,0.0,22958.0,0.0,22958.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H23,"[2, 3]",seagoing,111.39999999999999,8.15216115023445,10223.4,5608.4,633.7599089011212,19963.0,9589.640091098878,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H23,"[2, 3]",harbour,111.39999999999999,8.15216115023445,10223.4,5608.4,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H34,"[3, 4]",seagoing,82.6,8.235542044991124,10223.4,4764.2,752.0315204880502,19987.0,9471.36847951195,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H34,"[3, 4]",harbour,82.6,8.235542044991124,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H45,"[4, 5]",seagoing,54.199999999999996,8.31776487176507,0.0,3804.0,821.6822263443524,19987.0,-821.6822263443524,19987.0,outside_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03A,H45,"[4, 5]",harbour,54.199999999999996,8.31776487176507,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H1,[1],seagoing,152.6,8.17750731516048,0.0,2418.8,0.0,8030.337004331112,0.0,8030.337004331112,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H1,[1],harbour,152.6,8.17750731516048,0.0,2418.8,0.0,9313.337004331112,0.0,9313.337004331112,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H2,[2],seagoing,125.8,8.112234286045812,0.0,2789.8,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H2,[2],harbour,125.8,8.112234286045812,0.0,2789.8,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H3,[3],seagoing,97.0,8.042090135355423,10223.4,2818.6,0.0,11971.230134501151,10223.4,1747.8301345011514,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H3,[3],harbour,97.0,8.042090135355423,10223.4,2818.6,0.0,13894.447068275702,10223.4,3671.0470682757023,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H4,[4],seagoing,68.19999999999999,7.971945984665033,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H4,[4],harbour,68.19999999999999,7.971945984665033,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H5,[5],seagoing,39.8,7.902776058289788,0.0,1858.4,0.0,10722.058474152187,0.0,10722.058474152187,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H5,[5],harbour,39.8,7.902776058289788,0.0,1858.4,0.0,12456.28897307543,0.0,12456.28897307543,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03B,H12,"[1, 2]",seagoing,138.2,8.142435239815285,0.0,5208.6,520.7487337429279,19963.0,-520.7487337429279,19963.0,outside_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H12,"[1, 2]",harbour,138.2,8.142435239815285,0.0,5208.6,0.0,22958.0,0.0,22958.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H23,"[2, 3]",seagoing,111.39999999999999,8.077162210700617,10223.4,5608.4,527.9374862320357,19963.0,9695.462513767963,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H23,"[2, 3]",harbour,111.39999999999999,8.077162210700617,10223.4,5608.4,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H34,"[3, 4]",seagoing,82.6,8.007018060010228,10223.4,4764.2,429.3204002871355,19987.0,9794.079599712864,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H34,"[3, 4]",harbour,82.6,8.007018060010228,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H45,"[4, 5]",seagoing,54.199999999999996,7.937848133634983,0.0,3804.0,313.89323977468854,19987.0,-313.89323977468854,19987.0,outside_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03B,H45,"[4, 5]",harbour,54.199999999999996,7.937848133634983,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H1,[1],seagoing,152.6,6.78278920264046,0.0,2418.8,0.0,7361.361208588794,0.0,7361.361208588794,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H1,[1],harbour,152.6,6.78278920264046,0.0,2418.8,0.0,8644.361208588794,0.0,8644.361208588794,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H2,[2],seagoing,125.8,7.035033672418659,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03C,H2,[2],harbour,125.8,7.035033672418659,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03C,H3,[3],seagoing,97.0,7.3061023563594105,10223.4,2818.6,0.0,11451.66719411935,10223.4,1228.2671941193512,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H3,[3],harbour,97.0,7.3061023563594105,10223.4,2818.6,0.0,13374.955791747747,10223.4,3151.555791747747,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H4,[4],seagoing,68.19999999999999,7.577171040300162,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H4,[4],harbour,68.19999999999999,7.577171040300162,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H5,[5],seagoing,39.8,7.844474881408403,0.0,1858.4,0.0,10685.289562500704,0.0,10685.289562500704,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H5,[5],harbour,39.8,7.844474881408403,0.0,1858.4,0.0,12419.525738266877,0.0,12419.525738266877,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03C,H12,"[1, 2]",seagoing,138.2,6.9183235446108355,0.0,2418.8,0.0,19963.0,0.0,19963.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H12,"[1, 2]",harbour,138.2,6.9183235446108355,0.0,2418.8,0.0,22958.0,0.0,22958.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H23,"[2, 3]",seagoing,111.39999999999999,7.170568014389035,10223.4,2818.6,0.0,19963.0,10223.4,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H23,"[2, 3]",harbour,111.39999999999999,7.170568014389035,10223.4,2818.6,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H34,"[3, 4]",seagoing,82.6,7.441636698329786,10223.4,4764.2,0.0,19987.0,10223.4,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H34,"[3, 4]",harbour,82.6,7.441636698329786,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H45,"[4, 5]",seagoing,54.199999999999996,7.708940539438027,0.0,3804.0,7.940004211869505,19987.0,-7.940004211869505,19987.0,outside_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03C,H45,"[4, 5]",harbour,54.199999999999996,7.708940539438027,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H1,[1],seagoing,152.6,6.904877271657527,0.0,2418.8,0.0,7419.9206855097345,0.0,7419.9206855097345,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H1,[1],harbour,152.6,6.904877271657527,0.0,2418.8,0.0,8702.920685509735,0.0,8702.920685509735,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H2,[2],seagoing,125.8,7.037070194419808,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03D,H2,[2],harbour,125.8,7.037070194419808,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03D,H3,[3],seagoing,97.0,7.179128260671812,10223.4,2818.6,0.0,11362.0311479913,10223.4,1138.6311479913002,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H3,[3],harbour,97.0,7.179128260671812,10223.4,2818.6,0.0,13285.332109212264,10223.4,3061.9321092122645,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H4,[4],seagoing,68.19999999999999,7.321186326923815,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H4,[4],harbour,68.19999999999999,7.321186326923815,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H5,[5],seagoing,39.8,7.4612713644778745,0.0,1858.4,0.0,10443.613887801674,0.0,10443.613887801674,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H5,[5],harbour,39.8,7.4612713644778745,0.0,1858.4,0.0,12177.88737647115,0.0,12177.88737647115,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03D,H12,"[1, 2]",seagoing,138.2,6.975906304783528,0.0,2418.8,0.0,19963.0,0.0,19963.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H12,"[1, 2]",harbour,138.2,6.975906304783528,0.0,2418.8,0.0,22958.0,0.0,22958.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H23,"[2, 3]",seagoing,111.39999999999999,7.10809922754581,10223.4,2818.6,0.0,19963.0,10223.4,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H23,"[2, 3]",harbour,111.39999999999999,7.10809922754581,10223.4,2818.6,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H34,"[3, 4]",seagoing,82.6,7.250157293797813,10223.4,4764.2,0.0,19987.0,10223.4,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H34,"[3, 4]",harbour,82.6,7.250157293797813,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H45,"[4, 5]",seagoing,54.199999999999996,7.390242331351873,0.0,3804.0,0.0,19987.0,0.0,19987.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03D,H45,"[4, 5]",harbour,54.199999999999996,7.390242331351873,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H1,[1],seagoing,152.6,6.647212701131074,0.0,2418.8,0.0,7296.332012246511,0.0,7296.332012246511,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H1,[1],harbour,152.6,6.647212701131074,0.0,2418.8,0.0,8579.332012246512,0.0,8579.332012246512,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H2,[2],seagoing,125.8,7.036247602592664,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03E,H2,[2],harbour,125.8,7.036247602592664,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD03E,H3,[3],seagoing,97.0,7.454314959387209,10223.4,2818.6,0.0,11556.296344260689,10223.4,1332.8963442606891,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H3,[3],harbour,97.0,7.454314959387209,10223.4,2818.6,0.0,13479.57051028217,10223.4,3256.1705102821707,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H4,[4],seagoing,68.19999999999999,7.8723823161817545,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H4,[4],harbour,68.19999999999999,7.8723823161817545,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H5,[5],seagoing,39.8,8.284643181909708,0.0,1858.4,0.0,10962.891323196609,0.0,10962.891323196609,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H5,[5],harbour,39.8,8.284643181909708,0.0,1858.4,0.0,12697.08463934248,0.0,12697.08463934248,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03E,H12,"[1, 2]",seagoing,138.2,6.856246379528347,0.0,2418.8,0.0,19933.677697941515,0.0,19933.677697941515,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H12,"[1, 2]",harbour,138.2,6.856246379528347,0.0,2418.8,0.0,22928.677697941515,0.0,22928.677697941515,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H23,"[2, 3]",seagoing,111.39999999999999,7.2452812809899365,10223.4,2818.6,0.0,19963.0,10223.4,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H23,"[2, 3]",harbour,111.39999999999999,7.2452812809899365,10223.4,2818.6,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H34,"[3, 4]",seagoing,82.6,7.663348637784481,10223.4,4764.2,0.0,19987.0,10223.4,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H34,"[3, 4]",harbour,82.6,7.663348637784481,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H45,"[4, 5]",seagoing,54.199999999999996,8.075609503512435,0.0,3804.0,498.02228537248345,19987.0,-498.02228537248345,19987.0,outside_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03E,H45,"[4, 5]",harbour,54.199999999999996,8.075609503512435,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H1,[1],seagoing,152.6,8.30618640863236,0.0,2418.8,0.0,8092.057862602045,0.0,8092.057862602045,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H1,[1],harbour,152.6,8.30618640863236,0.0,2418.8,0.0,9375.057862602045,0.0,9375.057862602045,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H2,[2],seagoing,125.8,8.116483477666806,0.0,2789.8,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H2,[2],harbour,125.8,8.116483477666806,0.0,2789.8,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H3,[3],seagoing,97.0,7.9126236115545705,10223.4,2818.6,0.0,11879.834584593053,10223.4,1656.434584593053,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H3,[3],harbour,97.0,7.9126236115545705,10223.4,2818.6,0.0,13803.06412465035,10223.4,3579.6641246503495,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H4,[4],seagoing,68.19999999999999,7.708763745442335,0.0,1945.6,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H4,[4],harbour,68.19999999999999,7.708763745442335,0.0,1945.6,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H5,[5],seagoing,39.8,7.507735266359435,0.0,1858.4,0.0,10472.917363214223,0.0,10472.917363214223,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H5,[5],harbour,39.8,7.507735266359435,0.0,1858.4,0.0,12207.186327647878,0.0,12207.186327647878,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,True
+LD03F,H12,"[1, 2]",seagoing,138.2,8.204256475576242,0.0,5208.6,594.0094268418111,19963.0,-594.0094268418111,19963.0,outside_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H12,"[1, 2]",harbour,138.2,8.204256475576242,0.0,5208.6,0.0,22958.0,0.0,22958.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H23,"[2, 3]",seagoing,111.39999999999999,8.014553544610688,10223.4,5608.4,439.59756080245916,19963.0,9783.802439197541,9739.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H23,"[2, 3]",harbour,111.39999999999999,8.014553544610688,10223.4,5608.4,0.0,22958.0,10223.4,12734.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H34,"[3, 4]",seagoing,82.6,7.810693678498453,10223.4,4764.2,152.08008747833654,19987.0,10071.319912521663,9763.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H34,"[3, 4]",harbour,82.6,7.810693678498453,10223.4,4764.2,0.0,22986.0,10223.4,12762.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H45,"[4, 5]",seagoing,54.199999999999996,7.609665199415553,0.0,3804.0,0.0,19987.0,0.0,19987.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD03F,H45,"[4, 5]",harbour,54.199999999999996,7.609665199415553,0.0,3804.0,0.0,22986.0,0.0,22986.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,True
+LD04A,H1,[1],seagoing,152.6,9.658634692889803,4797.4,0.0,543.9228166945968,8554.0,4253.477183305403,3756.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H1,[1],harbour,152.6,9.658634692889803,4797.4,0.0,0.0,10023.758957855422,4797.4,5226.358957855422,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H2,[2],seagoing,125.8,9.908007475150574,7183.4,0.0,0.0,9982.0,7183.4,2798.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H2,[2],harbour,125.8,9.908007475150574,7183.4,0.0,0.0,11479.0,7183.4,4295.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H3,[3],seagoing,97.0,10.175990166535282,7192.3,0.0,1165.6654554246668,12824.0,6026.634544575333,5631.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H3,[3],harbour,97.0,10.175990166535282,7192.3,0.0,0.0,15400.643886778409,7192.3,8208.34388677841,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H4,[4],seagoing,68.19999999999999,10.443972857919992,7192.1,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H4,[4],harbour,68.19999999999999,10.443972857919992,7192.1,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H5,[5],seagoing,39.8,10.708233567479912,6486.4,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H5,[5],harbour,39.8,10.708233567479912,6486.4,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04A,H12,"[1, 2]",seagoing,138.2,9.792626038582158,11980.8,0.0,2476.2923293209687,19963.0,9504.507670679031,7982.200000000001,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H12,"[1, 2]",harbour,138.2,9.792626038582158,11980.8,0.0,0.0,22958.0,11980.8,10977.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H23,"[2, 3]",seagoing,111.39999999999999,10.041998820842927,14375.7,0.0,3300.2936225528183,19963.0,11075.406377447183,5587.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H23,"[2, 3]",harbour,111.39999999999999,10.041998820842927,14375.7,0.0,306.23653817833434,22958.0,14069.463461821666,8582.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H34,"[3, 4]",seagoing,82.6,10.309981512227637,14384.400000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H34,"[3, 4]",harbour,82.6,10.309981512227637,14384.400000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H45,"[4, 5]",seagoing,54.199999999999996,10.574242221787557,13678.5,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04A,H45,"[4, 5]",harbour,54.199999999999996,10.574242221787557,13678.5,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H1,[1],seagoing,152.6,9.77398529765572,4797.4,0.0,599.2197560926909,8554.0,4198.180243907309,3756.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H1,[1],harbour,152.6,9.77398529765572,4797.4,0.0,0.0,10079.086813656482,4797.4,5281.686813656483,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H2,[2],seagoing,125.8,9.899620920095533,7183.4,0.0,0.0,9982.0,7183.4,2798.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H2,[2],harbour,125.8,9.899620920095533,7183.4,0.0,0.0,11479.0,7183.4,4295.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H3,[3],seagoing,97.0,10.034632335254733,7192.3,0.0,1065.9215561476697,12824.0,6126.378443852331,5631.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H3,[3],harbour,97.0,10.034632335254733,7192.3,0.0,0.0,15300.867555819043,7192.3,8108.567555819042,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H4,[4],seagoing,68.19999999999999,10.169643750413933,7192.1,0.0,0.0,9994.0,7192.1,2801.8999999999996,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H4,[4],harbour,68.19999999999999,10.169643750413933,7192.1,0.0,0.0,11493.0,7192.1,4300.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H5,[5],seagoing,39.8,10.302780007029254,6486.4,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H5,[5],harbour,39.8,10.302780007029254,6486.4,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04B,H12,"[1, 2]",seagoing,138.2,9.841491005235321,11980.8,0.0,2534.19931356675,19963.0,9446.600686433248,7982.200000000001,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H12,"[1, 2]",harbour,138.2,9.841491005235321,11980.8,0.0,0.0,22958.0,11980.8,10977.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H23,"[2, 3]",seagoing,111.39999999999999,9.967126627675132,14375.7,0.0,3194.650037179326,19963.0,11181.049962820674,5587.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H23,"[2, 3]",harbour,111.39999999999999,9.967126627675132,14375.7,0.0,200.57420714602958,22958.0,14175.12579285397,8582.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H34,"[3, 4]",seagoing,82.6,10.102138042834332,14384.400000000001,0.0,3387.953021143145,19987.0,10996.446978856857,5602.5999999999985,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H34,"[3, 4]",harbour,82.6,10.102138042834332,14384.400000000001,0.0,389.9516956241577,22986.0,13994.448304375845,8601.599999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H45,"[4, 5]",seagoing,54.199999999999996,10.235274299449655,13678.5,0.0,3384.5863347922736,19987.0,10293.913665207727,6308.5,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04B,H45,"[4, 5]",harbour,54.199999999999996,10.235274299449655,13678.5,0.0,386.5918878447553,22986.0,13291.908112155244,9307.5,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H1,[1],seagoing,152.6,9.869145449938701,4797.4,0.0,644.8377672386559,8554.0,4152.562232761344,3756.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H1,[1],harbour,152.6,9.869145449938701,4797.4,0.0,0.0,10124.730329736907,4797.4,5327.3303297369075,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H2,[2],seagoing,125.8,9.892309625950777,7183.4,0.0,0.0,9982.0,7183.4,2798.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H2,[2],harbour,125.8,9.892309625950777,7183.4,0.0,0.0,11479.0,7183.4,4295.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H3,[3],seagoing,97.0,9.917202471814498,7192.3,0.0,983.061537958455,12824.0,6209.238462041545,5631.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H3,[3],harbour,97.0,9.917202471814498,7192.3,0.0,0.0,15217.980595733525,7192.3,8025.680595733525,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H4,[4],seagoing,68.19999999999999,9.942095317678222,7192.1,0.0,0.0,9994.0,7192.1,2801.8999999999996,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H4,[4],harbour,68.19999999999999,9.942095317678222,7192.1,0.0,0.0,11493.0,7192.1,4300.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H5,[5],seagoing,39.8,9.966642429571614,6486.4,0.0,909.7075114308979,11566.0,5576.692488569101,5079.6,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H5,[5],harbour,39.8,9.966642429571614,6486.4,0.0,0.0,13757.710455102802,6486.4,7271.310455102803,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD04C,H12,"[1, 2]",seagoing,138.2,9.881591872870562,11980.8,0.0,2581.7204819915273,19963.0,9399.079518008471,7982.200000000001,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H12,"[1, 2]",harbour,138.2,9.881591872870562,11980.8,0.0,0.0,22958.0,11980.8,10977.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H23,"[2, 3]",seagoing,111.39999999999999,9.904756048882637,14375.7,0.0,3106.6460494947073,19963.0,11269.053950505293,5587.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H23,"[2, 3]",harbour,111.39999999999999,9.904756048882637,14375.7,0.0,112.55460381639706,22958.0,14263.145396183603,8582.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H34,"[3, 4]",seagoing,82.6,9.92964889474636,14384.400000000001,0.0,3144.3717348872456,19987.0,11240.028265112756,5602.5999999999985,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H34,"[3, 4]",harbour,82.6,9.92964889474636,14384.400000000001,0.0,146.36904731073884,22986.0,14238.030952689263,8601.599999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H45,"[4, 5]",seagoing,54.199999999999996,9.954196006639753,13678.5,0.0,3008.902804355666,19987.0,10669.597195644334,6308.5,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD04C,H45,"[4, 5]",harbour,54.199999999999996,9.954196006639753,13678.5,0.0,10.953305169794042,22986.0,13667.546694830206,9307.5,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H1,[1],seagoing,152.6,9.651082173632016,4798.0,0.0,540.3022791122554,8554.0,4257.697720887744,3756.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H1,[1],harbour,152.6,9.651082173632016,4798.0,0.0,0.0,10020.136396038102,4798.0,5222.136396038102,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H2,[2],seagoing,125.8,9.903760677715782,7184.4,0.0,0.0,9982.0,7184.4,2797.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H2,[2],harbour,125.8,9.903760677715782,7184.4,0.0,0.0,11479.0,7184.4,4294.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H3,[3],seagoing,97.0,10.17529578658192,7193.3,0.0,1165.1754920211488,12824.0,6028.124507978851,5630.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H3,[3],harbour,97.0,10.17529578658192,7193.3,0.0,0.0,15400.153764063518,7193.3,8206.853764063519,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H4,[4],seagoing,68.19999999999999,10.446830895448057,7193.1,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H4,[4],harbour,68.19999999999999,10.446830895448057,7193.1,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H5,[5],seagoing,39.8,10.714594683357719,6487.3,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H5,[5],harbour,39.8,10.714594683357719,6487.3,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05A,H12,"[1, 2]",seagoing,138.2,9.786849728065086,11982.4,0.0,2469.44716508531,19963.0,9512.95283491469,7980.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H12,"[1, 2]",harbour,138.2,9.786849728065086,11982.4,0.0,0.0,22958.0,11982.4,10975.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H23,"[2, 3]",seagoing,111.39999999999999,10.039528232148852,14377.7,0.0,3296.8076575158325,19963.0,11080.892342484169,5585.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H23,"[2, 3]",harbour,111.39999999999999,10.039528232148852,14377.7,0.0,302.7499545830997,22958.0,14074.950045416901,8580.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H34,"[3, 4]",seagoing,82.6,10.311063341014988,14386.400000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H34,"[3, 4]",harbour,82.6,10.311063341014988,14386.400000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H45,"[4, 5]",seagoing,54.199999999999996,10.578827128924651,13680.400000000001,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05A,H45,"[4, 5]",harbour,54.199999999999996,10.578827128924651,13680.400000000001,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H1,[1],seagoing,152.6,9.761185096863882,4798.0,0.0,593.0835773625827,8554.0,4204.916422637418,3756.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H1,[1],harbour,152.6,9.761185096863882,4798.0,0.0,0.0,10072.947204201702,4798.0,5274.947204201702,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H2,[2],seagoing,125.8,9.892186634098834,7184.4,0.0,0.0,9982.0,7184.4,2797.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H2,[2],harbour,125.8,9.892186634098834,7184.4,0.0,0.0,11479.0,7184.4,4294.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H3,[3],seagoing,97.0,10.0329644054558,7193.3,0.0,1064.7446434831309,12824.0,6128.555356516869,5630.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H3,[3],harbour,97.0,10.0329644054558,7193.3,0.0,0.0,15299.690260481899,7193.3,8106.390260481899,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H4,[4],seagoing,68.19999999999999,10.173742176812766,7193.1,0.0,0.0,9994.0,7193.1,2800.8999999999996,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H4,[4],harbour,68.19999999999999,10.173742176812766,7193.1,0.0,0.0,11493.0,7193.1,4299.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H5,[5],seagoing,39.8,10.312564701345329,6487.3,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H5,[5],harbour,39.8,10.312564701345329,6487.3,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05B,H12,"[1, 2]",seagoing,138.2,9.831573982542364,11982.4,0.0,2522.4472360318946,19963.0,9459.952763968106,7980.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H12,"[1, 2]",harbour,138.2,9.831573982542364,11982.4,0.0,0.0,22958.0,11982.4,10975.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H23,"[2, 3]",seagoing,111.39999999999999,9.962575519777317,14377.7,0.0,3188.2284895338703,19963.0,11189.47151046613,5585.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H23,"[2, 3]",harbour,111.39999999999999,9.962575519777317,14377.7,0.0,194.1515200452937,22958.0,14183.548479954707,8580.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H34,"[3, 4]",seagoing,82.6,10.103353291134283,14386.400000000001,0.0,3389.669139213782,19987.0,10996.73086078622,5600.5999999999985,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H34,"[3, 4]",harbour,82.6,10.103353291134283,14386.400000000001,0.0,391.667823290981,22986.0,13994.73217670902,8599.599999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H45,"[4, 5]",seagoing,54.199999999999996,10.242175815666846,13680.400000000001,0.0,3393.810761025691,19987.0,10286.58923897431,6306.5999999999985,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05B,H45,"[4, 5]",harbour,54.199999999999996,10.242175815666846,13680.400000000001,0.0,395.8152104436554,22986.0,13284.584789556346,9305.599999999999,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H1,[1],seagoing,152.6,9.851954127853428,4798.0,0.0,636.5965664452004,8554.0,4161.403433554799,3756.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H1,[1],harbour,152.6,9.851954127853428,4798.0,0.0,0.0,10116.484521305354,4798.0,5318.484521305354,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H2,[2],seagoing,125.8,9.882224990879655,7184.4,0.0,0.0,9982.0,7184.4,2797.6000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H2,[2],harbour,125.8,9.882224990879655,7184.4,0.0,0.0,11479.0,7184.4,4294.6,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H3,[3],seagoing,97.0,9.914754873534704,7193.3,0.0,981.3344812112008,12824.0,6211.965518788799,5630.7,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H3,[3],harbour,97.0,9.914754873534704,7193.3,0.0,0.0,15216.252977434575,7193.3,8022.952977434575,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H4,[4],seagoing,68.19999999999999,9.947284756189754,7193.1,0.0,0.0,9994.0,7193.1,2800.8999999999996,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H4,[4],harbour,68.19999999999999,9.947284756189754,7193.1,0.0,0.0,11493.0,7193.1,4299.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H5,[5],seagoing,39.8,9.979362834919039,6487.3,0.0,917.7287979644113,11566.0,5569.571202035589,5078.7,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H5,[5],harbour,39.8,9.979362834919039,6487.3,0.0,0.0,13765.731618202113,6487.3,7278.431618202113,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD05C,H12,"[1, 2]",seagoing,138.2,9.868219069180952,11982.4,0.0,2565.8731626211365,19963.0,9416.526837378864,7980.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H12,"[1, 2]",harbour,138.2,9.868219069180952,11982.4,0.0,0.0,22958.0,11982.4,10975.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H23,"[2, 3]",seagoing,111.39999999999999,9.898489932207179,14377.7,0.0,3097.8046491836394,19963.0,11279.895350816361,5585.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H23,"[2, 3]",harbour,111.39999999999999,9.898489932207179,14377.7,0.0,103.7116346654126,22958.0,14273.988365334588,8580.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H34,"[3, 4]",seagoing,82.6,9.931019814862228,14386.400000000001,0.0,3146.307685576774,19987.0,11240.092314423227,5600.5999999999985,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H34,"[3, 4]",harbour,82.6,9.931019814862228,14386.400000000001,0.0,148.30500882571403,22986.0,14238.094991174288,8599.599999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H45,"[4, 5]",seagoing,54.199999999999996,9.963097893591513,13680.400000000001,0.0,3020.8008854353266,19987.0,10659.599114564675,6306.5999999999985,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD05C,H45,"[4, 5]",harbour,54.199999999999996,9.963097893591513,13680.400000000001,0.0,22.849962731868185,22986.0,13657.550037268133,9305.599999999999,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H1,[1],seagoing,152.6,9.168593444948062,8554.0,0.0,309.00613598025683,8505.710935717056,8244.993864019743,-48.28906428294431,outside_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H1,[1],harbour,152.6,9.168593444948062,8554.0,0.0,0.0,9788.710935717056,8554.0,1234.7109357170557,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H2,[2],seagoing,125.8,9.615751311336318,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H2,[2],harbour,125.8,9.615751311336318,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H3,[3],seagoing,97.0,10.096279167753547,12824.4,0.0,1109.4203520460312,12824.0,11714.97964795397,-0.3999999999996362,boundary_digitization_band,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H3,[3],harbour,97.0,10.096279167753547,12824.4,0.0,0.0,15344.38049533062,12824.4,2519.980495330621,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H4,[4],seagoing,68.19999999999999,10.576807024170776,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H4,[4],harbour,68.19999999999999,10.576807024170776,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H5,[5],seagoing,39.8,11.050660882582212,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H5,[5],harbour,39.8,11.050660882582212,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06A,H12,"[1, 2]",seagoing,138.2,9.408857373156676,8554.0,0.0,2021.5107632031984,19963.0,6532.489236796801,11409.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H12,"[1, 2]",harbour,138.2,9.408857373156676,8554.0,0.0,0.0,22958.0,8554.0,14404.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H23,"[2, 3]",seagoing,111.39999999999999,9.856015239544933,12824.4,0.0,3037.873470055219,19963.0,9786.52652994478,7138.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H23,"[2, 3]",harbour,111.39999999999999,9.856015239544933,12824.4,0.0,43.76982120049002,22958.0,12780.630178799509,10133.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H34,"[3, 4]",seagoing,82.6,10.336543095962162,12824.4,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H34,"[3, 4]",harbour,82.6,10.336543095962162,12824.4,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H45,"[4, 5]",seagoing,54.199999999999996,10.810396954373596,11565.8,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06A,H45,"[4, 5]",harbour,54.199999999999996,10.810396954373596,11565.8,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H1,[1],seagoing,152.6,9.278333822709552,8554.0,0.0,361.613636659734,8554.0,8192.386363340265,0.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H1,[1],harbour,152.6,9.278333822709552,8554.0,0.0,0.0,9841.347849139947,8554.0,1287.3478491399474,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H2,[2],seagoing,125.8,9.604561361747596,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H2,[2],harbour,125.8,9.604561361747596,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H3,[3],seagoing,97.0,9.955134239519822,12824.4,0.0,1009.8266798902756,12824.0,11814.573320109725,-0.3999999999996362,boundary_digitization_band,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H3,[3],harbour,97.0,9.955134239519822,12824.4,0.0,0.0,15244.754440338773,12824.4,2420.354440338773,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H4,[4],seagoing,68.19999999999999,10.305707117292048,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H4,[4],harbour,68.19999999999999,10.305707117292048,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H5,[5],seagoing,39.8,10.651410927317437,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H5,[5],harbour,39.8,10.651410927317437,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06B,H12,"[1, 2]",seagoing,138.2,9.453620261595665,8554.0,0.0,2074.556616974684,19963.0,6479.4433830253165,11409.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H12,"[1, 2]",harbour,138.2,9.453620261595665,8554.0,0.0,0.0,22958.0,8554.0,14404.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H23,"[2, 3]",seagoing,111.39999999999999,9.779847800633709,12824.4,0.0,2930.402311607049,19963.0,9893.99768839295,7138.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H23,"[2, 3]",harbour,111.39999999999999,9.779847800633709,12824.4,0.0,0.0,22958.0,12824.4,10133.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H34,"[3, 4]",seagoing,82.6,10.130420678405935,12824.4,0.0,3427.8924656102517,19987.0,9396.507534389748,7162.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H34,"[3, 4]",harbour,82.6,10.130420678405935,12824.4,0.0,429.8913634245975,22986.0,12394.508636575401,10161.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H45,"[4, 5]",seagoing,54.199999999999996,10.476124488431324,11565.8,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06B,H45,"[4, 5]",harbour,54.199999999999996,10.476124488431324,11565.8,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H1,[1],seagoing,152.6,9.368368121982483,8554.0,0.0,404.774408991603,8554.0,8149.225591008397,0.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H1,[1],harbour,152.6,9.368368121982483,8554.0,0.0,0.0,9884.532752569203,8554.0,1330.5327525692028,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H2,[2],seagoing,125.8,9.594780179708266,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H2,[2],harbour,125.8,9.594780179708266,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H3,[3],seagoing,97.0,9.83808865965239,12824.4,0.0,927.2378171201292,12824.0,11897.16218287987,-0.3999999999996362,boundary_digitization_band,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H3,[3],harbour,97.0,9.83808865965239,12824.4,0.0,0.0,15162.138723838381,12824.4,2337.7387238383817,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H4,[4],seagoing,68.19999999999999,10.081397139596515,0.0,0.0,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H4,[4],harbour,68.19999999999999,10.081397139596515,0.0,0.0,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H5,[5],seagoing,39.8,10.32132633509697,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H5,[5],harbour,39.8,10.32132633509697,11565.8,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD06C,H12,"[1, 2]",seagoing,138.2,9.490022361954546,8554.0,0.0,2117.6945948834164,19963.0,6436.305405116584,11409.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H12,"[1, 2]",harbour,138.2,9.490022361954546,8554.0,0.0,0.0,22958.0,8554.0,14404.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H23,"[2, 3]",seagoing,111.39999999999999,9.716434419680327,12824.4,0.0,2840.9269451040695,19963.0,9983.47305489593,7138.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H23,"[2, 3]",harbour,111.39999999999999,9.716434419680327,12824.4,0.0,0.0,22958.0,12824.4,10133.6,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H34,"[3, 4]",seagoing,82.6,9.959742899624452,12824.4,0.0,3186.8691122472296,19987.0,9637.53088775277,7162.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H34,"[3, 4]",harbour,82.6,9.959742899624452,12824.4,0.0,188.8666623075024,22986.0,12635.533337692497,10161.6,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H45,"[4, 5]",seagoing,54.199999999999996,10.199672095124908,11565.8,0.0,3337.0011524634056,19987.0,8228.798847536593,8421.2,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD06C,H45,"[4, 5]",harbour,54.199999999999996,10.199672095124908,11565.8,0.0,339.0123987317455,22986.0,11226.787601268254,11420.2,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H1,[1],seagoing,152.6,3.607103554387338,0.0,2418.8,0.0,5838.145288112174,0.0,5838.145288112174,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD07,H1,[1],harbour,152.6,3.607103554387338,0.0,2418.8,0.0,7121.145288112174,0.0,7121.145288112174,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD07,H2,[2],seagoing,125.8,3.4262314724115557,0.0,0.0,0.0,7546.476009340124,0.0,7546.476009340124,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H2,[2],harbour,125.8,3.4262314724115557,0.0,0.0,0.0,9043.476009340124,0.0,9043.476009340124,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H3,[3],seagoing,97.0,3.231861473870416,0.0,0.0,0.0,8575.499093043867,0.0,8575.499093043867,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H3,[3],harbour,97.0,3.231861473870416,0.0,0.0,0.0,10499.184403513793,0.0,10499.184403513793,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H4,[4],seagoing,68.19999999999999,3.037491475329277,0.0,0.0,0.0,7281.064889138674,0.0,7281.064889138674,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H4,[4],harbour,68.19999999999999,3.037491475329277,0.0,0.0,0.0,8780.064889138674,0.0,8780.064889138674,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H5,[5],seagoing,39.8,2.845821060101209,0.0,0.0,0.0,7532.77926059158,0.0,7532.77926059158,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H5,[5],harbour,39.8,2.845821060101209,0.0,0.0,0.0,9267.502160196243,0.0,9267.502160196243,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD07,H12,"[1, 2]",seagoing,138.2,3.5099185551167684,0.0,2418.8,0.0,15969.730873820197,0.0,15969.730873820197,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD07,H12,"[1, 2]",harbour,138.2,3.5099185551167684,0.0,2418.8,0.0,18964.730873820197,0.0,18964.730873820197,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD07,H23,"[2, 3]",seagoing,111.39999999999999,3.329046473140986,0.0,0.0,0.0,14951.756744841257,0.0,14951.756744841257,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H23,"[2, 3]",harbour,111.39999999999999,3.329046473140986,0.0,0.0,0.0,17946.75674484126,0.0,17946.75674484126,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H34,"[3, 4]",seagoing,82.6,3.1346764745998463,0.0,0.0,0.0,14698.2648269529,0.0,14698.2648269529,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H34,"[3, 4]",harbour,82.6,3.1346764745998463,0.0,0.0,0.0,17696.72038231907,0.0,17696.72038231907,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H45,"[4, 5]",seagoing,54.199999999999996,2.9430060593717786,0.0,0.0,0.0,14724.132353143856,0.0,14724.132353143856,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD07,H45,"[4, 5]",harbour,54.199999999999996,2.9430060593717786,0.0,0.0,0.0,17727.710750400798,0.0,17727.710750400798,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H1,[1],seagoing,152.6,9.489795280309771,4100.0,0.0,462.9843354062307,8554.0,3637.0156645937695,4454.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H1,[1],harbour,152.6,9.489795280309771,4100.0,0.0,0.0,9942.775224031737,4100.0,5842.775224031737,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H2,[2],seagoing,125.8,9.76117582385705,8000.0,0.0,0.0,9982.0,8000.0,1982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H2,[2],harbour,125.8,9.76117582385705,8000.0,0.0,0.0,11479.0,8000.0,3479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H3,[3],seagoing,97.0,10.05280864677353,6900.0,0.0,1078.7469947451254,12824.0,5821.253005254875,5924.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H3,[3],harbour,97.0,10.05280864677353,6900.0,0.0,0.0,15313.697164601881,6900.0,8413.697164601881,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H4,[4],seagoing,68.19999999999999,10.34444146969001,7300.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H4,[4],harbour,68.19999999999999,10.34444146969001,7300.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H5,[5],seagoing,39.8,10.63202383673265,5680.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H5,[5],harbour,39.8,10.63202383673265,5680.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08A,H12,"[1, 2]",seagoing,138.2,9.63561169176801,12100.0,0.0,2290.2239058661044,19963.0,9809.776094133897,7863.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H12,"[1, 2]",harbour,138.2,9.63561169176801,12100.0,0.0,0.0,22958.0,12100.0,10858.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H23,"[2, 3]",seagoing,111.39999999999999,9.90699223531529,14900.0,0.0,3109.8012763194315,19963.0,11790.198723680569,5063.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H23,"[2, 3]",harbour,111.39999999999999,9.90699223531529,14900.0,0.0,115.71039051236485,22958.0,14784.289609487636,8058.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H34,"[3, 4]",seagoing,82.6,10.19862505823177,14200.0,0.0,3524.2075715193473,19987.0,10675.792428480652,5787.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H34,"[3, 4]",harbour,82.6,10.19862505823177,14200.0,0.0,526.2070079083776,22986.0,13673.792992091623,8786.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H45,"[4, 5]",seagoing,54.199999999999996,10.48620742527441,12980.0,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08A,H45,"[4, 5]",harbour,54.199999999999996,10.48620742527441,12980.0,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H1,[1],seagoing,152.6,9.598509686031456,4100.0,0.0,515.1000041284816,8554.0,3584.8999958715185,4454.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H1,[1],harbour,152.6,9.598509686031456,4100.0,0.0,0.0,9994.920030515186,4100.0,5894.920030515186,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H2,[2],seagoing,125.8,9.748701204699893,8000.0,0.0,0.0,9982.0,8000.0,1982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H2,[2],harbour,125.8,9.748701204699893,8000.0,0.0,0.0,11479.0,8000.0,3479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H3,[3],seagoing,97.0,9.910101045657022,6900.0,0.0,978.0506805552417,12824.0,5921.949319444759,5924.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H3,[3],harbour,97.0,9.910101045657022,6900.0,0.0,0.0,15212.968109052363,6900.0,8312.968109052363,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H4,[4],seagoing,68.19999999999999,10.07150088661415,7300.0,0.0,0.0,9994.0,7300.0,2694.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H4,[4],harbour,68.19999999999999,10.07150088661415,7300.0,0.0,0.0,11493.0,7300.0,4193.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H5,[5],seagoing,39.8,10.23065906311354,5680.0,0.0,1076.1922270836246,11566.0,4603.807772916375,5886.0,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H5,[5],harbour,39.8,10.23065906311354,5680.0,0.0,0.0,13924.192608833815,5680.0,8244.192608833815,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08B,H12,"[1, 2]",seagoing,138.2,9.67920960651002,12100.0,0.0,2341.889218154842,19963.0,9758.110781845158,7863.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H12,"[1, 2]",harbour,138.2,9.67920960651002,12100.0,0.0,0.0,22958.0,12100.0,10858.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H23,"[2, 3]",seagoing,111.39999999999999,9.829401125178457,14900.0,0.0,3000.3213382923145,19963.0,11899.678661707685,5063.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H23,"[2, 3]",harbour,111.39999999999999,9.829401125178457,14900.0,0.0,6.211026094542233,22958.0,14893.788973905457,8058.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H34,"[3, 4]",seagoing,82.6,9.990800966135586,14200.0,0.0,3230.727893354694,19987.0,10969.272106645305,5787.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H34,"[3, 4]",harbour,82.6,9.990800966135586,14200.0,0.0,232.725688664442,22986.0,13967.274311335557,8786.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H45,"[4, 5]",seagoing,54.199999999999996,10.149959142634977,12980.0,0.0,3270.5558310793167,19987.0,9709.444168920683,7007.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08B,H45,"[4, 5]",harbour,54.199999999999996,10.149959142634977,12980.0,0.0,272.57502703995385,22986.0,12707.424972960047,10006.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H1,[1],seagoing,152.6,9.688167138758628,4100.0,0.0,558.0801232193425,8554.0,3541.9198767806574,4454.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H1,[1],harbour,152.6,9.688167138758628,4100.0,0.0,0.0,10037.924179700585,4100.0,5937.924179700585,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H2,[2],seagoing,125.8,9.738008881497048,8000.0,0.0,0.0,9982.0,8000.0,1982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H2,[2],harbour,125.8,9.738008881497048,8000.0,0.0,0.0,11479.0,8000.0,3479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H3,[3],seagoing,97.0,9.79157015727565,6900.0,0.0,894.4137650421546,12824.0,6005.586234957846,5924.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H3,[3],harbour,97.0,9.79157015727565,6900.0,0.0,0.0,15129.30399903517,6900.0,8229.30399903517,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H4,[4],seagoing,68.19999999999999,9.845131433054252,7300.0,0.0,0.0,9994.0,7300.0,2694.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H4,[4],harbour,68.19999999999999,9.845131433054252,7300.0,0.0,0.0,11493.0,7300.0,4193.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H5,[5],seagoing,39.8,9.897948802224818,5680.0,0.0,866.3903959046534,11566.0,4813.609604095347,5886.0,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H5,[5],harbour,39.8,9.897948802224818,5680.0,0.0,0.0,13714.394006154616,5680.0,8034.394006154616,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD08C,H12,"[1, 2]",seagoing,138.2,9.714947776647929,12100.0,0.0,2384.2404115944682,19963.0,9715.759588405532,7863.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H12,"[1, 2]",harbour,138.2,9.714947776647929,12100.0,0.0,0.0,22958.0,12100.0,10858.0,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H23,"[2, 3]",seagoing,111.39999999999999,9.76478951938635,14900.0,0.0,2909.1552938127616,19963.0,11990.84470618724,5063.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H23,"[2, 3]",harbour,111.39999999999999,9.76478951938635,14900.0,0.0,0.0,22958.0,14900.0,8058.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H34,"[3, 4]",seagoing,82.6,9.818350795164951,14200.0,0.0,2987.2016488013046,19987.0,11212.798351198695,5787.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H34,"[3, 4]",harbour,82.6,9.818350795164951,14200.0,0.0,0.0,22986.0,14200.0,8786.0,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H45,"[4, 5]",seagoing,54.199999999999996,9.871168164335517,12980.0,0.0,2897.9294787047756,19987.0,10082.070521295223,7007.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD08C,H45,"[4, 5]",harbour,54.199999999999996,9.871168164335517,12980.0,0.0,0.0,22986.0,12980.0,10006.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09A,H1,[1],seagoing,152.6,6.876666672826866,4899.8,0.0,0.0,7406.3894868885245,4899.8,2506.5894868885243,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H1,[1],harbour,152.6,6.876666672826866,4899.8,0.0,0.0,8689.389486888525,4899.8,3789.5894868885252,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H2,[2],seagoing,125.8,7.28456068397846,0.0,2789.8,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09A,H2,[2],harbour,125.8,7.28456068397846,0.0,2789.8,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09A,H3,[3],seagoing,97.0,7.722894546708529,7345.9,0.0,0.0,11745.89731875724,7345.9,4399.99731875724,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H3,[3],harbour,97.0,7.722894546708529,7345.9,0.0,0.0,13669.145332920169,7345.9,6323.245332920169,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H4,[4],seagoing,68.19999999999999,8.1612284094386,0.0,0.0,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H4,[4],harbour,68.19999999999999,8.1612284094386,0.0,0.0,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H5,[5],seagoing,39.8,8.593474301852975,6625.0,0.0,43.80939652928209,11157.662419970955,6581.190603470718,4532.662419970955,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H5,[5],harbour,39.8,8.593474301852975,6625.0,0.0,0.0,12891.825664926959,6625.0,6266.825664926959,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09A,H12,"[1, 2]",seagoing,138.2,7.095833604191902,4899.8,2789.8,0.0,19963.0,4899.8,15063.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09A,H12,"[1, 2]",harbour,138.2,7.095833604191902,4899.8,2789.8,0.0,22958.0,4899.8,18058.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09A,H23,"[2, 3]",seagoing,111.39999999999999,7.503727615343495,7345.9,2789.8,0.0,19963.0,7345.9,12617.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09A,H23,"[2, 3]",harbour,111.39999999999999,7.503727615343495,7345.9,2789.8,0.0,22958.0,7345.9,15612.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09A,H34,"[3, 4]",seagoing,82.6,7.9420614780735646,7345.9,0.0,337.5916860212975,19987.0,7008.308313978702,12641.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09A,H34,"[3, 4]",harbour,82.6,7.9420614780735646,7345.9,0.0,0.0,22986.0,7345.9,15640.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09A,H45,"[4, 5]",seagoing,54.199999999999996,8.374307370487939,6625.0,0.0,897.255780344417,19987.0,5727.744219655583,13362.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09A,H45,"[4, 5]",harbour,54.199999999999996,8.374307370487939,6625.0,0.0,0.0,22986.0,6625.0,16361.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09B,H1,[1],seagoing,152.6,7.005156967824326,4899.8,0.0,0.0,7468.019788072311,4899.8,2568.2197880723106,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H1,[1],harbour,152.6,7.005156967824326,4899.8,0.0,0.0,8751.01978807231,4899.8,3851.2197880723097,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H2,[2],seagoing,125.8,7.280087534322371,0.0,2789.8,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09B,H2,[2],harbour,125.8,7.280087534322371,0.0,2789.8,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09B,H3,[3],seagoing,97.0,7.575535307275493,7345.9,0.0,0.0,11641.870591796236,7345.9,4295.9705917962365,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H3,[3],harbour,97.0,7.575535307275493,7345.9,0.0,0.0,13565.132954473229,7345.9,6219.232954473229,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H4,[4],seagoing,68.19999999999999,7.870983080228617,0.0,0.0,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H4,[4],harbour,68.19999999999999,7.870983080228617,0.0,0.0,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H5,[5],seagoing,39.8,8.162327411890724,6625.0,0.0,0.0,10885.750209037607,6625.0,4260.750209037607,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H5,[5],harbour,39.8,8.162327411890724,6625.0,0.0,0.0,12619.955435190295,6625.0,5994.955435190295,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09B,H12,"[1, 2]",seagoing,138.2,7.1528808543008875,4899.8,2789.8,0.0,19963.0,4899.8,15063.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09B,H12,"[1, 2]",harbour,138.2,7.1528808543008875,4899.8,2789.8,0.0,22958.0,4899.8,18058.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09B,H23,"[2, 3]",seagoing,111.39999999999999,7.427811420798933,7345.9,2789.8,0.0,19963.0,7345.9,12617.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09B,H23,"[2, 3]",harbour,111.39999999999999,7.427811420798933,7345.9,2789.8,0.0,22958.0,7345.9,15612.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09B,H34,"[3, 4]",seagoing,82.6,7.723259193752055,7345.9,0.0,28.609106876197167,19987.0,7317.290893123803,12641.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09B,H34,"[3, 4]",harbour,82.6,7.723259193752055,7345.9,0.0,0.0,22986.0,7345.9,15640.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09B,H45,"[4, 5]",seagoing,54.199999999999996,8.014603525414163,6625.0,0.0,416.48293560420433,19987.0,6208.517064395795,13362.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09B,H45,"[4, 5]",harbour,54.199999999999996,8.014603525414163,6625.0,0.0,0.0,22986.0,6625.0,16361.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H1,[1],seagoing,152.6,9.954234257219618,4899.8,0.0,685.6277624815694,8554.0,4214.172237518431,3654.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H1,[1],harbour,152.6,9.954234257219618,4899.8,0.0,0.0,10165.543130580703,4899.8,5265.743130580703,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H2,[2],seagoing,125.8,10.067374615008527,7336.8,0.0,0.0,9982.0,7336.8,2645.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H2,[2],harbour,125.8,10.067374615008527,7336.8,0.0,0.0,11479.0,7336.8,4142.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H3,[3],seagoing,97.0,10.18895828308019,7345.9,0.0,1174.8159248309246,12824.0,6171.084075169075,5478.1,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H3,[3],harbour,97.0,10.18895828308019,7345.9,0.0,0.0,15409.797331455531,7345.9,8063.8973314555315,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H4,[4],seagoing,68.19999999999999,10.310541951151851,7345.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H4,[4],harbour,68.19999999999999,10.310541951151851,7345.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H5,[5],seagoing,39.8,10.430436957166965,6625.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H5,[5],harbour,39.8,10.430436957166965,6625.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09C,H12,"[1, 2]",seagoing,138.2,10.01502609125545,12236.6,0.0,2739.8454887413636,19963.0,9496.754511258638,7726.4,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H12,"[1, 2]",harbour,138.2,10.01502609125545,12236.6,0.0,0.0,22958.0,12236.6,10721.4,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H23,"[2, 3]",seagoing,111.39999999999999,10.128166449044357,14682.7,0.0,3421.874903949616,19963.0,11260.825096050385,5280.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H23,"[2, 3]",harbour,111.39999999999999,10.128166449044357,14682.7,0.0,427.8393932581052,22958.0,14254.860606741895,8275.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H34,"[3, 4]",seagoing,82.6,10.24975011711602,14691.599999999999,0.0,3596.404041505873,19987.0,11095.195958494125,5295.4000000000015,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H34,"[3, 4]",harbour,82.6,10.24975011711602,14691.599999999999,0.0,598.4038816030296,22986.0,14093.196118396969,8294.400000000001,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H45,"[4, 5]",seagoing,54.199999999999996,10.369645123131132,13970.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09C,H45,"[4, 5]",harbour,54.199999999999996,10.369645123131132,13970.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H1,[1],seagoing,152.6,10.044296637729655,4899.8,0.0,728.8019964374122,8554.0,4170.998003562588,3654.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H1,[1],harbour,152.6,10.044296637729655,4899.8,0.0,0.0,10208.7415031603,4899.8,5308.941503160299,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H2,[2],seagoing,125.8,10.057070355468536,7336.8,0.0,0.0,9982.0,7336.8,2645.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H2,[2],harbour,125.8,10.057070355468536,7336.8,0.0,0.0,11479.0,7336.8,4142.2,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H3,[3],seagoing,97.0,10.070797335725246,7345.9,0.0,1091.4400444521782,12824.0,6254.459955547822,5478.1,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H3,[3],harbour,97.0,10.070797335725246,7345.9,0.0,0.0,15326.394341448133,7345.9,7980.494341448133,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H4,[4],seagoing,68.19999999999999,10.084524315981954,7345.7,0.0,0.0,9994.0,7345.7,2648.3,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H4,[4],harbour,68.19999999999999,10.084524315981954,7345.7,0.0,0.0,11493.0,7345.7,4147.3,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H5,[5],seagoing,39.8,10.098060643735096,6625.0,0.0,992.5777598810658,11566.0,5632.4222401189345,4941.0,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H5,[5],harbour,39.8,10.098060643735096,6625.0,0.0,0.0,13840.579428318255,6625.0,7215.579428318255,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09D,H12,"[1, 2]",seagoing,138.2,10.05116012785801,12236.6,0.0,2782.6658001340347,19963.0,9453.934199865966,7726.4,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H12,"[1, 2]",harbour,138.2,10.05116012785801,12236.6,0.0,0.0,22958.0,12236.6,10721.4,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H23,"[2, 3]",seagoing,111.39999999999999,10.06393384559689,14682.7,0.0,3331.24362631552,19963.0,11351.456373684481,5280.299999999999,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H23,"[2, 3]",harbour,111.39999999999999,10.06393384559689,14682.7,0.0,337.1920337861747,22958.0,14345.507966213827,8275.3,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H34,"[3, 4]",seagoing,82.6,10.077660825853599,14691.599999999999,0.0,3353.3874147718334,19987.0,11338.212585228164,5295.4000000000015,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H34,"[3, 4]",harbour,82.6,10.077660825853599,14691.599999999999,0.0,355.3858959689333,22986.0,14336.214104031065,8294.400000000001,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H45,"[4, 5]",seagoing,54.199999999999996,10.091197153606743,13970.7,0.0,3192.015751470485,19987.0,10778.684248529516,6016.299999999999,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09D,H45,"[4, 5]",harbour,54.199999999999996,10.091197153606743,13970.7,0.0,194.04434417197442,22986.0,13776.655655828026,9015.3,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H1,[1],seagoing,152.6,5.494572627350955,4899.8,0.0,0.0,6743.468818143214,4899.8,1843.6688181432137,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H1,[1],harbour,152.6,5.494572627350955,4899.8,0.0,0.0,8026.468818143214,4899.8,3126.6688181432137,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H2,[2],seagoing,125.8,6.2110582166662045,0.0,0.0,0.0,9509.764901255323,0.0,9509.764901255323,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H2,[2],harbour,125.8,6.2110582166662045,0.0,0.0,0.0,11006.764901255323,0.0,11006.764901255323,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H3,[3],seagoing,97.0,6.981012879810951,7345.9,0.0,0.0,11222.173649331002,7345.9,3876.273649331002,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H3,[3],harbour,97.0,6.981012879810951,7345.9,0.0,0.0,13145.49390124144,7345.9,5799.59390124144,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H4,[4],seagoing,68.19999999999999,7.7509675429556975,0.0,0.0,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H4,[4],harbour,68.19999999999999,7.7509675429556975,0.0,0.0,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H5,[5],seagoing,39.8,8.510228391334545,6625.0,0.0,0.0,11105.161566764738,6625.0,4480.161566764738,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H5,[5],harbour,39.8,8.510228391334545,6625.0,0.0,0.0,12839.332917456915,6625.0,6214.332917456915,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09E,H12,"[1, 2]",seagoing,138.2,5.879549958923328,4899.8,0.0,0.0,18776.716133582915,4899.8,13876.916133582916,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H12,"[1, 2]",harbour,138.2,5.879549958923328,4899.8,0.0,0.0,21771.716133582915,4899.8,16871.916133582916,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H23,"[2, 3]",seagoing,111.39999999999999,6.596035548238579,7345.9,0.0,0.0,19560.96034040112,7345.9,12215.060340401122,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H23,"[2, 3]",harbour,111.39999999999999,6.596035548238579,7345.9,0.0,0.0,22555.96034040112,7345.9,15210.060340401122,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H34,"[3, 4]",seagoing,82.6,7.365990211383324,7345.9,0.0,0.0,19987.0,7345.9,12641.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H34,"[3, 4]",harbour,82.6,7.365990211383324,7345.9,0.0,0.0,22986.0,7345.9,15640.1,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H45,"[4, 5]",seagoing,54.199999999999996,8.12525105976217,6625.0,0.0,564.3721799937699,19987.0,6060.62782000623,13362.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09E,H45,"[4, 5]",harbour,54.199999999999996,8.12525105976217,6625.0,0.0,0.0,22986.0,6625.0,16361.0,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09F,H1,[1],seagoing,152.6,11.387640591340464,4899.8,0.0,,,,,outside_chart_domain,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H1,[1],harbour,152.6,11.387640591340464,4899.8,0.0,,,,,outside_chart_domain,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H2,[2],seagoing,125.8,11.104170644383887,7336.8,2789.8,,,,,outside_chart_domain,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09F,H2,[2],harbour,125.8,11.104170644383887,7336.8,2789.8,,,,,outside_chart_domain,334,5.0,cargo-hold contents; WBT not silently added,False,True
+LD09F,H3,[3],seagoing,97.0,10.799546223773831,7345.9,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H3,[3],harbour,97.0,10.799546223773831,7345.9,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H4,[4],seagoing,68.19999999999999,10.494921803163775,7345.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H4,[4],harbour,68.19999999999999,10.494921803163775,7345.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H5,[5],seagoing,39.8,10.194528277284416,6625.0,0.0,1053.4087246793483,11566.0,5571.591275320652,4941.0,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H5,[5],harbour,39.8,10.194528277284416,6625.0,0.0,0.0,13901.40945702959,6625.0,7276.409457029589,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD09F,H12,"[1, 2]",seagoing,138.2,11.235328381035437,12236.6,2789.8,,,,,outside_chart_domain,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09F,H12,"[1, 2]",harbour,138.2,11.235328381035437,12236.6,2789.8,,,,,outside_chart_domain,337,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09F,H23,"[2, 3]",seagoing,111.39999999999999,10.951858434078858,14682.7,2789.8,,,,,outside_chart_domain,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09F,H23,"[2, 3]",harbour,111.39999999999999,10.951858434078858,14682.7,2789.8,,,,,outside_chart_domain,338,5.0,cargo-hold contents; WBT not silently added,True,True
+LD09F,H34,"[3, 4]",seagoing,82.6,10.647234013468804,14691.599999999999,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09F,H34,"[3, 4]",harbour,82.6,10.647234013468804,14691.599999999999,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09F,H45,"[4, 5]",seagoing,54.199999999999996,10.346840487589443,13970.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD09F,H45,"[4, 5]",harbour,54.199999999999996,10.346840487589443,13970.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H1,[1],seagoing,152.6,9.833352137244354,4886.5,0.0,627.6791173387886,8554.0,4258.820882661212,3667.5,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H1,[1],harbour,152.6,9.833352137244354,4886.5,0.0,0.0,10107.56208647183,4886.5,5221.062086471829,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H2,[2],seagoing,125.8,10.012315047029496,7316.9,0.0,0.0,9982.0,7316.9,2665.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H2,[2],harbour,125.8,10.012315047029496,7316.9,0.0,0.0,11479.0,7316.9,4162.1,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H3,[3],seagoing,97.0,10.20463339784338,7326.0,0.0,1185.8764869089607,12824.0,6140.123513091039,5498.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H3,[3],harbour,97.0,10.20463339784338,7326.0,0.0,0.0,15420.861489870173,7326.0,8094.861489870173,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H4,[4],seagoing,68.19999999999999,10.396951748657266,7325.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H4,[4],harbour,68.19999999999999,10.396951748657266,7325.7,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H5,[5],seagoing,39.8,10.586599011265402,6607.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H5,[5],harbour,39.8,10.586599011265402,6607.0,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10A,H12,"[1, 2]",seagoing,138.2,9.929511312651297,12203.4,0.0,2638.5069782178593,19963.0,9564.89302178214,7759.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H12,"[1, 2]",harbour,138.2,9.929511312651297,12203.4,0.0,0.0,22958.0,12203.4,10754.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H23,"[2, 3]",seagoing,111.39999999999999,10.108474222436438,14642.9,0.0,3394.089456043935,19963.0,11248.810543956064,5320.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H23,"[2, 3]",harbour,111.39999999999999,10.108474222436438,14642.9,0.0,400.0490150338957,22958.0,14242.850984966104,8315.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H34,"[3, 4]",seagoing,82.6,10.300792573250323,14651.7,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H34,"[3, 4]",harbour,82.6,10.300792573250323,14651.7,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H45,"[4, 5]",seagoing,54.199999999999996,10.49043983585846,13932.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10A,H45,"[4, 5]",harbour,54.199999999999996,10.49043983585846,13932.7,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H1,[1],seagoing,152.6,9.922354370893053,4886.5,0.0,670.3451365621341,8554.0,4216.154863437866,3667.5,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H1,[1],harbour,152.6,9.922354370893053,4886.5,0.0,0.0,10150.251960177135,4886.5,5263.751960177135,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H2,[2],seagoing,125.8,10.00335026485796,7316.9,0.0,0.0,9982.0,7316.9,2665.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H2,[2],harbour,125.8,10.00335026485796,7316.9,0.0,0.0,11479.0,7316.9,4162.1,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H3,[3],seagoing,97.0,10.090390628521742,7326.0,0.0,1105.2653232180912,12824.0,6220.734676781909,5498.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H3,[3],harbour,97.0,10.090390628521742,7326.0,0.0,0.0,15340.224115496992,7326.0,8014.224115496992,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H4,[4],seagoing,68.19999999999999,10.177430992185524,7325.7,0.0,0.0,9994.0,7325.7,2668.3,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H4,[4],harbour,68.19999999999999,10.177430992185524,7325.7,0.0,0.0,11493.0,7325.7,4167.3,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H5,[5],seagoing,39.8,10.26326246190953,6607.0,0.0,1096.7514149841886,11566.0,5510.248585015812,4959.0,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H5,[5],harbour,39.8,10.26326246190953,6607.0,0.0,0.0,13944.751480362816,6607.0,7337.751480362816,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD10B,H12,"[1, 2]",seagoing,138.2,9.965874552724944,12203.4,0.0,2681.598905099058,19963.0,9521.801094900942,7759.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H12,"[1, 2]",harbour,138.2,9.965874552724944,12203.4,0.0,0.0,22958.0,12203.4,10754.6,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H23,"[2, 3]",seagoing,111.39999999999999,10.046870446689852,14642.9,0.0,3307.167416404614,19963.0,11335.732583595385,5320.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H23,"[2, 3]",harbour,111.39999999999999,10.046870446689852,14642.9,0.0,313.1115517330946,22958.0,14329.788448266905,8315.1,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H34,"[3, 4]",seagoing,82.6,10.133910810353633,14651.7,0.0,3432.8210703279788,19987.0,11218.878929672022,5335.299999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H34,"[3, 4]",harbour,82.6,10.133910810353633,14651.7,0.0,434.8199957020904,22986.0,14216.880004297911,8334.3,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H45,"[4, 5]",seagoing,54.199999999999996,10.21974228007764,13932.7,0.0,3363.8265535435844,19987.0,10568.873446456417,6054.299999999999,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD10B,H45,"[4, 5]",harbour,54.199999999999996,10.21974228007764,13932.7,0.0,365.83459035067295,22986.0,13566.865409649328,9053.3,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H1,[1],seagoing,152.6,10.022602093718529,4933.9,0.0,718.4020346176455,8554.0,4215.497965382354,3620.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H1,[1],harbour,152.6,10.022602093718529,4933.9,0.0,0.0,10198.33572674367,4933.9,5264.43572674367,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H2,[2],seagoing,125.8,10.126597562058237,7387.9,0.0,0.0,9982.0,7387.9,2594.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H2,[2],harbour,125.8,10.126597562058237,7387.9,0.0,0.0,11479.0,7387.9,4091.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H3,[3],seagoing,97.0,10.238353886244191,7397.1,0.0,1209.6700961356494,12824.0,6187.429903864351,5426.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H3,[3],harbour,97.0,10.238353886244191,7397.1,0.0,0.0,15444.662835577814,7397.1,8047.5628355778135,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H4,[4],seagoing,68.19999999999999,10.350110210430145,7396.8,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H4,[4],harbour,68.19999999999999,10.350110210430145,7396.8,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H5,[5],seagoing,39.8,10.46031436344685,6671.1,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H5,[5],harbour,39.8,10.46031436344685,6671.1,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11A,H12,"[1, 2]",seagoing,138.2,10.078480255811506,12321.8,0.0,2815.0412692553964,19963.0,9506.758730744603,7641.200000000001,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H12,"[1, 2]",harbour,138.2,10.078480255811506,12321.8,0.0,0.0,22958.0,12321.8,10636.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H23,"[2, 3]",seagoing,111.39999999999999,10.182475724151214,14785.0,0.0,3498.5045083271125,19963.0,11286.495491672888,5178.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H23,"[2, 3]",harbour,111.39999999999999,10.182475724151214,14785.0,0.0,504.4825949819384,22958.0,14280.517405018061,8173.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H34,"[3, 4]",seagoing,82.6,10.294232048337168,14793.900000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H34,"[3, 4]",harbour,82.6,10.294232048337168,14793.900000000001,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H45,"[4, 5]",seagoing,54.199999999999996,10.404436201353873,14067.900000000001,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11A,H45,"[4, 5]",harbour,54.199999999999996,10.404436201353873,14067.900000000001,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H1,[1],seagoing,152.6,10.107971650278715,4933.9,0.0,759.3266158552607,8554.0,4174.573384144739,3620.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H1,[1],harbour,152.6,10.107971650278715,4933.9,0.0,0.0,10239.283188828915,4933.9,5305.383188828915,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H2,[2],seagoing,125.8,10.1151727346912,7387.9,0.0,0.0,9982.0,7387.9,2594.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H2,[2],harbour,125.8,10.1151727346912,7387.9,0.0,0.0,11479.0,7387.9,4091.1000000000004,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H3,[3],seagoing,97.0,10.122911213462825,7397.1,0.0,1128.212265169645,12824.0,6268.887734830356,5426.9,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H3,[3],harbour,97.0,10.122911213462825,7397.1,0.0,0.0,15363.178518636028,7397.1,7966.078518636028,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H4,[4],seagoing,68.19999999999999,10.13064969223445,7396.8,0.0,0.0,9994.0,7396.8,2597.2,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H4,[4],harbour,68.19999999999999,10.13064969223445,7396.8,0.0,0.0,11493.0,7396.8,4096.2,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H5,[5],seagoing,39.8,10.138280692134247,6671.1,0.0,1017.9398866207367,11566.0,5653.160113379264,4894.9,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H5,[5],harbour,39.8,10.138280692134247,6671.1,0.0,0.0,13865.941164777156,6671.1,7194.841164777155,within_digitized_envelope,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD11B,H12,"[1, 2]",seagoing,138.2,10.111840889664528,12321.8,0.0,2854.5749849472127,19963.0,9467.225015052787,7641.200000000001,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H12,"[1, 2]",harbour,138.2,10.111840889664528,12321.8,0.0,0.0,22958.0,12321.8,10636.2,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H23,"[2, 3]",seagoing,111.39999999999999,10.119041974077012,14785.0,0.0,3409.0004012882505,19963.0,11375.999598711749,5178.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H23,"[2, 3]",harbour,111.39999999999999,10.119041974077012,14785.0,0.0,414.96260611317734,22958.0,14370.037393886823,8173.0,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H34,"[3, 4]",seagoing,82.6,10.126780452848637,14793.900000000001,0.0,3422.751905561476,19987.0,11371.148094438526,5193.0999999999985,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H34,"[3, 4]",harbour,82.6,10.126780452848637,14793.900000000001,0.0,424.7507746308455,22986.0,14369.149225369156,8192.099999999999,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H45,"[4, 5]",seagoing,54.199999999999996,10.134411452748434,14067.900000000001,0.0,3249.775104939571,19987.0,10818.124895060431,5919.0999999999985,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD11B,H45,"[4, 5]",harbour,54.199999999999996,10.134411452748434,14067.900000000001,0.0,251.79678716071678,22986.0,13816.103212839285,8918.099999999999,within_digitized_envelope,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H1,[1],seagoing,152.6,9.521165730777023,8791.7,0.0,478.0227472281607,8554.0,8313.67725277184,-237.70000000000073,outside_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H1,[1],harbour,152.6,9.521165730777023,8791.7,0.0,0.0,9957.822043798209,8791.7,1166.1220437982083,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H2,[2],seagoing,125.8,9.826324573313553,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H2,[2],harbour,125.8,9.826324573313553,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H3,[3],seagoing,97.0,10.154256463800571,13180.8,0.0,1150.329875946337,12824.0,12030.470124053661,-356.7999999999993,outside_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H3,[3],harbour,97.0,10.154256463800571,13180.8,0.0,0.0,15385.30332094356,13180.8,2204.5033209435605,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H4,[4],seagoing,68.19999999999999,10.48218835428759,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H4,[4],harbour,68.19999999999999,10.48218835428759,0.0,0.0,,,,,outside_chart_domain,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H5,[5],seagoing,39.8,10.80556563518451,11887.2,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H5,[5],harbour,39.8,10.80556563518451,11887.2,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12A,H12,"[1, 2]",seagoing,138.2,9.685131676020532,8791.7,0.0,2348.907112759821,19963.0,6442.79288724018,11171.3,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H12,"[1, 2]",harbour,138.2,9.685131676020532,8791.7,0.0,0.0,22958.0,8791.7,14166.3,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H23,"[2, 3]",seagoing,111.39999999999999,9.990290518557062,13180.8,0.0,3227.3339533360654,19963.0,9953.466046663934,6782.200000000001,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H23,"[2, 3]",harbour,111.39999999999999,9.990290518557062,13180.8,0.0,233.26392281760758,22958.0,12947.536077182393,9777.2,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H34,"[3, 4]",seagoing,82.6,10.31822240904408,13180.8,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H34,"[3, 4]",harbour,82.6,10.31822240904408,13180.8,0.0,,,,,outside_chart_domain,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H45,"[4, 5]",seagoing,54.199999999999996,10.641599689941001,11887.2,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12A,H45,"[4, 5]",harbour,54.199999999999996,10.641599689941001,11887.2,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H1,[1],seagoing,152.6,9.606115961636412,8791.7,0.0,518.7463115061155,8554.0,8272.953688493886,-237.70000000000073,outside_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H1,[1],harbour,152.6,9.606115961636412,8791.7,0.0,0.0,9998.568376535633,8791.7,1206.8683765356327,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H2,[2],seagoing,125.8,9.81524594583958,0.0,0.0,0.0,9982.0,0.0,9982.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H2,[2],harbour,125.8,9.81524594583958,0.0,0.0,0.0,11479.0,0.0,11479.0,within_digitized_envelope,334,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H3,[3],seagoing,97.0,10.039982645281793,13180.8,0.0,1069.6968035436248,12824.0,12111.103196456374,-356.7999999999993,outside_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H3,[3],harbour,97.0,10.039982645281793,13180.8,0.0,0.0,15304.64403073493,13180.8,2123.84403073493,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H4,[4],seagoing,68.19999999999999,10.264719344724003,0.0,0.0,0.0,9994.0,0.0,9994.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H4,[4],harbour,68.19999999999999,10.264719344724003,0.0,0.0,0.0,11493.0,0.0,11493.0,within_digitized_envelope,335,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H5,[5],seagoing,39.8,10.486334701118405,11887.2,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H5,[5],harbour,39.8,10.486334701118405,11887.2,0.0,,,,,outside_chart_domain,336,5.0,cargo-hold contents; WBT not silently added,False,False
+LD12B,H12,"[1, 2]",seagoing,138.2,9.718484311357518,8791.7,0.0,2388.4313498829642,19963.0,6403.2686501170365,11171.3,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H12,"[1, 2]",harbour,138.2,9.718484311357518,8791.7,0.0,0.0,22958.0,8791.7,14166.3,within_digitized_envelope,337,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H23,"[2, 3]",seagoing,111.39999999999999,9.927614295560687,13180.8,0.0,3138.8987060852396,19963.0,10041.90129391476,6782.200000000001,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H23,"[2, 3]",harbour,111.39999999999999,9.927614295560687,13180.8,0.0,144.8129833980044,22958.0,13035.987016601995,9777.2,within_digitized_envelope,338,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H34,"[3, 4]",seagoing,82.6,10.152350995002898,13180.8,0.0,3458.8614557403607,19987.0,9721.93854425964,6806.200000000001,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H34,"[3, 4]",harbour,82.6,10.152350995002898,13180.8,0.0,460.8605267270658,22986.0,12719.939473272934,9805.2,within_digitized_envelope,339,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H45,"[4, 5]",seagoing,54.199999999999996,10.3739663513973,11887.2,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False
+LD12B,H45,"[4, 5]",harbour,54.199999999999996,10.3739663513973,11887.2,0.0,,,,,outside_chart_domain,340,5.0,cargo-hold contents; WBT not silently added,True,False

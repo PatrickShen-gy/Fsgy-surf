@@ -1,0 +1,32 @@
+{
+  "stage": 10,
+  "case_count": 39,
+  "station_comparisons": 624,
+  "grid_cells": 858,
+  "max_end_SF_t": 1.1439730688678367e-11,
+  "max_end_BM_tm": 1.6190323997047718,
+  "max_weight_LCG_error_m": 1.3443468560581096e-11,
+  "max_slice_volume_relative_error": 7.684314393038737e-07,
+  "SF_difference": {
+    "count": 624,
+    "mean_abs": 39.06018189469332,
+    "max_abs": 447.7166090030747
+  },
+  "BM_difference": {
+    "count": 624,
+    "mean_abs": 666.6567476453687,
+    "max_abs": 3662.9098214274254
+  },
+  "source_anomalies": [
+    "15页INTACT SAGGING在FR34印作-950000，按原值保留。",
+    "15页INTACT POSITIVE在FR220印作-400，不取绝对值或改零。"
+  ],
+  "weight_distribution_assumed": true,
+  "local_shear_correction_implemented": false,
+  "sources": {
+    "pdf": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+    "mesh": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+    "stage06": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+    "stage07": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50"
+  }
+}

@@ -1,0 +1,7656 @@
+{
+  "source": "35000DWT散货船型线图_2010VER.dxf",
+  "source_sha256": "61f31173570267e5b787bc04b728e8fdbf95414c3b120edbd79d8d6236e30398",
+  "adapter": "mother_ship_offsets_v1",
+  "length_unit": "m",
+  "raw_numeric_unit": "mm",
+  "missing_value": null,
+  "coordinate_system": "X从AP向艏；半宽为到中线距离；Z自基线向上",
+  "table_layout": {
+    "left": -978880.0,
+    "first_row_y": -6018.487242007612,
+    "column_pitch": 1536.0,
+    "row_pitch": 358.4
+  },
+  "stations": [
+    {
+      "table_row": 0,
+      "station": "TRANSOM",
+      "x_m": -3.2,
+      "cells": {
+        "station": {
+          "raw": "TRANSOM",
+          "values_m": null,
+          "source_handle": "39E41"
+        },
+        "x": {
+          "raw": "-3200",
+          "values_m": [
+            -3.2
+          ],
+          "source_handle": "39E6E"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E85"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EA1"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EBA"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3CAFE"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3CA9A"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3CA9B"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3CA9C"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3CA9D"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F6C"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F8B"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "4147",
+          "values_m": [
+            4.147
+          ],
+          "source_handle": "39FAA"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "4895",
+          "values_m": [
+            4.895
+          ],
+          "source_handle": "39FC9"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "5616",
+          "values_m": [
+            5.616
+          ],
+          "source_handle": "39FE8"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "6235",
+          "values_m": [
+            6.235
+          ],
+          "source_handle": "3A007"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "6612",
+          "values_m": [
+            6.612
+          ],
+          "source_handle": "3A026"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "6863",
+          "values_m": [
+            6.863
+          ],
+          "source_handle": "3A045"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "7060",
+          "values_m": [
+            7.06
+          ],
+          "source_handle": "3A064"
+        },
+        "poop_half_breadth": {
+          "raw": "7731",
+          "values_m": [
+            7.731
+          ],
+          "source_handle": "3A071"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B0"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C9"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D3"
+        },
+        "centerline_height": {
+          "raw": "9000",
+          "values_m": [
+            9.0
+          ],
+          "source_handle": "3A0F0"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "9017",
+          "values_m": [
+            9.017
+          ],
+          "source_handle": "3A10F"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "9118",
+          "values_m": [
+            9.118
+          ],
+          "source_handle": "3A12E"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "9756",
+          "values_m": [
+            9.756
+          ],
+          "source_handle": "3A14D"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "11560",
+          "values_m": [
+            11.56
+          ],
+          "source_handle": "3A16C"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A18B"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1A9"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1C8"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E6"
+        },
+        "upper_deck_height": {
+          "raw": "14889",
+          "values_m": [
+            14.889
+          ],
+          "source_handle": "3A204"
+        },
+        "poop_height": {
+          "raw": "18057",
+          "values_m": [
+            18.057
+          ],
+          "source_handle": "3A223"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A262"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27B"
+        },
+        "station_repeat": {
+          "raw": "TRANSOM",
+          "values_m": null,
+          "source_handle": "39E49"
+        }
+      }
+    },
+    {
+      "table_row": 1,
+      "station": "0",
+      "x_m": 0.0,
+      "cells": {
+        "station": {
+          "raw": "0",
+          "values_m": null,
+          "source_handle": "39DC6"
+        },
+        "x": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "39E50"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E86"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EA2"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EBB"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39ED6"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EF4"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F12"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F30"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F4E"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F6D"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "5139",
+          "values_m": [
+            5.139
+          ],
+          "source_handle": "39F8C"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "6315",
+          "values_m": [
+            6.315
+          ],
+          "source_handle": "39FAB"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "6749",
+          "values_m": [
+            6.749
+          ],
+          "source_handle": "39FCA"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "7243",
+          "values_m": [
+            7.243
+          ],
+          "source_handle": "39FE9"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "7740",
+          "values_m": [
+            7.74
+          ],
+          "source_handle": "3A008"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "8079",
+          "values_m": [
+            8.079
+          ],
+          "source_handle": "3A027"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "8336",
+          "values_m": [
+            8.336
+          ],
+          "source_handle": "3A046"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "8526",
+          "values_m": [
+            8.526
+          ],
+          "source_handle": "3A065"
+        },
+        "poop_half_breadth": {
+          "raw": "9175",
+          "values_m": [
+            9.175
+          ],
+          "source_handle": "3A072"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B1"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CA"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D4"
+        },
+        "centerline_height": {
+          "raw": "8195",
+          "values_m": [
+            8.195
+          ],
+          "source_handle": "3A0F1"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "8226",
+          "values_m": [
+            8.226
+          ],
+          "source_handle": "3A110"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "8299",
+          "values_m": [
+            8.299
+          ],
+          "source_handle": "3A12F"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "8584",
+          "values_m": [
+            8.584
+          ],
+          "source_handle": "3A14E"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "9552",
+          "values_m": [
+            9.552
+          ],
+          "source_handle": "3A16D"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "12732",
+          "values_m": [
+            12.732
+          ],
+          "source_handle": "3A18C"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1C4"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1DE"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1F6"
+        },
+        "upper_deck_height": {
+          "raw": "14832",
+          "values_m": [
+            14.832
+          ],
+          "source_handle": "3A209"
+        },
+        "poop_height": {
+          "raw": "18039",
+          "values_m": [
+            18.039
+          ],
+          "source_handle": "3A224"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A263"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27C"
+        },
+        "station_repeat": {
+          "raw": "0",
+          "values_m": null,
+          "source_handle": "39E23"
+        }
+      }
+    },
+    {
+      "table_row": 2,
+      "station": "0.5",
+      "x_m": 4.3,
+      "cells": {
+        "station": {
+          "raw": "0.5",
+          "values_m": null,
+          "source_handle": "39DC8"
+        },
+        "x": {
+          "raw": "4300",
+          "values_m": [
+            4.3
+          ],
+          "source_handle": "39E51"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E87"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EA3"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EBC"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39ED7"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39EF5"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F13"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F31"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F4F"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "5710",
+          "values_m": [
+            5.71
+          ],
+          "source_handle": "39F6E"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "7660",
+          "values_m": [
+            7.66
+          ],
+          "source_handle": "39F8D"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "8476",
+          "values_m": [
+            8.476
+          ],
+          "source_handle": "39FAC"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "8811",
+          "values_m": [
+            8.811
+          ],
+          "source_handle": "39FCB"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "9199",
+          "values_m": [
+            9.199
+          ],
+          "source_handle": "39FEA"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "9610",
+          "values_m": [
+            9.61
+          ],
+          "source_handle": "3A009"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "9925",
+          "values_m": [
+            9.925
+          ],
+          "source_handle": "3A028"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "10185",
+          "values_m": [
+            10.185
+          ],
+          "source_handle": "3A047"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "10362",
+          "values_m": [
+            10.362
+          ],
+          "source_handle": "3A066"
+        },
+        "poop_half_breadth": {
+          "raw": "11020",
+          "values_m": [
+            11.02
+          ],
+          "source_handle": "3A073"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B2"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CB"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D5"
+        },
+        "centerline_height": {
+          "raw": "7100",
+          "values_m": [
+            7.1
+          ],
+          "source_handle": "3A0F2"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "7172",
+          "values_m": [
+            7.172
+          ],
+          "source_handle": "3A111"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "7286",
+          "values_m": [
+            7.286
+          ],
+          "source_handle": "3A130"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "7575",
+          "values_m": [
+            7.575
+          ],
+          "source_handle": "3A14F"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "8100",
+          "values_m": [
+            8.1
+          ],
+          "source_handle": "3A16E"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "9301",
+          "values_m": [
+            9.301
+          ],
+          "source_handle": "3A18D"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "13273",
+          "values_m": [
+            13.273
+          ],
+          "source_handle": "3A1AA"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E0"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1F8"
+        },
+        "upper_deck_height": {
+          "raw": "14760",
+          "values_m": [
+            14.76
+          ],
+          "source_handle": "3A20A"
+        },
+        "poop_height": {
+          "raw": "18012",
+          "values_m": [
+            18.012
+          ],
+          "source_handle": "3A225"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A264"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27D"
+        },
+        "station_repeat": {
+          "raw": "0.5",
+          "values_m": null,
+          "source_handle": "39E24"
+        }
+      }
+    },
+    {
+      "table_row": 3,
+      "station": "1",
+      "x_m": 8.6,
+      "cells": {
+        "station": {
+          "raw": "1",
+          "values_m": null,
+          "source_handle": "39DCA"
+        },
+        "x": {
+          "raw": "8600",
+          "values_m": [
+            8.6
+          ],
+          "source_handle": "39E52"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E88"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "728",
+          "values_m": [
+            0.728
+          ],
+          "source_handle": "39EA4"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "1163",
+          "values_m": [
+            1.163
+          ],
+          "source_handle": "39EBD"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "1245",
+          "values_m": [
+            1.245
+          ],
+          "source_handle": "39ED8"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "1242",
+          "values_m": [
+            1.242
+          ],
+          "source_handle": "39EF6"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "1425",
+          "values_m": [
+            1.425
+          ],
+          "source_handle": "39F14"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "2144",
+          "values_m": [
+            2.144
+          ],
+          "source_handle": "39F32"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "5172",
+          "values_m": [
+            5.172
+          ],
+          "source_handle": "39F50"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "8032",
+          "values_m": [
+            8.032
+          ],
+          "source_handle": "39F6F"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "9494",
+          "values_m": [
+            9.494
+          ],
+          "source_handle": "39F8E"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "10214",
+          "values_m": [
+            10.214
+          ],
+          "source_handle": "39FAD"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "10504",
+          "values_m": [
+            10.504
+          ],
+          "source_handle": "39FCC"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "10843",
+          "values_m": [
+            10.843
+          ],
+          "source_handle": "39FEB"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "11213",
+          "values_m": [
+            11.213
+          ],
+          "source_handle": "3A00A"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "11500",
+          "values_m": [
+            11.5
+          ],
+          "source_handle": "3A029"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "11732",
+          "values_m": [
+            11.732
+          ],
+          "source_handle": "3A048"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "11874",
+          "values_m": [
+            11.874
+          ],
+          "source_handle": "3A067"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A07E"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09A"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B3"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CE"
+        },
+        "centerline_height": {
+          "raw": "501",
+          "values_m": [
+            0.501
+          ],
+          "source_handle": "3A0F3"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "1508",
+          "values_m": [
+            1.508
+          ],
+          "source_handle": "3A112"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "5882",
+          "values_m": [
+            5.882
+          ],
+          "source_handle": "3A131"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "6721",
+          "values_m": [
+            6.721
+          ],
+          "source_handle": "3A150"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "7228",
+          "values_m": [
+            7.228
+          ],
+          "source_handle": "3A16F"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "7983",
+          "values_m": [
+            7.983
+          ],
+          "source_handle": "3A18E"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "9540",
+          "values_m": [
+            9.54
+          ],
+          "source_handle": "3A1AB"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E1"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1F9"
+        },
+        "upper_deck_height": {
+          "raw": "14700",
+          "values_m": [
+            14.7
+          ],
+          "source_handle": "3A20B"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A230"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24C"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A265"
+        },
+        "station_repeat": {
+          "raw": "1",
+          "values_m": null,
+          "source_handle": "39E25"
+        }
+      }
+    },
+    {
+      "table_row": 4,
+      "station": "1.5",
+      "x_m": 12.9,
+      "cells": {
+        "station": {
+          "raw": "1.5",
+          "values_m": null,
+          "source_handle": "39DCC"
+        },
+        "x": {
+          "raw": "12900",
+          "values_m": [
+            12.9
+          ],
+          "source_handle": "39E53"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E89"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "1454",
+          "values_m": [
+            1.454
+          ],
+          "source_handle": "39EA5"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "1889",
+          "values_m": [
+            1.889
+          ],
+          "source_handle": "39EBE"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "2147",
+          "values_m": [
+            2.147
+          ],
+          "source_handle": "39ED9"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "2524",
+          "values_m": [
+            2.524
+          ],
+          "source_handle": "39EF7"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "3290",
+          "values_m": [
+            3.29
+          ],
+          "source_handle": "39F15"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "5142",
+          "values_m": [
+            5.142
+          ],
+          "source_handle": "39F33"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "8199",
+          "values_m": [
+            8.199
+          ],
+          "source_handle": "39F51"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "10035",
+          "values_m": [
+            10.035
+          ],
+          "source_handle": "39F70"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "11073",
+          "values_m": [
+            11.073
+          ],
+          "source_handle": "39F8F"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "11626",
+          "values_m": [
+            11.626
+          ],
+          "source_handle": "39FAE"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "11864",
+          "values_m": [
+            11.864
+          ],
+          "source_handle": "39FCD"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "12156",
+          "values_m": [
+            12.156
+          ],
+          "source_handle": "39FEC"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "12470",
+          "values_m": [
+            12.47
+          ],
+          "source_handle": "3A00B"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "3A02A"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "12884",
+          "values_m": [
+            12.884
+          ],
+          "source_handle": "3A049"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "12994",
+          "values_m": [
+            12.994
+          ],
+          "source_handle": "3A068"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A07F"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09B"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B4"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CF"
+        },
+        "centerline_height": {
+          "raw": "4",
+          "values_m": [
+            0.004
+          ],
+          "source_handle": "3A0F4"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "453",
+          "values_m": [
+            0.453
+          ],
+          "source_handle": "3A113"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "2426",
+          "values_m": [
+            2.426
+          ],
+          "source_handle": "3A132"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "5493",
+          "values_m": [
+            5.493
+          ],
+          "source_handle": "3A151"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "6268",
+          "values_m": [
+            6.268
+          ],
+          "source_handle": "3A170"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "6920",
+          "values_m": [
+            6.92
+          ],
+          "source_handle": "3A18F"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "7973",
+          "values_m": [
+            7.973
+          ],
+          "source_handle": "3A1AC"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "10606",
+          "values_m": [
+            10.606
+          ],
+          "source_handle": "3A1C9"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1FD"
+        },
+        "upper_deck_height": {
+          "raw": "14655",
+          "values_m": [
+            14.655
+          ],
+          "source_handle": "3A20C"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A231"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24D"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A266"
+        },
+        "station_repeat": {
+          "raw": "1.5",
+          "values_m": null,
+          "source_handle": "39E26"
+        }
+      }
+    },
+    {
+      "table_row": 5,
+      "station": "2",
+      "x_m": 17.2,
+      "cells": {
+        "station": {
+          "raw": "2",
+          "values_m": null,
+          "source_handle": "39DCE"
+        },
+        "x": {
+          "raw": "17200",
+          "values_m": [
+            17.2
+          ],
+          "source_handle": "39E54"
+        },
+        "flat_of_bottom": {
+          "raw": "628",
+          "values_m": [
+            0.628
+          ],
+          "source_handle": "39E6F"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "2183",
+          "values_m": [
+            2.183
+          ],
+          "source_handle": "39E8E"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "2860",
+          "values_m": [
+            2.86
+          ],
+          "source_handle": "39EA6"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "3490",
+          "values_m": [
+            3.49
+          ],
+          "source_handle": "39EC4"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "4380",
+          "values_m": [
+            4.38
+          ],
+          "source_handle": "39EE2"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "6000",
+          "values_m": [
+            6.0
+          ],
+          "source_handle": "39F00"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "8550",
+          "values_m": [
+            8.55
+          ],
+          "source_handle": "39F1E"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "10571",
+          "values_m": [
+            10.571
+          ],
+          "source_handle": "39F3C"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "11781",
+          "values_m": [
+            11.781
+          ],
+          "source_handle": "39F5A"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "12490",
+          "values_m": [
+            12.49
+          ],
+          "source_handle": "39F79"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "12874",
+          "values_m": [
+            12.874
+          ],
+          "source_handle": "39F98"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "13037",
+          "values_m": [
+            13.037
+          ],
+          "source_handle": "39FB7"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "13223",
+          "values_m": [
+            13.223
+          ],
+          "source_handle": "39FD6"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "13411",
+          "values_m": [
+            13.411
+          ],
+          "source_handle": "39FF5"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "13556",
+          "values_m": [
+            13.556
+          ],
+          "source_handle": "3A014"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "13680",
+          "values_m": [
+            13.68
+          ],
+          "source_handle": "3A033"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "13749",
+          "values_m": [
+            13.749
+          ],
+          "source_handle": "3A052"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A080"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09C"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B5"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D0"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0ED"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "118",
+          "values_m": [
+            0.118
+          ],
+          "source_handle": "3A10C"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "808",
+          "values_m": [
+            0.808
+          ],
+          "source_handle": "3A12B"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "3641",
+          "values_m": [
+            3.641
+          ],
+          "source_handle": "3A14A"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "5000",
+          "values_m": [
+            5.0
+          ],
+          "source_handle": "3A169"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "5791",
+          "values_m": [
+            5.791
+          ],
+          "source_handle": "3A188"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "6665",
+          "values_m": [
+            6.665
+          ],
+          "source_handle": "3A1A7"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "8258",
+          "values_m": [
+            8.258
+          ],
+          "source_handle": "3A1C6"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1FE"
+        },
+        "upper_deck_height": {
+          "raw": "14625",
+          "values_m": [
+            14.625
+          ],
+          "source_handle": "3A20D"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A232"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24E"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A267"
+        },
+        "station_repeat": {
+          "raw": "2",
+          "values_m": null,
+          "source_handle": "39E27"
+        }
+      }
+    },
+    {
+      "table_row": 6,
+      "station": "2.5",
+      "x_m": 21.5,
+      "cells": {
+        "station": {
+          "raw": "2.5",
+          "values_m": null,
+          "source_handle": "39DD0"
+        },
+        "x": {
+          "raw": "21500",
+          "values_m": [
+            21.5
+          ],
+          "source_handle": "39E55"
+        },
+        "flat_of_bottom": {
+          "raw": "890",
+          "values_m": [
+            0.89
+          ],
+          "source_handle": "39E70"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "3088",
+          "values_m": [
+            3.088
+          ],
+          "source_handle": "39E8F"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "4333",
+          "values_m": [
+            4.333
+          ],
+          "source_handle": "39EA7"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "5612",
+          "values_m": [
+            5.612
+          ],
+          "source_handle": "39EC5"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "7213",
+          "values_m": [
+            7.213
+          ],
+          "source_handle": "39EE3"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "9318",
+          "values_m": [
+            9.318
+          ],
+          "source_handle": "39F01"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "11130",
+          "values_m": [
+            11.13
+          ],
+          "source_handle": "39F1F"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "12292",
+          "values_m": [
+            12.292
+          ],
+          "source_handle": "39F3D"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "13025",
+          "values_m": [
+            13.025
+          ],
+          "source_handle": "39F5B"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "13468",
+          "values_m": [
+            13.468
+          ],
+          "source_handle": "39F7A"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "13683",
+          "values_m": [
+            13.683
+          ],
+          "source_handle": "39F99"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "13770",
+          "values_m": [
+            13.77
+          ],
+          "source_handle": "39FB8"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "13871",
+          "values_m": [
+            13.871
+          ],
+          "source_handle": "39FD7"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "13982",
+          "values_m": [
+            13.982
+          ],
+          "source_handle": "39FF6"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14070",
+          "values_m": [
+            14.07
+          ],
+          "source_handle": "3A015"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14140",
+          "values_m": [
+            14.14
+          ],
+          "source_handle": "3A034"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14173",
+          "values_m": [
+            14.173
+          ],
+          "source_handle": "3A053"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A081"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09D"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B6"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D1"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0F5"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "8",
+          "values_m": [
+            0.008
+          ],
+          "source_handle": "3A114"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "337",
+          "values_m": [
+            0.337
+          ],
+          "source_handle": "3A133"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "1729",
+          "values_m": [
+            1.729
+          ],
+          "source_handle": "3A152"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "3278",
+          "values_m": [
+            3.278
+          ],
+          "source_handle": "3A171"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "4385",
+          "values_m": [
+            4.385
+          ],
+          "source_handle": "3A190"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "5336",
+          "values_m": [
+            5.336
+          ],
+          "source_handle": "3A1AD"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "6702",
+          "values_m": [
+            6.702
+          ],
+          "source_handle": "3A1CA"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "12181",
+          "values_m": [
+            12.181
+          ],
+          "source_handle": "3A1E7"
+        },
+        "upper_deck_height": {
+          "raw": "14609",
+          "values_m": [
+            14.609
+          ],
+          "source_handle": "3A205"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A233"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24F"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A268"
+        },
+        "station_repeat": {
+          "raw": "2.5",
+          "values_m": null,
+          "source_handle": "39E28"
+        }
+      }
+    },
+    {
+      "table_row": 7,
+      "station": "3",
+      "x_m": 25.8,
+      "cells": {
+        "station": {
+          "raw": "3",
+          "values_m": null,
+          "source_handle": "39DD2"
+        },
+        "x": {
+          "raw": "25800",
+          "values_m": [
+            25.8
+          ],
+          "source_handle": "39E56"
+        },
+        "flat_of_bottom": {
+          "raw": "1413",
+          "values_m": [
+            1.413
+          ],
+          "source_handle": "39E71"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "4369",
+          "values_m": [
+            4.369
+          ],
+          "source_handle": "39E90"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "6295",
+          "values_m": [
+            6.295
+          ],
+          "source_handle": "39EA8"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "8164",
+          "values_m": [
+            8.164
+          ],
+          "source_handle": "39EC6"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "10144",
+          "values_m": [
+            10.144
+          ],
+          "source_handle": "39EE4"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "11746",
+          "values_m": [
+            11.746
+          ],
+          "source_handle": "39F02"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "12764",
+          "values_m": [
+            12.764
+          ],
+          "source_handle": "39F20"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "13416",
+          "values_m": [
+            13.416
+          ],
+          "source_handle": "39F3E"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "13819",
+          "values_m": [
+            13.819
+          ],
+          "source_handle": "39F5C"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14025",
+          "values_m": [
+            14.025
+          ],
+          "source_handle": "39F7B"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14115",
+          "values_m": [
+            14.115
+          ],
+          "source_handle": "39F9A"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14153",
+          "values_m": [
+            14.153
+          ],
+          "source_handle": "39FB9"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14205",
+          "values_m": [
+            14.205
+          ],
+          "source_handle": "39FD8"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14272",
+          "values_m": [
+            14.272
+          ],
+          "source_handle": "39FF7"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14321",
+          "values_m": [
+            14.321
+          ],
+          "source_handle": "3A016"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14349",
+          "values_m": [
+            14.349
+          ],
+          "source_handle": "3A035"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14359",
+          "values_m": [
+            14.359
+          ],
+          "source_handle": "3A054"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A082"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09E"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B7"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0D2"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0F6"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A115"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "85",
+          "values_m": [
+            0.085
+          ],
+          "source_handle": "3A134"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "825",
+          "values_m": [
+            0.825
+          ],
+          "source_handle": "3A153"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "1841",
+          "values_m": [
+            1.841
+          ],
+          "source_handle": "3A172"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "2916",
+          "values_m": [
+            2.916
+          ],
+          "source_handle": "3A191"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "3923",
+          "values_m": [
+            3.923
+          ],
+          "source_handle": "3A1AE"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "5205",
+          "values_m": [
+            5.205
+          ],
+          "source_handle": "3A1CB"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "8825",
+          "values_m": [
+            8.825
+          ],
+          "source_handle": "3A1E8"
+        },
+        "upper_deck_height": {
+          "raw": "14602",
+          "values_m": [
+            14.602
+          ],
+          "source_handle": "3A206"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A234"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A250"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A269"
+        },
+        "station_repeat": {
+          "raw": "3",
+          "values_m": null,
+          "source_handle": "39E29"
+        }
+      }
+    },
+    {
+      "table_row": 8,
+      "station": "3.5",
+      "x_m": 30.1,
+      "cells": {
+        "station": {
+          "raw": "3.5",
+          "values_m": null,
+          "source_handle": "39E43"
+        },
+        "x": {
+          "raw": "30100",
+          "values_m": [
+            30.1
+          ],
+          "source_handle": "39E6B"
+        },
+        "flat_of_bottom": {
+          "raw": "2239",
+          "values_m": [
+            2.239
+          ],
+          "source_handle": "39E82"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "5951",
+          "values_m": [
+            5.951
+          ],
+          "source_handle": "39E9E"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "8504",
+          "values_m": [
+            8.504
+          ],
+          "source_handle": "39EB7"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "10663",
+          "values_m": [
+            10.663
+          ],
+          "source_handle": "39ED3"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "12230",
+          "values_m": [
+            12.23
+          ],
+          "source_handle": "39EF1"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "13215",
+          "values_m": [
+            13.215
+          ],
+          "source_handle": "39F0F"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "13760",
+          "values_m": [
+            13.76
+          ],
+          "source_handle": "39F2D"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14080",
+          "values_m": [
+            14.08
+          ],
+          "source_handle": "39F4B"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14264",
+          "values_m": [
+            14.264
+          ],
+          "source_handle": "39F69"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14326",
+          "values_m": [
+            14.326
+          ],
+          "source_handle": "39F88"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14351",
+          "values_m": [
+            14.351
+          ],
+          "source_handle": "39FA7"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14364",
+          "values_m": [
+            14.364
+          ],
+          "source_handle": "39FC6"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14381",
+          "values_m": [
+            14.381
+          ],
+          "source_handle": "39FE5"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14395",
+          "values_m": [
+            14.395
+          ],
+          "source_handle": "3A004"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A023"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A042"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A061"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A083"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A09F"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B8"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "13113",
+          "values_m": [
+            13.113
+          ],
+          "source_handle": "3A0D9"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0F7"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A116"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A135"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "353",
+          "values_m": [
+            0.353
+          ],
+          "source_handle": "3A154"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "1018",
+          "values_m": [
+            1.018
+          ],
+          "source_handle": "3A173"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "1789",
+          "values_m": [
+            1.789
+          ],
+          "source_handle": "3A192"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "2670",
+          "values_m": [
+            2.67
+          ],
+          "source_handle": "3A1AF"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "3824",
+          "values_m": [
+            3.824
+          ],
+          "source_handle": "3A1CC"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "6681",
+          "values_m": [
+            6.681
+          ],
+          "source_handle": "3A1E9"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A207"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A235"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A251"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26A"
+        },
+        "station_repeat": {
+          "raw": "3.5",
+          "values_m": null,
+          "source_handle": "39E44"
+        }
+      }
+    },
+    {
+      "table_row": 9,
+      "station": "4",
+      "x_m": 34.4,
+      "cells": {
+        "station": {
+          "raw": "4",
+          "values_m": null,
+          "source_handle": "39DD5"
+        },
+        "x": {
+          "raw": "34400",
+          "values_m": [
+            34.4
+          ],
+          "source_handle": "39E57"
+        },
+        "flat_of_bottom": {
+          "raw": "3309",
+          "values_m": [
+            3.309
+          ],
+          "source_handle": "39E72"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "7976",
+          "values_m": [
+            7.976
+          ],
+          "source_handle": "39E91"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "10684",
+          "values_m": [
+            10.684
+          ],
+          "source_handle": "39EA9"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "12447",
+          "values_m": [
+            12.447
+          ],
+          "source_handle": "39EC7"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "13477",
+          "values_m": [
+            13.477
+          ],
+          "source_handle": "39EE5"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14012",
+          "values_m": [
+            14.012
+          ],
+          "source_handle": "39F03"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14274",
+          "values_m": [
+            14.274
+          ],
+          "source_handle": "39F21"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14380",
+          "values_m": [
+            14.38
+          ],
+          "source_handle": "39F3F"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F5D"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F7C"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F9B"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FBA"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD9"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF8"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A017"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A036"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A055"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A084"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A0"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0B9"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "7604",
+          "values_m": [
+            7.604
+          ],
+          "source_handle": "3A0D6"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0F8"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A117"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A136"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "47",
+          "values_m": [
+            0.047
+          ],
+          "source_handle": "3A155"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "458",
+          "values_m": [
+            0.458
+          ],
+          "source_handle": "3A174"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "1007",
+          "values_m": [
+            1.007
+          ],
+          "source_handle": "3A193"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "1709",
+          "values_m": [
+            1.709
+          ],
+          "source_handle": "3A1B0"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "2699",
+          "values_m": [
+            2.699
+          ],
+          "source_handle": "3A1CD"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "4968",
+          "values_m": [
+            4.968
+          ],
+          "source_handle": "3A1EA"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A20E"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A236"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A252"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26B"
+        },
+        "station_repeat": {
+          "raw": "4",
+          "values_m": null,
+          "source_handle": "39E2A"
+        }
+      }
+    },
+    {
+      "table_row": 10,
+      "station": "5",
+      "x_m": 43.0,
+      "cells": {
+        "station": {
+          "raw": "5",
+          "values_m": null,
+          "source_handle": "39DD7"
+        },
+        "x": {
+          "raw": "43000",
+          "values_m": [
+            43.0
+          ],
+          "source_handle": "39E58"
+        },
+        "flat_of_bottom": {
+          "raw": "6322",
+          "values_m": [
+            6.322
+          ],
+          "source_handle": "39E73"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "11537",
+          "values_m": [
+            11.537
+          ],
+          "source_handle": "39E92"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "13251",
+          "values_m": [
+            13.251
+          ],
+          "source_handle": "39EAA"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14089",
+          "values_m": [
+            14.089
+          ],
+          "source_handle": "39EC8"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14364",
+          "values_m": [
+            14.364
+          ],
+          "source_handle": "39EE6"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F04"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F22"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F40"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F5E"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F7D"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F9C"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FBB"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FDA"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF9"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A018"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A037"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A056"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A085"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A1"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BA"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "4672",
+          "values_m": [
+            4.672
+          ],
+          "source_handle": "3A0D7"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0F9"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A118"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A137"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A156"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A175"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "106",
+          "values_m": [
+            0.106
+          ],
+          "source_handle": "3A194"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "504",
+          "values_m": [
+            0.504
+          ],
+          "source_handle": "3A1B1"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "1215",
+          "values_m": [
+            1.215
+          ],
+          "source_handle": "3A1CE"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "2839",
+          "values_m": [
+            2.839
+          ],
+          "source_handle": "3A1EB"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A20F"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A237"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A253"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26C"
+        },
+        "station_repeat": {
+          "raw": "5",
+          "values_m": null,
+          "source_handle": "39E2B"
+        }
+      }
+    },
+    {
+      "table_row": 11,
+      "station": "6",
+      "x_m": 51.6,
+      "cells": {
+        "station": {
+          "raw": "6",
+          "values_m": null,
+          "source_handle": "39DD9"
+        },
+        "x": {
+          "raw": "51600",
+          "values_m": [
+            51.6
+          ],
+          "source_handle": "39E59"
+        },
+        "flat_of_bottom": {
+          "raw": "9208",
+          "values_m": [
+            9.208
+          ],
+          "source_handle": "39E74"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "13366",
+          "values_m": [
+            13.366
+          ],
+          "source_handle": "39E93"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14206",
+          "values_m": [
+            14.206
+          ],
+          "source_handle": "39EAB"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EC9"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EE7"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F05"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F23"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F41"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F5F"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F7E"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F9D"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FBC"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FDB"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FFA"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A019"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A038"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A057"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A086"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A2"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BB"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "3079",
+          "values_m": [
+            3.079
+          ],
+          "source_handle": "3A0D8"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FA"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A119"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A138"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A157"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A176"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A195"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "19",
+          "values_m": [
+            0.019
+          ],
+          "source_handle": "3A1B2"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "302",
+          "values_m": [
+            0.302
+          ],
+          "source_handle": "3A1CF"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "1647",
+          "values_m": [
+            1.647
+          ],
+          "source_handle": "3A1EC"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A210"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A238"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A254"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26D"
+        },
+        "station_repeat": {
+          "raw": "6",
+          "values_m": null,
+          "source_handle": "39E2C"
+        }
+      }
+    },
+    {
+      "table_row": 12,
+      "station": "7",
+      "x_m": 60.2,
+      "cells": {
+        "station": {
+          "raw": "7",
+          "values_m": null,
+          "source_handle": "39DDB"
+        },
+        "x": {
+          "raw": "60200",
+          "values_m": [
+            60.2
+          ],
+          "source_handle": "39E5A"
+        },
+        "flat_of_bottom": {
+          "raw": "11269",
+          "values_m": [
+            11.269
+          ],
+          "source_handle": "39E75"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14059",
+          "values_m": [
+            14.059
+          ],
+          "source_handle": "3CB97"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14399",
+          "values_m": [
+            14.399
+          ],
+          "source_handle": "3CB9E"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDF"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFD"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F1B"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F39"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F57"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F76"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F95"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB4"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD3"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF2"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A011"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A030"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04F"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06E"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A087"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A3"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BC"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "2097",
+          "values_m": [
+            2.097
+          ],
+          "source_handle": "3A0DB"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FB"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11A"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A139"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A158"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A177"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A196"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B3"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "48",
+          "values_m": [
+            0.048
+          ],
+          "source_handle": "3A1D0"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "930",
+          "values_m": [
+            0.93
+          ],
+          "source_handle": "3A1ED"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A211"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A239"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A255"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26E"
+        },
+        "station_repeat": {
+          "raw": "7",
+          "values_m": null,
+          "source_handle": "39E2D"
+        }
+      }
+    },
+    {
+      "table_row": 13,
+      "station": "8",
+      "x_m": 68.8,
+      "cells": {
+        "station": {
+          "raw": "8",
+          "values_m": null,
+          "source_handle": "39DDD"
+        },
+        "x": {
+          "raw": "68800",
+          "values_m": [
+            68.8
+          ],
+          "source_handle": "39E5B"
+        },
+        "flat_of_bottom": {
+          "raw": "12455",
+          "values_m": [
+            12.455
+          ],
+          "source_handle": "39E76"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14240",
+          "values_m": [
+            14.24
+          ],
+          "source_handle": "3CB98"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14398",
+          "values_m": [
+            14.398
+          ],
+          "source_handle": "39EAC"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EE0"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFE"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F1C"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F3A"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F58"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F77"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F96"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB5"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD4"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF3"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A012"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A031"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A050"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06F"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A088"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A4"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BD"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0DC"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FC"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11B"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13A"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A159"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A178"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A197"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B4"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D1"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "643",
+          "values_m": [
+            0.643
+          ],
+          "source_handle": "3A1EE"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A212"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23A"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A256"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A26F"
+        },
+        "station_repeat": {
+          "raw": "8",
+          "values_m": null,
+          "source_handle": "39E2E"
+        }
+      }
+    },
+    {
+      "table_row": 14,
+      "station": "9",
+      "x_m": 77.4,
+      "cells": {
+        "station": {
+          "raw": "9",
+          "values_m": null,
+          "source_handle": "39DDF"
+        },
+        "x": {
+          "raw": "77400",
+          "values_m": [
+            77.4
+          ],
+          "source_handle": "39E5C"
+        },
+        "flat_of_bottom": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39E77"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14249",
+          "values_m": [
+            14.249
+          ],
+          "source_handle": "3CB99"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EAD"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39ECA"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EE8"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F06"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F24"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F42"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F60"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F7F"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F9E"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FBD"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FDC"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FFB"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A01A"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A039"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A058"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A089"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A5"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BE"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0E8"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FD"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11C"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13B"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15A"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A179"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A198"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B5"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D2"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "605",
+          "values_m": [
+            0.605
+          ],
+          "source_handle": "3A1EF"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A213"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23B"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A257"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A270"
+        },
+        "station_repeat": {
+          "raw": "9",
+          "values_m": null,
+          "source_handle": "39E2F"
+        }
+      }
+    },
+    {
+      "table_row": 15,
+      "station": "10",
+      "x_m": 86.0,
+      "cells": {
+        "station": {
+          "raw": "10",
+          "values_m": null,
+          "source_handle": "39DE1"
+        },
+        "x": {
+          "raw": "86000",
+          "values_m": [
+            86.0
+          ],
+          "source_handle": "39E5D"
+        },
+        "flat_of_bottom": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39E8A"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14249",
+          "values_m": [
+            14.249
+          ],
+          "source_handle": "3CB9A"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EBF"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDA"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EF8"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F16"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F34"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F52"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F71"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F90"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FAF"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FCE"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FED"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A00C"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A02B"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04A"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A069"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08A"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A6"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0BF"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0E9"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FE"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11D"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13C"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15B"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17A"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A199"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B6"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D3"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "605",
+          "values_m": [
+            0.605
+          ],
+          "source_handle": "3A1F0"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A214"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23C"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A258"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A271"
+        },
+        "station_repeat": {
+          "raw": "10",
+          "values_m": null,
+          "source_handle": "39E30"
+        }
+      }
+    },
+    {
+      "table_row": 16,
+      "station": "11",
+      "x_m": 94.6,
+      "cells": {
+        "station": {
+          "raw": "11",
+          "values_m": null,
+          "source_handle": "39DE3"
+        },
+        "x": {
+          "raw": "94600",
+          "values_m": [
+            94.6
+          ],
+          "source_handle": "39E5E"
+        },
+        "flat_of_bottom": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39E8B"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14249",
+          "values_m": [
+            14.249
+          ],
+          "source_handle": "3CB9B"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EC0"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDB"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EF9"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F17"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F35"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F53"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F72"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F91"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB0"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FCF"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FEE"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A00D"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A02C"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04B"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06A"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08B"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A7"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C0"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0EA"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A0FF"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11E"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13D"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15C"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17B"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19A"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B7"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D4"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "605",
+          "values_m": [
+            0.605
+          ],
+          "source_handle": "3A1FF"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A215"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23D"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A259"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A272"
+        },
+        "station_repeat": {
+          "raw": "11",
+          "values_m": null,
+          "source_handle": "39E31"
+        }
+      }
+    },
+    {
+      "table_row": 17,
+      "station": "12",
+      "x_m": 103.2,
+      "cells": {
+        "station": {
+          "raw": "12",
+          "values_m": null,
+          "source_handle": "39DE5"
+        },
+        "x": {
+          "raw": "103200",
+          "values_m": [
+            103.2
+          ],
+          "source_handle": "39E5F"
+        },
+        "flat_of_bottom": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39E8C"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14249",
+          "values_m": [
+            14.249
+          ],
+          "source_handle": "3CB9C"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EC1"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDC"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFA"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F18"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F36"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F54"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F73"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F92"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB1"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD0"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FEF"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A00E"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A02D"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04C"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06B"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08C"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A8"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C1"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0EB"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A100"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A11F"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13E"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15D"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17C"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19B"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B8"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D5"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "605",
+          "values_m": [
+            0.605
+          ],
+          "source_handle": "3A200"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A216"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23E"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25A"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A273"
+        },
+        "station_repeat": {
+          "raw": "12",
+          "values_m": null,
+          "source_handle": "39E32"
+        }
+      }
+    },
+    {
+      "table_row": 18,
+      "station": "13",
+      "x_m": 111.8,
+      "cells": {
+        "station": {
+          "raw": "13",
+          "values_m": null,
+          "source_handle": "39DE7"
+        },
+        "x": {
+          "raw": "111800",
+          "values_m": [
+            111.8
+          ],
+          "source_handle": "39E60"
+        },
+        "flat_of_bottom": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39E8D"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14249",
+          "values_m": [
+            14.249
+          ],
+          "source_handle": "3CB9D"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EC2"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDD"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFB"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F19"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F37"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F55"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F74"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F93"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB2"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD1"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF0"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A00F"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A02E"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04D"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06C"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08D"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0A9"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C2"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1700",
+          "values_m": [
+            1.7
+          ],
+          "source_handle": "3A0EC"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A101"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A120"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A13F"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15E"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17D"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19C"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1B9"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D6"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "605",
+          "values_m": [
+            0.605
+          ],
+          "source_handle": "3A201"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A217"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A23F"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25B"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A274"
+        },
+        "station_repeat": {
+          "raw": "13",
+          "values_m": null,
+          "source_handle": "39E33"
+        }
+      }
+    },
+    {
+      "table_row": 19,
+      "station": "14",
+      "x_m": 120.4,
+      "cells": {
+        "station": {
+          "raw": "14",
+          "values_m": null,
+          "source_handle": "39DE9"
+        },
+        "x": {
+          "raw": "120400",
+          "values_m": [
+            120.4
+          ],
+          "source_handle": "39E61"
+        },
+        "flat_of_bottom": {
+          "raw": "12693",
+          "values_m": [
+            12.693
+          ],
+          "source_handle": "39E78"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14250",
+          "values_m": [
+            14.25
+          ],
+          "source_handle": "39E94"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EC3"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EDE"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFC"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F1A"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F38"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F56"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F75"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F94"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB3"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD2"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF1"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A010"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A02F"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A04E"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A06D"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08E"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AA"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C3"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "1786",
+          "values_m": [
+            1.786
+          ],
+          "source_handle": "3A0DA"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A102"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A121"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A140"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A15F"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17E"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19D"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1BA"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D7"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "610",
+          "values_m": [
+            0.61
+          ],
+          "source_handle": "3A1F1"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A218"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A240"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25C"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A275"
+        },
+        "station_repeat": {
+          "raw": "14",
+          "values_m": null,
+          "source_handle": "39E34"
+        }
+      }
+    },
+    {
+      "table_row": 20,
+      "station": "15",
+      "x_m": 129.0,
+      "cells": {
+        "station": {
+          "raw": "15",
+          "values_m": null,
+          "source_handle": "39DEB"
+        },
+        "x": {
+          "raw": "129000",
+          "values_m": [
+            129.0
+          ],
+          "source_handle": "39E62"
+        },
+        "flat_of_bottom": {
+          "raw": "12599",
+          "values_m": [
+            12.599
+          ],
+          "source_handle": "39E79"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "14187",
+          "values_m": [
+            14.187
+          ],
+          "source_handle": "39E95"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14395",
+          "values_m": [
+            14.395
+          ],
+          "source_handle": "39EAE"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EE1"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39EFF"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F1D"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F3B"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F59"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F78"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39F97"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FB6"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FD5"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "39FF4"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A013"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A032"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A051"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14400",
+          "values_m": [
+            14.4
+          ],
+          "source_handle": "3A070"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A08F"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AB"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C4"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "2195",
+          "values_m": [
+            2.195
+          ],
+          "source_handle": "3A0DD"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A103"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A122"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A141"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A160"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A17F"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19E"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1BB"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D8"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "691",
+          "values_m": [
+            0.691
+          ],
+          "source_handle": "3A1F2"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A219"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A241"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25D"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A276"
+        },
+        "station_repeat": {
+          "raw": "15",
+          "values_m": null,
+          "source_handle": "39E35"
+        }
+      }
+    },
+    {
+      "table_row": 21,
+      "station": "16",
+      "x_m": 137.6,
+      "cells": {
+        "station": {
+          "raw": "16",
+          "values_m": null,
+          "source_handle": "39DED"
+        },
+        "x": {
+          "raw": "137600",
+          "values_m": [
+            137.6
+          ],
+          "source_handle": "39E63"
+        },
+        "flat_of_bottom": {
+          "raw": "12059",
+          "values_m": [
+            12.059
+          ],
+          "source_handle": "39E7A"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "13753",
+          "values_m": [
+            13.753
+          ],
+          "source_handle": "39E96"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "14175",
+          "values_m": [
+            14.175
+          ],
+          "source_handle": "39EAF"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "14317",
+          "values_m": [
+            14.317
+          ],
+          "source_handle": "39ECB"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "14357",
+          "values_m": [
+            14.357
+          ],
+          "source_handle": "39EE9"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "14363",
+          "values_m": [
+            14.363
+          ],
+          "source_handle": "39F07"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "14365",
+          "values_m": [
+            14.365
+          ],
+          "source_handle": "39F25"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14367",
+          "values_m": [
+            14.367
+          ],
+          "source_handle": "39F43"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14369",
+          "values_m": [
+            14.369
+          ],
+          "source_handle": "39F61"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14371",
+          "values_m": [
+            14.371
+          ],
+          "source_handle": "39F80"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14373",
+          "values_m": [
+            14.373
+          ],
+          "source_handle": "39F9F"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14373",
+          "values_m": [
+            14.373
+          ],
+          "source_handle": "39FBE"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14375",
+          "values_m": [
+            14.375
+          ],
+          "source_handle": "39FDD"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14377",
+          "values_m": [
+            14.377
+          ],
+          "source_handle": "39FFC"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14379",
+          "values_m": [
+            14.379
+          ],
+          "source_handle": "3A01B"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14381",
+          "values_m": [
+            14.381
+          ],
+          "source_handle": "3A03A"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14382",
+          "values_m": [
+            14.382
+          ],
+          "source_handle": "3A059"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A090"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AC"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C5"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0DE"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A104"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A123"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A142"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A161"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A180"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A19F"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1BC"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1D9"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "1479",
+          "values_m": [
+            1.479
+          ],
+          "source_handle": "3A1F3"
+        },
+        "upper_deck_height": {
+          "raw": "14600",
+          "values_m": [
+            14.6
+          ],
+          "source_handle": "3A21A"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A242"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25E"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A277"
+        },
+        "station_repeat": {
+          "raw": "16",
+          "values_m": null,
+          "source_handle": "39E36"
+        }
+      }
+    },
+    {
+      "table_row": 22,
+      "station": "17",
+      "x_m": 146.2,
+      "cells": {
+        "station": {
+          "raw": "17",
+          "values_m": null,
+          "source_handle": "39DEF"
+        },
+        "x": {
+          "raw": "146200",
+          "values_m": [
+            146.2
+          ],
+          "source_handle": "39E64"
+        },
+        "flat_of_bottom": {
+          "raw": "9665",
+          "values_m": [
+            9.665
+          ],
+          "source_handle": "39E7B"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "12383",
+          "values_m": [
+            12.383
+          ],
+          "source_handle": "39E97"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "13100",
+          "values_m": [
+            13.1
+          ],
+          "source_handle": "39EB0"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "13477",
+          "values_m": [
+            13.477
+          ],
+          "source_handle": "39ECC"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "13705",
+          "values_m": [
+            13.705
+          ],
+          "source_handle": "39EEA"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "13845",
+          "values_m": [
+            13.845
+          ],
+          "source_handle": "39F08"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "13943",
+          "values_m": [
+            13.943
+          ],
+          "source_handle": "39F26"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "14009",
+          "values_m": [
+            14.009
+          ],
+          "source_handle": "39F44"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "14046",
+          "values_m": [
+            14.046
+          ],
+          "source_handle": "39F62"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "14076",
+          "values_m": [
+            14.076
+          ],
+          "source_handle": "39F81"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "14090",
+          "values_m": [
+            14.09
+          ],
+          "source_handle": "39FA0"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "14098",
+          "values_m": [
+            14.098
+          ],
+          "source_handle": "39FBF"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "14110",
+          "values_m": [
+            14.11
+          ],
+          "source_handle": "39FDE"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "14126",
+          "values_m": [
+            14.126
+          ],
+          "source_handle": "39FFD"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "14142",
+          "values_m": [
+            14.142
+          ],
+          "source_handle": "3A01C"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "14158",
+          "values_m": [
+            14.158
+          ],
+          "source_handle": "3A03B"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "14168",
+          "values_m": [
+            14.168
+          ],
+          "source_handle": "3A05A"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A091"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AD"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C6"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0DF"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A105"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A124"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A143"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A162"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A181"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A1A0"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "8",
+          "values_m": [
+            0.008
+          ],
+          "source_handle": "3A1BD"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "644",
+          "values_m": [
+            0.644
+          ],
+          "source_handle": "3A1DA"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "6821",
+          "values_m": [
+            6.821
+          ],
+          "source_handle": "3A1F4"
+        },
+        "upper_deck_height": {
+          "raw": "14609",
+          "values_m": [
+            14.609
+          ],
+          "source_handle": "3A208"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A243"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A25F"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A278"
+        },
+        "station_repeat": {
+          "raw": "17",
+          "values_m": null,
+          "source_handle": "39E37"
+        }
+      }
+    },
+    {
+      "table_row": 23,
+      "station": "18",
+      "x_m": 154.8,
+      "cells": {
+        "station": {
+          "raw": "18",
+          "values_m": null,
+          "source_handle": "39DF1"
+        },
+        "x": {
+          "raw": "154800",
+          "values_m": [
+            154.8
+          ],
+          "source_handle": "39E65"
+        },
+        "flat_of_bottom": {
+          "raw": "6040",
+          "values_m": [
+            6.04
+          ],
+          "source_handle": "39E7C"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "9363",
+          "values_m": [
+            9.363
+          ],
+          "source_handle": "39E98"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "10374",
+          "values_m": [
+            10.374
+          ],
+          "source_handle": "39EB1"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "11039",
+          "values_m": [
+            11.039
+          ],
+          "source_handle": "39ECD"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "11539",
+          "values_m": [
+            11.539
+          ],
+          "source_handle": "39EEB"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "11915",
+          "values_m": [
+            11.915
+          ],
+          "source_handle": "39F09"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "12196",
+          "values_m": [
+            12.196
+          ],
+          "source_handle": "39F27"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "12424",
+          "values_m": [
+            12.424
+          ],
+          "source_handle": "39F45"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "12578",
+          "values_m": [
+            12.578
+          ],
+          "source_handle": "39F63"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "12699",
+          "values_m": [
+            12.699
+          ],
+          "source_handle": "39F82"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "12786",
+          "values_m": [
+            12.786
+          ],
+          "source_handle": "39FA1"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "12831",
+          "values_m": [
+            12.831
+          ],
+          "source_handle": "39FC0"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "12892",
+          "values_m": [
+            12.892
+          ],
+          "source_handle": "39FDF"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "12977",
+          "values_m": [
+            12.977
+          ],
+          "source_handle": "39FFE"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "13075",
+          "values_m": [
+            13.075
+          ],
+          "source_handle": "3A01D"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "13179",
+          "values_m": [
+            13.179
+          ],
+          "source_handle": "3A03C"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "13246",
+          "values_m": [
+            13.246
+          ],
+          "source_handle": "3A05B"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A092"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AE"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C7"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E0"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A106"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A125"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A144"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A163"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A182"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "285",
+          "values_m": [
+            0.285
+          ],
+          "source_handle": "3A1A1"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "1579",
+          "values_m": [
+            1.579
+          ],
+          "source_handle": "3A1BE"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "5275",
+          "values_m": [
+            5.275
+          ],
+          "source_handle": "3A1DB"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A203"
+        },
+        "upper_deck_height": {
+          "raw": "14646",
+          "values_m": [
+            14.646
+          ],
+          "source_handle": "3A21C"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A244"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A260"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A279"
+        },
+        "station_repeat": {
+          "raw": "18",
+          "values_m": null,
+          "source_handle": "39E38"
+        }
+      }
+    },
+    {
+      "table_row": 24,
+      "station": "18.5",
+      "x_m": 159.1,
+      "cells": {
+        "station": {
+          "raw": "18.5",
+          "values_m": null,
+          "source_handle": "39DF3"
+        },
+        "x": {
+          "raw": "159100",
+          "values_m": [
+            159.1
+          ],
+          "source_handle": "39E66"
+        },
+        "flat_of_bottom": {
+          "raw": "4268",
+          "values_m": [
+            4.268
+          ],
+          "source_handle": "39E7D"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "7486",
+          "values_m": [
+            7.486
+          ],
+          "source_handle": "39E99"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "8514",
+          "values_m": [
+            8.514
+          ],
+          "source_handle": "39EB2"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "9183",
+          "values_m": [
+            9.183
+          ],
+          "source_handle": "39ECE"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "9667",
+          "values_m": [
+            9.667
+          ],
+          "source_handle": "39EEC"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "10054",
+          "values_m": [
+            10.054
+          ],
+          "source_handle": "39F0A"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "10381",
+          "values_m": [
+            10.381
+          ],
+          "source_handle": "39F28"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "10667",
+          "values_m": [
+            10.667
+          ],
+          "source_handle": "39F46"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "10923",
+          "values_m": [
+            10.923
+          ],
+          "source_handle": "39F64"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "11141",
+          "values_m": [
+            11.141
+          ],
+          "source_handle": "39F83"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "11304",
+          "values_m": [
+            11.304
+          ],
+          "source_handle": "39FA2"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "11395",
+          "values_m": [
+            11.395
+          ],
+          "source_handle": "39FC1"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "11531",
+          "values_m": [
+            11.531
+          ],
+          "source_handle": "39FE0"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "11724",
+          "values_m": [
+            11.724
+          ],
+          "source_handle": "39FFF"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "11916",
+          "values_m": [
+            11.916
+          ],
+          "source_handle": "3A01E"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "12109",
+          "values_m": [
+            12.109
+          ],
+          "source_handle": "3A03D"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "12241",
+          "values_m": [
+            12.241
+          ],
+          "source_handle": "3A05C"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A093"
+        },
+        "forecastle_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0AF"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0C8"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E1"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A107"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A126"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A145"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A164"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "239",
+          "values_m": [
+            0.239
+          ],
+          "source_handle": "3A183"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "1449",
+          "values_m": [
+            1.449
+          ],
+          "source_handle": "3A1A2"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "4849",
+          "values_m": [
+            4.849
+          ],
+          "source_handle": "3A1BF"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "13431",
+          "values_m": [
+            13.431
+          ],
+          "source_handle": "3A1DC"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A202"
+        },
+        "upper_deck_height": {
+          "raw": "14685",
+          "values_m": [
+            14.685
+          ],
+          "source_handle": "3A21D"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A245"
+        },
+        "forecastle_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A261"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27A"
+        },
+        "station_repeat": {
+          "raw": "18.5",
+          "values_m": null,
+          "source_handle": "39E39"
+        }
+      }
+    },
+    {
+      "table_row": 25,
+      "station": "19",
+      "x_m": 163.4,
+      "cells": {
+        "station": {
+          "raw": "19",
+          "values_m": null,
+          "source_handle": "39DF5"
+        },
+        "x": {
+          "raw": "163400",
+          "values_m": [
+            163.4
+          ],
+          "source_handle": "39E67"
+        },
+        "flat_of_bottom": {
+          "raw": "2629",
+          "values_m": [
+            2.629
+          ],
+          "source_handle": "39E7E"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "5491",
+          "values_m": [
+            5.491
+          ],
+          "source_handle": "39E9A"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "6486",
+          "values_m": [
+            6.486
+          ],
+          "source_handle": "39EB3"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "7086",
+          "values_m": [
+            7.086
+          ],
+          "source_handle": "39ECF"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "7451",
+          "values_m": [
+            7.451
+          ],
+          "source_handle": "39EED"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "7688",
+          "values_m": [
+            7.688
+          ],
+          "source_handle": "39F0B"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "7869",
+          "values_m": [
+            7.869
+          ],
+          "source_handle": "39F29"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "8066",
+          "values_m": [
+            8.066
+          ],
+          "source_handle": "39F47"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "8314",
+          "values_m": [
+            8.314
+          ],
+          "source_handle": "39F65"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "8623",
+          "values_m": [
+            8.623
+          ],
+          "source_handle": "39F84"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "8913",
+          "values_m": [
+            8.913
+          ],
+          "source_handle": "39FA3"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "9081",
+          "values_m": [
+            9.081
+          ],
+          "source_handle": "39FC2"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "9335",
+          "values_m": [
+            9.335
+          ],
+          "source_handle": "39FE1"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "9699",
+          "values_m": [
+            9.699
+          ],
+          "source_handle": "3A000"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "10062",
+          "values_m": [
+            10.062
+          ],
+          "source_handle": "3A01F"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "10422",
+          "values_m": [
+            10.422
+          ],
+          "source_handle": "3A03E"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "10689",
+          "values_m": [
+            10.689
+          ],
+          "source_handle": "3A05D"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A094"
+        },
+        "forecastle_half_breadth": {
+          "raw": "11781",
+          "values_m": [
+            11.781
+          ],
+          "source_handle": "3A074"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CC"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E2"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A108"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A127"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A146"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "184",
+          "values_m": [
+            0.184
+          ],
+          "source_handle": "3A165"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "1447",
+          "values_m": [
+            1.447
+          ],
+          "source_handle": "3A184"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "6697",
+          "values_m": [
+            6.697
+          ],
+          "source_handle": "3A1A3"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "12827",
+          "values_m": [
+            12.827
+          ],
+          "source_handle": "3A1C0"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E3"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1FB"
+        },
+        "upper_deck_height": {
+          "raw": "14747",
+          "values_m": [
+            14.747
+          ],
+          "source_handle": "3A21E"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A246"
+        },
+        "forecastle_height": {
+          "raw": "17866",
+          "values_m": [
+            17.866
+          ],
+          "source_handle": "3A227"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27E"
+        },
+        "station_repeat": {
+          "raw": "19",
+          "values_m": null,
+          "source_handle": "39E3A"
+        }
+      }
+    },
+    {
+      "table_row": 26,
+      "station": "19.25",
+      "x_m": 165.55,
+      "cells": {
+        "station": {
+          "raw": "19.25",
+          "values_m": null,
+          "source_handle": "39E4E"
+        },
+        "x": {
+          "raw": "165550",
+          "values_m": [
+            165.55
+          ],
+          "source_handle": "39E6C"
+        },
+        "flat_of_bottom": {
+          "raw": "1762",
+          "values_m": [
+            1.762
+          ],
+          "source_handle": "39E83"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "4481",
+          "values_m": [
+            4.481
+          ],
+          "source_handle": "39E9F"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "5381",
+          "values_m": [
+            5.381
+          ],
+          "source_handle": "39EB8"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "5960",
+          "values_m": [
+            5.96
+          ],
+          "source_handle": "39ED4"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "6276",
+          "values_m": [
+            6.276
+          ],
+          "source_handle": "39EF2"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "6418",
+          "values_m": [
+            6.418
+          ],
+          "source_handle": "39F10"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "6479",
+          "values_m": [
+            6.479
+          ],
+          "source_handle": "39F2E"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "6563",
+          "values_m": [
+            6.563
+          ],
+          "source_handle": "39F4C"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "6732",
+          "values_m": [
+            6.732
+          ],
+          "source_handle": "39F6A"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "7041",
+          "values_m": [
+            7.041
+          ],
+          "source_handle": "39F89"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "7385",
+          "values_m": [
+            7.385
+          ],
+          "source_handle": "39FA8"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "7592",
+          "values_m": [
+            7.592
+          ],
+          "source_handle": "39FC7"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "7908",
+          "values_m": [
+            7.908
+          ],
+          "source_handle": "39FE6"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "8374",
+          "values_m": [
+            8.374
+          ],
+          "source_handle": "3A005"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "8841",
+          "values_m": [
+            8.841
+          ],
+          "source_handle": "3A024"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "9302",
+          "values_m": [
+            9.302
+          ],
+          "source_handle": "3A043"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "9660",
+          "values_m": [
+            9.66
+          ],
+          "source_handle": "3A062"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A095"
+        },
+        "forecastle_half_breadth": {
+          "raw": "11042",
+          "values_m": [
+            11.042
+          ],
+          "source_handle": "3A078"
+        },
+        "bulwark_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0CD"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E3"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A109"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A128"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "2",
+          "values_m": [
+            0.002
+          ],
+          "source_handle": "3A147"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "627",
+          "values_m": [
+            0.627
+          ],
+          "source_handle": "3A166"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "3092",
+          "values_m": [
+            3.092
+          ],
+          "source_handle": "3A185"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "11212",
+          "values_m": [
+            11.212
+          ],
+          "source_handle": "3A1A4"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "15537",
+          "values_m": [
+            15.537
+          ],
+          "source_handle": "3A1C1"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E2"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1FA"
+        },
+        "upper_deck_height": {
+          "raw": "14787",
+          "values_m": [
+            14.787
+          ],
+          "source_handle": "3A21F"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A247"
+        },
+        "forecastle_height": {
+          "raw": "17894",
+          "values_m": [
+            17.894
+          ],
+          "source_handle": "3A228"
+        },
+        "bulwark_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A27F"
+        },
+        "station_repeat": {
+          "raw": "19.25",
+          "values_m": null,
+          "source_handle": "39E4C"
+        }
+      }
+    },
+    {
+      "table_row": 27,
+      "station": "19.5",
+      "x_m": 167.7,
+      "cells": {
+        "station": {
+          "raw": "19.5",
+          "values_m": null,
+          "source_handle": "39DF7"
+        },
+        "x": {
+          "raw": "167700",
+          "values_m": [
+            167.7
+          ],
+          "source_handle": "39E68"
+        },
+        "flat_of_bottom": {
+          "raw": "972",
+          "values_m": [
+            0.972
+          ],
+          "source_handle": "39E7F"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "3508",
+          "values_m": [
+            3.508
+          ],
+          "source_handle": "39E9B"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "4288",
+          "values_m": [
+            4.288
+          ],
+          "source_handle": "39EB4"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "4784",
+          "values_m": [
+            4.784
+          ],
+          "source_handle": "39ED0"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "5060",
+          "values_m": [
+            5.06
+          ],
+          "source_handle": "39EEE"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "5166",
+          "values_m": [
+            5.166
+          ],
+          "source_handle": "39F0C"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "5152",
+          "values_m": [
+            5.152
+          ],
+          "source_handle": "39F2A"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "5080",
+          "values_m": [
+            5.08
+          ],
+          "source_handle": "39F48"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "5062",
+          "values_m": [
+            5.062
+          ],
+          "source_handle": "39F66"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "5287",
+          "values_m": [
+            5.287
+          ],
+          "source_handle": "39F85"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "5660",
+          "values_m": [
+            5.66
+          ],
+          "source_handle": "39FA4"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "5894",
+          "values_m": [
+            5.894
+          ],
+          "source_handle": "39FC3"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "6262",
+          "values_m": [
+            6.262
+          ],
+          "source_handle": "39FE2"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "6801",
+          "values_m": [
+            6.801
+          ],
+          "source_handle": "3A001"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "7356",
+          "values_m": [
+            7.356
+          ],
+          "source_handle": "3A020"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "7926",
+          "values_m": [
+            7.926
+          ],
+          "source_handle": "3A03F"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "8404",
+          "values_m": [
+            8.404
+          ],
+          "source_handle": "3A05E"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A096"
+        },
+        "forecastle_half_breadth": {
+          "raw": "10108",
+          "values_m": [
+            10.108
+          ],
+          "source_handle": "3A075"
+        },
+        "bulwark_half_breadth": {
+          "raw": "10635",
+          "values_m": [
+            10.635
+          ],
+          "source_handle": "3A07A"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E7"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A10A"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A129"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "76",
+          "values_m": [
+            0.076
+          ],
+          "source_handle": "3A148"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "1574",
+          "values_m": [
+            1.574
+          ],
+          "source_handle": "3A167"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "10505",
+          "values_m": [
+            10.505
+          ],
+          "source_handle": "3A186"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "14128",
+          "values_m": [
+            14.128
+          ],
+          "source_handle": "3A1A5"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "17725",
+          "values_m": [
+            17.725
+          ],
+          "source_handle": "3A1C2"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E4"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1FC"
+        },
+        "upper_deck_height": {
+          "raw": "14837",
+          "values_m": [
+            14.837
+          ],
+          "source_handle": "3A220"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A248"
+        },
+        "forecastle_height": {
+          "raw": "17928",
+          "values_m": [
+            17.928
+          ],
+          "source_handle": "3A229"
+        },
+        "bulwark_height": {
+          "raw": "18928",
+          "values_m": [
+            18.928
+          ],
+          "source_handle": "3A22D"
+        },
+        "station_repeat": {
+          "raw": "19.5",
+          "values_m": null,
+          "source_handle": "39E3B"
+        }
+      }
+    },
+    {
+      "table_row": 28,
+      "station": "19.75",
+      "x_m": 169.85,
+      "cells": {
+        "station": {
+          "raw": "19.75",
+          "values_m": null,
+          "source_handle": "39E4F"
+        },
+        "x": {
+          "raw": "169850",
+          "values_m": [
+            169.85
+          ],
+          "source_handle": "39E6D"
+        },
+        "flat_of_bottom": {
+          "raw": "383",
+          "values_m": [
+            0.383
+          ],
+          "source_handle": "39E84"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "2602",
+          "values_m": [
+            2.602
+          ],
+          "source_handle": "39EA0"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "3245",
+          "values_m": [
+            3.245
+          ],
+          "source_handle": "39EB9"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "3621",
+          "values_m": [
+            3.621
+          ],
+          "source_handle": "39ED5"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "3837",
+          "values_m": [
+            3.837
+          ],
+          "source_handle": "39EF3"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "3932",
+          "values_m": [
+            3.932
+          ],
+          "source_handle": "39F11"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "3898",
+          "values_m": [
+            3.898
+          ],
+          "source_handle": "39F2F"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "3711",
+          "values_m": [
+            3.711
+          ],
+          "source_handle": "39F4D"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "3377",
+          "values_m": [
+            3.377
+          ],
+          "source_handle": "39F6B"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "3234",
+          "values_m": [
+            3.234
+          ],
+          "source_handle": "39F8A"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "3460",
+          "values_m": [
+            3.46
+          ],
+          "source_handle": "39FA9"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "3694",
+          "values_m": [
+            3.694
+          ],
+          "source_handle": "39FC8"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "4126",
+          "values_m": [
+            4.126
+          ],
+          "source_handle": "39FE7"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "4798",
+          "values_m": [
+            4.798
+          ],
+          "source_handle": "3A006"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "5479",
+          "values_m": [
+            5.479
+          ],
+          "source_handle": "3A025"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "6180",
+          "values_m": [
+            6.18
+          ],
+          "source_handle": "3A044"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "6817",
+          "values_m": [
+            6.817
+          ],
+          "source_handle": "3A063"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A097"
+        },
+        "forecastle_half_breadth": {
+          "raw": "8931",
+          "values_m": [
+            8.931
+          ],
+          "source_handle": "3A079"
+        },
+        "bulwark_half_breadth": {
+          "raw": "9606",
+          "values_m": [
+            9.606
+          ],
+          "source_handle": "3A07D"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E4"
+        },
+        "centerline_height": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "3A10B"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "18",
+          "values_m": [
+            0.018
+          ],
+          "source_handle": "3A12A"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "417",
+          "values_m": [
+            0.417
+          ],
+          "source_handle": "3A149"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "10806",
+          "values_m": [
+            10.806
+          ],
+          "source_handle": "3A168"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "13745",
+          "values_m": [
+            13.745
+          ],
+          "source_handle": "3A187"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "16599",
+          "values_m": [
+            16.599
+          ],
+          "source_handle": "3A1A6"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1C3"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1DD"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1F5"
+        },
+        "upper_deck_height": {
+          "raw": "14900",
+          "values_m": [
+            14.9
+          ],
+          "source_handle": "3A221"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A249"
+        },
+        "forecastle_height": {
+          "raw": "17965",
+          "values_m": [
+            17.965
+          ],
+          "source_handle": "3A22A"
+        },
+        "bulwark_height": {
+          "raw": "18965",
+          "values_m": [
+            18.965
+          ],
+          "source_handle": "3A22E"
+        },
+        "station_repeat": {
+          "raw": "19.75",
+          "values_m": null,
+          "source_handle": "39E4D"
+        }
+      }
+    },
+    {
+      "table_row": 29,
+      "station": "20",
+      "x_m": 172.0,
+      "cells": {
+        "station": {
+          "raw": "20",
+          "values_m": null,
+          "source_handle": "39DF9"
+        },
+        "x": {
+          "raw": "172000",
+          "values_m": [
+            172.0
+          ],
+          "source_handle": "39E69"
+        },
+        "flat_of_bottom": {
+          "raw": "109",
+          "values_m": [
+            0.109
+          ],
+          "source_handle": "39E80"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "1770",
+          "values_m": [
+            1.77
+          ],
+          "source_handle": "39E9C"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "2254",
+          "values_m": [
+            2.254
+          ],
+          "source_handle": "39EB5"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "2501",
+          "values_m": [
+            2.501
+          ],
+          "source_handle": "39ED1"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "2661",
+          "values_m": [
+            2.661
+          ],
+          "source_handle": "39EEF"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "2740",
+          "values_m": [
+            2.74
+          ],
+          "source_handle": "39F0D"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "2713",
+          "values_m": [
+            2.713
+          ],
+          "source_handle": "39F2B"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "2497",
+          "values_m": [
+            2.497
+          ],
+          "source_handle": "39F49"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "1958",
+          "values_m": [
+            1.958
+          ],
+          "source_handle": "39F67"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "917",
+          "values_m": [
+            0.917
+          ],
+          "source_handle": "39F86"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "141",
+          "values_m": [
+            0.141
+          ],
+          "source_handle": "39FA5"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "0",
+          "values_m": [
+            0.0
+          ],
+          "source_handle": "39FC4"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "384",
+          "values_m": [
+            0.384
+          ],
+          "source_handle": "39FE3"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "1761",
+          "values_m": [
+            1.761
+          ],
+          "source_handle": "3A002"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "2834",
+          "values_m": [
+            2.834
+          ],
+          "source_handle": "3A021"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "3809",
+          "values_m": [
+            3.809
+          ],
+          "source_handle": "3A040"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "4718",
+          "values_m": [
+            4.718
+          ],
+          "source_handle": "3A05F"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A098"
+        },
+        "forecastle_half_breadth": {
+          "raw": "7392",
+          "values_m": [
+            7.392
+          ],
+          "source_handle": "3A076"
+        },
+        "bulwark_half_breadth": {
+          "raw": "8275",
+          "values_m": [
+            8.275
+          ],
+          "source_handle": "3A07B"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E5"
+        },
+        "centerline_height": {
+          "raw": "0/10270",
+          "values_m": [
+            0.0,
+            10.27
+          ],
+          "source_handle": "3A0EE"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "204/8943/11422",
+          "values_m": [
+            0.204,
+            8.943,
+            11.422
+          ],
+          "source_handle": "3A10D"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "1372/7941/12214",
+          "values_m": [
+            1.372,
+            7.941,
+            12.214
+          ],
+          "source_handle": "3A12C"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "14200",
+          "values_m": [
+            14.2
+          ],
+          "source_handle": "3A14B"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "16421",
+          "values_m": [
+            16.421
+          ],
+          "source_handle": "3A16A"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "18697",
+          "values_m": [
+            18.697
+          ],
+          "source_handle": "3A189"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1A8"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1C7"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1E5"
+        },
+        "upper_deck_height": {
+          "raw": "14983",
+          "values_m": [
+            14.983
+          ],
+          "source_handle": "3A21B"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24A"
+        },
+        "forecastle_height": {
+          "raw": "18008",
+          "values_m": [
+            18.008
+          ],
+          "source_handle": "3A226"
+        },
+        "bulwark_height": {
+          "raw": "19008",
+          "values_m": [
+            19.008
+          ],
+          "source_handle": "3A22C"
+        },
+        "station_repeat": {
+          "raw": "20",
+          "values_m": null,
+          "source_handle": "39E3C"
+        }
+      }
+    },
+    {
+      "table_row": 30,
+      "station": "20.25",
+      "x_m": 174.15,
+      "cells": {
+        "station": {
+          "raw": "20.25",
+          "values_m": null,
+          "source_handle": "39DFB"
+        },
+        "x": {
+          "raw": "174150",
+          "values_m": [
+            174.15
+          ],
+          "source_handle": "39E6A"
+        },
+        "flat_of_bottom": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39E81"
+        },
+        "half_breadth_wl_1000": {
+          "raw": "928",
+          "values_m": [
+            0.928
+          ],
+          "source_handle": "39E9D"
+        },
+        "half_breadth_wl_2000": {
+          "raw": "1388",
+          "values_m": [
+            1.388
+          ],
+          "source_handle": "39EB6"
+        },
+        "half_breadth_wl_3000": {
+          "raw": "1546",
+          "values_m": [
+            1.546
+          ],
+          "source_handle": "39ED2"
+        },
+        "half_breadth_wl_4000": {
+          "raw": "1597",
+          "values_m": [
+            1.597
+          ],
+          "source_handle": "39EF0"
+        },
+        "half_breadth_wl_5000": {
+          "raw": "1597",
+          "values_m": [
+            1.597
+          ],
+          "source_handle": "39F0E"
+        },
+        "half_breadth_wl_6000": {
+          "raw": "1554",
+          "values_m": [
+            1.554
+          ],
+          "source_handle": "39F2C"
+        },
+        "half_breadth_wl_7000": {
+          "raw": "1377",
+          "values_m": [
+            1.377
+          ],
+          "source_handle": "39F4A"
+        },
+        "half_breadth_wl_8000": {
+          "raw": "896",
+          "values_m": [
+            0.896
+          ],
+          "source_handle": "39F68"
+        },
+        "half_breadth_wl_9000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39F87"
+        },
+        "half_breadth_wl_9830": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39FA6"
+        },
+        "half_breadth_wl_10300": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39FC5"
+        },
+        "half_breadth_wl_11000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "39FE4"
+        },
+        "half_breadth_wl_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A003"
+        },
+        "half_breadth_wl_13000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A022"
+        },
+        "half_breadth_wl_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A041"
+        },
+        "upper_deck_half_breadth": {
+          "raw": "1006",
+          "values_m": [
+            1.006
+          ],
+          "source_handle": "3A060"
+        },
+        "poop_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A099"
+        },
+        "forecastle_half_breadth": {
+          "raw": "5124",
+          "values_m": [
+            5.124
+          ],
+          "source_handle": "3A077"
+        },
+        "bulwark_half_breadth": {
+          "raw": "6263",
+          "values_m": [
+            6.263
+          ],
+          "source_handle": "3A07C"
+        },
+        "flat_of_side_half_breadth": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A0E6"
+        },
+        "centerline_height": {
+          "raw": "385/8604/14874",
+          "values_m": [
+            0.385,
+            8.604,
+            14.874
+          ],
+          "source_handle": "3A0EF"
+        },
+        "height_at_half_breadth_1000": {
+          "raw": "1102/7836/15098",
+          "values_m": [
+            1.102,
+            7.836,
+            15.098
+          ],
+          "source_handle": "3A10E"
+        },
+        "height_at_half_breadth_2000": {
+          "raw": "15623",
+          "values_m": [
+            15.623
+          ],
+          "source_handle": "3A12D"
+        },
+        "height_at_half_breadth_4000": {
+          "raw": "17110",
+          "values_m": [
+            17.11
+          ],
+          "source_handle": "3A14C"
+        },
+        "height_at_half_breadth_6000": {
+          "raw": "18819",
+          "values_m": [
+            18.819
+          ],
+          "source_handle": "3A16B"
+        },
+        "height_at_half_breadth_8000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A18A"
+        },
+        "height_at_half_breadth_10000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1C5"
+        },
+        "height_at_half_breadth_12000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1DF"
+        },
+        "height_at_half_breadth_14000": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A1F7"
+        },
+        "upper_deck_height": {
+          "raw": "15100",
+          "values_m": [
+            15.1
+          ],
+          "source_handle": "3A222"
+        },
+        "poop_height": {
+          "raw": "-",
+          "values_m": null,
+          "source_handle": "3A24B"
+        },
+        "forecastle_height": {
+          "raw": "18056",
+          "values_m": [
+            18.056
+          ],
+          "source_handle": "3A22B"
+        },
+        "bulwark_height": {
+          "raw": "19056",
+          "values_m": [
+            19.056
+          ],
+          "source_handle": "3A22F"
+        },
+        "station_repeat": {
+          "raw": "20.25",
+          "values_m": null,
+          "source_handle": "39E3D"
+        }
+      }
+    }
+  ]
+}

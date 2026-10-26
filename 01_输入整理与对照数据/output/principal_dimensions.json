@@ -1,0 +1,374 @@
+{
+  "schema_version": "1.0",
+  "dimensions": {
+    "loa_m": {
+      "value_m": 179.88,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "3CA6E",
+          "value_handle": "3CA67",
+          "raw_value": "179.88m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "1E81D5",
+          "value_handle": "1E81E4",
+          "raw_value": "179.88m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "2E9A4",
+          "value_handle": "2E9B3",
+          "raw_value": "179.88m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    },
+    "lbp_m": {
+      "value_m": 172.0,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "3CA6F",
+          "value_handle": "3CA66",
+          "raw_value": "172.00m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "1E81D4",
+          "value_handle": "1E81E5",
+          "raw_value": "172.00m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "2E9A3",
+          "value_handle": "2E9B4",
+          "raw_value": "172.00m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    },
+    "beam_m": {
+      "value_m": 28.8,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "3CA6D",
+          "value_handle": "3CA68",
+          "raw_value": "28.80m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "1E81D6",
+          "value_handle": "1E81E3",
+          "raw_value": "28.80m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "2E9A5",
+          "value_handle": "2E9B2",
+          "raw_value": "28.80m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    },
+    "depth_m": {
+      "value_m": 14.6,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "3CA6C",
+          "value_handle": "3CA69",
+          "raw_value": "14.60m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "1E81D7",
+          "value_handle": "1E81E2",
+          "raw_value": "14.60m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "2E9A6",
+          "value_handle": "2E9B1",
+          "raw_value": "14.60m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    },
+    "design_draft_m": {
+      "value_m": 9.83,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "3CA6B",
+          "value_handle": "3CA6A",
+          "raw_value": "9.83m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "1E81D8",
+          "value_handle": "1E81E1",
+          "raw_value": "9.830m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "2E9A7",
+          "value_handle": "2E9B0",
+          "raw_value": "9.83m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    },
+    "scantling_draft_m": {
+      "value_m": 10.27,
+      "status": "consistent",
+      "evidence": [
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "3CA79",
+          "value_handle": "3CA7A",
+          "raw_value": "10.27m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        },
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "1E81BF",
+          "value_handle": "1E81BE",
+          "raw_value": "10.270m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        },
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "2E98E",
+          "value_handle": "2E98D",
+          "raw_value": "10.27m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    }
+  },
+  "per_drawing": {
+    "35000DWT散货船_典型横剖面图.dxf": {},
+    "35000DWT散货船型线图_2010VER.dxf": {
+      "loa_m": [
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "3CA6E",
+          "value_handle": "3CA67",
+          "raw_value": "179.88m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ],
+      "lbp_m": [
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "3CA6F",
+          "value_handle": "3CA66",
+          "raw_value": "172.00m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ],
+      "beam_m": [
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "3CA6D",
+          "value_handle": "3CA68",
+          "raw_value": "28.80m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ],
+      "depth_m": [
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "3CA6C",
+          "value_handle": "3CA69",
+          "raw_value": "14.60m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ],
+      "design_draft_m": [
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "3CA6B",
+          "value_handle": "3CA6A",
+          "raw_value": "9.83m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ],
+      "scantling_draft_m": [
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "3CA79",
+          "value_handle": "3CA7A",
+          "raw_value": "10.27m",
+          "drawing": "35000DWT散货船型线图_2010VER.dxf"
+        }
+      ]
+    },
+    "35000DWT散货船总布置图_2010VER.dxf": {
+      "loa_m": [
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "1E81D5",
+          "value_handle": "1E81E4",
+          "raw_value": "179.88m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ],
+      "lbp_m": [
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "1E81D4",
+          "value_handle": "1E81E5",
+          "raw_value": "172.00m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ],
+      "beam_m": [
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "1E81D6",
+          "value_handle": "1E81E3",
+          "raw_value": "28.80m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ],
+      "depth_m": [
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "1E81D7",
+          "value_handle": "1E81E2",
+          "raw_value": "14.60m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ],
+      "design_draft_m": [
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "1E81D8",
+          "value_handle": "1E81E1",
+          "raw_value": "9.830m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ],
+      "scantling_draft_m": [
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "1E81BF",
+          "value_handle": "1E81BE",
+          "raw_value": "10.270m",
+          "drawing": "35000DWT散货船总布置图_2010VER.dxf"
+        }
+      ]
+    },
+    "DC081210,103,001舱容图-A.dxf": {
+      "loa_m": [
+        {
+          "value": 179.88,
+          "unit": "m",
+          "label_handle": "2E9A4",
+          "value_handle": "2E9B3",
+          "raw_value": "179.88m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ],
+      "lbp_m": [
+        {
+          "value": 172.0,
+          "unit": "m",
+          "label_handle": "2E9A3",
+          "value_handle": "2E9B4",
+          "raw_value": "172.00m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ],
+      "beam_m": [
+        {
+          "value": 28.8,
+          "unit": "m",
+          "label_handle": "2E9A5",
+          "value_handle": "2E9B2",
+          "raw_value": "28.80m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ],
+      "depth_m": [
+        {
+          "value": 14.6,
+          "unit": "m",
+          "label_handle": "2E9A6",
+          "value_handle": "2E9B1",
+          "raw_value": "14.60m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ],
+      "design_draft_m": [
+        {
+          "value": 9.83,
+          "unit": "m",
+          "label_handle": "2E9A7",
+          "value_handle": "2E9B0",
+          "raw_value": "9.83m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ],
+      "scantling_draft_m": [
+        {
+          "value": 10.27,
+          "unit": "m",
+          "label_handle": "2E98E",
+          "value_handle": "2E98D",
+          "raw_value": "10.27m",
+          "drawing": "DC081210,103,001舱容图-A.dxf"
+        }
+      ]
+    }
+  }
+}

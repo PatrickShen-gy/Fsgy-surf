@@ -1,0 +1,176 @@
+{
+  "status": "needs_review",
+  "mesh_path": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+  "mesh_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+  "reference_pdf": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+  "reference_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "reference_pages": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "calculation": {
+    "mesh_keys": [
+      "outer_vertices",
+      "hydro_faces"
+    ],
+    "units": {
+      "area": "m2",
+      "moment_bl": "m3"
+    },
+    "formula": "A=integral(dA); MOM_BL=integral(z*dA); 截面质心Z=MOM_BL/A",
+    "steel_material_not_used": true,
+    "section_count": 31,
+    "drafts_m": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      9.83,
+      10.0,
+      10.27,
+      10.5,
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0
+    ],
+    "baseline": "02原始外包络；未作额外外板/龙骨修正，也未扣除内部钢板"
+  },
+  "tolerances": {
+    "area_absolute_m2": 0.05,
+    "moment_absolute_m3": 0.05,
+    "relative": 0.01,
+    "criterion": "abs(error)<=absolute+relative*abs(reference)",
+    "note": "程序默认诊断阈值，不代表船级社验收标准。"
+  },
+  "verification": {
+    "pairs": 650,
+    "both_pass": 488,
+    "area": {
+      "mean_absolute_error": 0.7174224027092387,
+      "root_mean_square_error": 0.9531325823792355,
+      "max_absolute_error": 7.967067570178422,
+      "max_absolute_percent_reference_ge_1": 20.04293728346773,
+      "passed": 509,
+      "worst": {
+        "x_m": 172.0,
+        "draft_m": 13.0,
+        "calculated": 47.71706757017842,
+        "reference": 39.75,
+        "error": 7.967067570178422,
+        "percent": 20.04293728346773
+      }
+    },
+    "moment": {
+      "mean_absolute_error": 2.414371401960278,
+      "root_mean_square_error": 6.414360995463816,
+      "max_absolute_error": 97.08719733877678,
+      "max_absolute_percent_reference_ge_1": 53.78792096331123,
+      "passed": 555,
+      "worst": {
+        "x_m": 172.0,
+        "draft_m": 13.0,
+        "calculated": 277.5871973387768,
+        "reference": 180.5,
+        "error": 97.08719733877678,
+        "percent": 53.78792096331123
+      }
+    }
+  },
+  "numerical_cross_check": {
+    "volume_mesh_m3": 62689.049132599095,
+    "volume_from_sections_m3": 62689.049132669315,
+    "relative_volume_error": 1.1201360988257328e-12,
+    "moment_mesh_m4": 482240.9875388184,
+    "moment_from_sections_m4": 482240.98753879726,
+    "relative_moment_error": 4.381498349907025e-14,
+    "passed": true,
+    "integration": "逐网格X区间Simpson积分，与有向四面体积分独立对照"
+  },
+  "reference_anomalies": [
+    {
+      "x_m": 172.0,
+      "previous_draft_m": 10.0,
+      "draft_m": 10.5,
+      "quantity": "area_m2",
+      "previous_value": 39.68,
+      "value": 39.54,
+      "pdf_page": 38,
+      "note": "随吃水增加而减小，超过原表两位小数舍入量级；保留原值，待核定。"
+    },
+    {
+      "x_m": 172.0,
+      "previous_draft_m": 10.0,
+      "draft_m": 10.5,
+      "quantity": "moment_bl_m3",
+      "previous_value": 179.46,
+      "value": 178.1,
+      "pdf_page": 38,
+      "note": "随吃水增加而减小，超过原表两位小数舍入量级；保留原值，待核定。"
+    }
+  ],
+  "diagnostic_18mm": {
+    "metrics": {
+      "pairs": 650,
+      "both_pass": 513,
+      "area": {
+        "mean_absolute_error": 0.5449434614602454,
+        "root_mean_square_error": 0.9282163435327203,
+        "max_absolute_error": 8.560151435638048,
+        "max_absolute_percent_reference_ge_1": 21.534972165127165,
+        "passed": 518,
+        "worst": {
+          "x_m": 172.0,
+          "draft_m": 13.0,
+          "calculated": 48.31015143563805,
+          "reference": 39.75,
+          "error": 8.560151435638048,
+          "percent": 21.534972165127165
+        }
+      },
+      "moment": {
+        "mean_absolute_error": 2.312064196231708,
+        "root_mean_square_error": 6.923387805345958,
+        "max_absolute_error": 100.97030682864778,
+        "max_absolute_percent_reference_ge_1": 55.939228159915665,
+        "passed": 553,
+        "worst": {
+          "x_m": 172.0,
+          "draft_m": 13.0,
+          "calculated": 281.4703068286478,
+          "reference": 180.5,
+          "error": 100.97030682864778,
+          "percent": 55.939228159915665
+        }
+      }
+    },
+    "method": "对二维截面向外buffer18mm，再按同一型吃水截取；尖角交线连接。",
+    "caveat": "仅为口径诊断；不等同原手册算法，未单独实现20mm龙骨修正，不修改02几何。"
+  },
+  "notes": [
+    "本次计算并校核，不自动调整02网格来拟合PDF。",
+    "PDF仅有26站的数值表；02全部31个原始站位均计算，另有9.83m/10.27m两档结果。",
+    "参考值为0时不计算相对百分误差；小量宜优先看绝对误差。",
+    "20站球艏及上部多区域剖面在02中采用连续连接近似，且原表存在非单调值，需联合复核。"
+  ]
+}

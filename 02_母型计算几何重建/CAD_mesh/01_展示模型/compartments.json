@@ -1,0 +1,786 @@
+{
+  "configuration": {
+    "ga_drawing": "35000DWT散货船总布置图_2010VER.dxf",
+    "ap_drawing_xy_mm": [
+      -1825904.272255978,
+      -1662845.330265533
+    ],
+    "double_bottom_m": 1.75,
+    "side_tank_m": 1.3,
+    "inner_half_breadth_m": 13.1,
+    "upper_half_breadth_m": 10.0,
+    "top_slope_start_m": 10.6,
+    "top_slope_end_m": 12.673913,
+    "bulkhead_thickness_m": 0.008,
+    "bulkhead_centers_x_m": [
+      7.4,
+      25.8,
+      53.8,
+      82.6,
+      111.4,
+      140.2,
+      165.0
+    ],
+    "compartment_end_setback_m": 0.004,
+    "longitudinal_partition_thickness_m": 0.008
+  },
+  "compartments": [
+    {
+      "id": "ENGINE_ROOM",
+      "name": "机舱包络",
+      "category": "machinery",
+      "color": "#a1acbe",
+      "checks": {
+        "vertices": 5911,
+        "triangles": 11818,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            7.404,
+            -14.358826976744187,
+            0.0
+          ],
+          [
+            25.796,
+            14.358826976744187,
+            14.71668837209302
+          ]
+        ],
+        "signed_volume_m3": 4685.315388879554
+      },
+      "source": {
+        "id": "ENGINE_ROOM",
+        "name": "机舱包络",
+        "start_m": 7.399999999998137,
+        "end_m": 25.79999999999814,
+        "source_handle": "1E95F4"
+      },
+      "start_m": 7.404,
+      "end_m": 25.796
+    },
+    {
+      "id": "HOLD_5",
+      "name": "第5货舱",
+      "category": "cargo",
+      "color": "#df9582",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            -13.096,
+            1.75
+          ],
+          [
+            53.796,
+            13.096,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 8564.99462314919
+      },
+      "source": {
+        "id": "HOLD_5",
+        "name": "第5货舱",
+        "start_m": 25.79999999999814,
+        "end_m": 53.799999999998136,
+        "source_handle": "1E8678"
+      },
+      "start_m": 25.804,
+      "end_m": 53.796
+    },
+    {
+      "id": "WBT_5_P",
+      "name": "5号左边舱",
+      "category": "ballast",
+      "color": "#5891b3",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            4.5366541837379195,
+            1.75
+          ],
+          [
+            53.796,
+            14.400000000000002,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 722.4660740826534
+      },
+      "source": {
+        "id": "HOLD_5",
+        "name": "第5货舱",
+        "start_m": 25.79999999999814,
+        "end_m": 53.799999999998136,
+        "source_handle": "1E8678"
+      },
+      "start_m": 25.804,
+      "end_m": 53.796
+    },
+    {
+      "id": "WBT_5_S",
+      "name": "5号右边舱",
+      "category": "ballast",
+      "color": "#417c9f",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            -14.400000000000002,
+            1.75
+          ],
+          [
+            53.796,
+            -4.5366541837379195,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 722.4660740826538
+      },
+      "source": {
+        "id": "HOLD_5",
+        "name": "第5货舱",
+        "start_m": 25.79999999999814,
+        "end_m": 53.799999999998136,
+        "source_handle": "1E8678"
+      },
+      "start_m": 25.804,
+      "end_m": 53.796
+    },
+    {
+      "id": "DB_5",
+      "name": "5号双层底空间",
+      "category": "double_bottom",
+      "color": "#99866a",
+      "checks": {
+        "vertices": 276,
+        "triangles": 548,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            -14.16329594423167,
+            0.0
+          ],
+          [
+            53.796,
+            14.16329594423167,
+            1.75
+          ]
+        ],
+        "signed_volume_m3": 880.5437575076968
+      },
+      "source": {
+        "id": "HOLD_5",
+        "name": "第5货舱",
+        "start_m": 25.79999999999814,
+        "end_m": 53.799999999998136,
+        "source_handle": "1E8678"
+      },
+      "start_m": 25.804,
+      "end_m": 53.796
+    },
+    {
+      "id": "HOLD_4",
+      "name": "第4货舱",
+      "category": "cargo",
+      "color": "#80bb9a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            -13.096,
+            1.75
+          ],
+          [
+            82.596,
+            13.096,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 9159.046806909117
+      },
+      "source": {
+        "id": "HOLD_4",
+        "name": "第4货舱",
+        "start_m": 53.799999999998136,
+        "end_m": 82.59999999999813,
+        "source_handle": "1E867B"
+      },
+      "start_m": 53.804,
+      "end_m": 82.596
+    },
+    {
+      "id": "WBT_4_P",
+      "name": "4号左边舱",
+      "category": "ballast",
+      "color": "#5891b3",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            10.004,
+            1.75
+          ],
+          [
+            82.596,
+            14.400000000000002,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.7665360619193
+      },
+      "source": {
+        "id": "HOLD_4",
+        "name": "第4货舱",
+        "start_m": 53.799999999998136,
+        "end_m": 82.59999999999813,
+        "source_handle": "1E867B"
+      },
+      "start_m": 53.804,
+      "end_m": 82.596
+    },
+    {
+      "id": "WBT_4_S",
+      "name": "4号右边舱",
+      "category": "ballast",
+      "color": "#417c9f",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            -14.400000000000002,
+            1.75
+          ],
+          [
+            82.596,
+            -10.004,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.766536061927
+      },
+      "source": {
+        "id": "HOLD_4",
+        "name": "第4货舱",
+        "start_m": 53.799999999998136,
+        "end_m": 82.59999999999813,
+        "source_handle": "1E867B"
+      },
+      "start_m": 53.804,
+      "end_m": 82.596
+    },
+    {
+      "id": "DB_4",
+      "name": "4号双层底空间",
+      "category": "double_bottom",
+      "color": "#99866a",
+      "checks": {
+        "vertices": 252,
+        "triangles": 500,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            -14.37380589576138,
+            0.0
+          ],
+          [
+            82.596,
+            14.37380589576138,
+            1.75
+          ]
+        ],
+        "signed_volume_m3": 1377.3918369080322
+      },
+      "source": {
+        "id": "HOLD_4",
+        "name": "第4货舱",
+        "start_m": 53.799999999998136,
+        "end_m": 82.59999999999813,
+        "source_handle": "1E867B"
+      },
+      "start_m": 53.804,
+      "end_m": 82.596
+    },
+    {
+      "id": "HOLD_3",
+      "name": "第3货舱",
+      "category": "cargo",
+      "color": "#b09ed9",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            -13.096,
+            1.75
+          ],
+          [
+            111.396,
+            13.096,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 9159.768586883474
+      },
+      "source": {
+        "id": "HOLD_3",
+        "name": "第3货舱",
+        "start_m": 82.59999999999813,
+        "end_m": 111.4,
+        "source_handle": "1E867C"
+      },
+      "start_m": 82.604,
+      "end_m": 111.396
+    },
+    {
+      "id": "WBT_3_P",
+      "name": "3号左边舱",
+      "category": "ballast",
+      "color": "#5891b3",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            10.004,
+            1.75
+          ],
+          [
+            111.396,
+            14.400000000000002,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.7667250972753
+      },
+      "source": {
+        "id": "HOLD_3",
+        "name": "第3货舱",
+        "start_m": 82.59999999999813,
+        "end_m": 111.4,
+        "source_handle": "1E867C"
+      },
+      "start_m": 82.604,
+      "end_m": 111.396
+    },
+    {
+      "id": "WBT_3_S",
+      "name": "3号右边舱",
+      "category": "ballast",
+      "color": "#417c9f",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            -14.400000000000002,
+            1.75
+          ],
+          [
+            111.396,
+            -10.004,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.76672509728
+      },
+      "source": {
+        "id": "HOLD_3",
+        "name": "第3货舱",
+        "start_m": 82.59999999999813,
+        "end_m": 111.4,
+        "source_handle": "1E867C"
+      },
+      "start_m": 82.604,
+      "end_m": 111.396
+    },
+    {
+      "id": "DB_3",
+      "name": "3号双层底空间",
+      "category": "double_bottom",
+      "color": "#99866a",
+      "checks": {
+        "vertices": 252,
+        "triangles": 500,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            -14.362250000000003,
+            0.0
+          ],
+          [
+            111.396,
+            14.362250000000003,
+            1.75
+          ]
+        ],
+        "signed_volume_m3": 1401.161238459775
+      },
+      "source": {
+        "id": "HOLD_3",
+        "name": "第3货舱",
+        "start_m": 82.59999999999813,
+        "end_m": 111.4,
+        "source_handle": "1E867C"
+      },
+      "start_m": 82.604,
+      "end_m": 111.396
+    },
+    {
+      "id": "HOLD_2",
+      "name": "第2货舱",
+      "category": "cargo",
+      "color": "#6fbad1",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            -13.096,
+            1.75
+          ],
+          [
+            140.196,
+            13.096,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 9148.687515003157
+      },
+      "source": {
+        "id": "HOLD_2",
+        "name": "第2货舱",
+        "start_m": 111.4,
+        "end_m": 140.19999999999908,
+        "source_handle": "1E867D"
+      },
+      "start_m": 111.404,
+      "end_m": 140.196
+    },
+    {
+      "id": "WBT_2_P",
+      "name": "2号左边舱",
+      "category": "ballast",
+      "color": "#5891b3",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            10.004,
+            1.75
+          ],
+          [
+            140.196,
+            14.4,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.0495642174255
+      },
+      "source": {
+        "id": "HOLD_2",
+        "name": "第2货舱",
+        "start_m": 111.4,
+        "end_m": 140.19999999999908,
+        "source_handle": "1E867D"
+      },
+      "start_m": 111.404,
+      "end_m": 140.196
+    },
+    {
+      "id": "WBT_2_S",
+      "name": "2号右边舱",
+      "category": "ballast",
+      "color": "#417c9f",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            -14.4,
+            1.75
+          ],
+          [
+            140.196,
+            -10.004,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 743.049564217441
+      },
+      "source": {
+        "id": "HOLD_2",
+        "name": "第2货舱",
+        "start_m": 111.4,
+        "end_m": 140.19999999999908,
+        "source_handle": "1E867D"
+      },
+      "start_m": 111.404,
+      "end_m": 140.196
+    },
+    {
+      "id": "DB_2",
+      "name": "2号双层底空间",
+      "category": "double_bottom",
+      "color": "#99866a",
+      "checks": {
+        "vertices": 252,
+        "triangles": 500,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            -14.3625,
+            0.0
+          ],
+          [
+            140.196,
+            14.3625,
+            1.75
+          ]
+        ],
+        "signed_volume_m3": 1385.0029400341057
+      },
+      "source": {
+        "id": "HOLD_2",
+        "name": "第2货舱",
+        "start_m": 111.4,
+        "end_m": 140.19999999999908,
+        "source_handle": "1E867D"
+      },
+      "start_m": 111.404,
+      "end_m": 140.196
+    },
+    {
+      "id": "HOLD_1",
+      "name": "第1货舱",
+      "category": "cargo",
+      "color": "#e6b85c",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            -12.988746446350993,
+            1.75
+          ],
+          [
+            164.996,
+            12.988746446350993,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 6646.61116681689
+      },
+      "source": {
+        "id": "HOLD_1",
+        "name": "第1货舱",
+        "start_m": 140.20000000008102,
+        "end_m": 165.00000000000117,
+        "source_handle": "1E867E"
+      },
+      "start_m": 140.204,
+      "end_m": 164.996
+    },
+    {
+      "id": "WBT_1_P",
+      "name": "1号左边舱",
+      "category": "ballast",
+      "color": "#5891b3",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            4.155891211787074,
+            1.75
+          ],
+          [
+            164.996,
+            14.317186176511958,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 541.0715589747855
+      },
+      "source": {
+        "id": "HOLD_1",
+        "name": "第1货舱",
+        "start_m": 140.20000000008102,
+        "end_m": 165.00000000000117,
+        "source_handle": "1E867E"
+      },
+      "start_m": 140.204,
+      "end_m": 164.996
+    },
+    {
+      "id": "WBT_1_S",
+      "name": "1号右边舱",
+      "category": "ballast",
+      "color": "#417c9f",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            -14.317186176511958,
+            1.75
+          ],
+          [
+            164.996,
+            -4.155891211787074,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 541.071558974787
+      },
+      "source": {
+        "id": "HOLD_1",
+        "name": "第1货舱",
+        "start_m": 140.20000000008102,
+        "end_m": 165.00000000000117,
+        "source_handle": "1E867E"
+      },
+      "start_m": 140.204,
+      "end_m": 164.996
+    },
+    {
+      "id": "DB_1",
+      "name": "1号双层底空间",
+      "category": "double_bottom",
+      "color": "#99866a",
+      "checks": {
+        "vertices": 276,
+        "triangles": 548,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            -13.77558113077869,
+            0.0
+          ],
+          [
+            164.996,
+            13.77558113077869,
+            1.75
+          ]
+        ],
+        "signed_volume_m3": 801.8147310632097
+      },
+      "source": {
+        "id": "HOLD_1",
+        "name": "第1货舱",
+        "start_m": 140.20000000008102,
+        "end_m": 165.00000000000117,
+        "source_handle": "1E867E"
+      },
+      "start_m": 140.204,
+      "end_m": 164.996
+    },
+    {
+      "id": "AFT_PEAK",
+      "name": "艉端空间",
+      "category": "peak",
+      "color": "#74a6a7",
+      "checks": {
+        "vertices": 4626,
+        "triangles": 9248,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            -3.2,
+            -11.450640000000002,
+            2.3490274000000295
+          ],
+          [
+            7.396,
+            11.450640000000002,
+            14.889
+          ]
+        ],
+        "signed_volume_m3": 1183.936129488108
+      },
+      "source": {
+        "note": "主分舱边界间的外包络，未细分小舱"
+      },
+      "start_m": -3.2,
+      "end_m": 7.396
+    },
+    {
+      "id": "FORE_PEAK",
+      "name": "艏端空间",
+      "category": "peak",
+      "color": "#74a6a7",
+      "checks": {
+        "vertices": 5911,
+        "triangles": 11818,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            165.004,
+            -9.921318139534895,
+            0.0
+          ],
+          [
+            176.68,
+            9.921318139534895,
+            15.100000000000001
+          ]
+        ],
+        "signed_volume_m3": 1121.8955448688466
+      },
+      "source": {
+        "note": "主分舱边界间的外包络，未细分小舱"
+      },
+      "start_m": 165.004,
+      "end_m": 176.68
+    }
+  ],
+  "limitations": [
+    "23个主要分舱空间为典型横剖面限宽近似，尚未细分油水小舱、管弄和墩座。",
+    "各舱段按横隔板半厚度退让，隔板厚度区间不计入舱室空间。",
+    "货舱与左右边压载舱沿共同内舷界面各退让半板厚，含斜板法向偏移。",
+    "彩色展示的平滑法向仅改变渲染，不改变导出的几何。"
+  ]
+}

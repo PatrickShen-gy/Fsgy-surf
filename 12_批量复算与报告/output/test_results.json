@@ -1,0 +1,167 @@
+[
+  {
+    "stage": 2,
+    "script": "test_partitions.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 4,
+    "elapsed_seconds": 0.46069679997162893,
+    "log": "logs\\02_test_partitions.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\02_母型计算几何重建\\test_partitions.py"
+    ]
+  },
+  {
+    "stage": 3,
+    "script": "test_bonjean.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 6,
+    "elapsed_seconds": 0.205627600022126,
+    "log": "logs\\03_test_bonjean.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\03_邦戎曲线计算\\test_bonjean.py"
+    ]
+  },
+  {
+    "stage": 4,
+    "script": "test_hydrostatics.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 6,
+    "elapsed_seconds": 0.20708870002999902,
+    "log": "logs\\04_test_hydrostatics.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\04_静水力计算\\test_hydrostatics.py"
+    ]
+  },
+  {
+    "stage": 5,
+    "script": "test_tank_capacity.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 6,
+    "elapsed_seconds": 0.4973905000369996,
+    "log": "logs\\05_test_tank_capacity.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\05_舱室与舱容计算\\test_tank_capacity.py"
+    ]
+  },
+  {
+    "stage": 6,
+    "script": "test_weight_cg.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 8,
+    "elapsed_seconds": 0.5421788999810815,
+    "log": "logs\\06_test_weight_cg.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\06_重量与重心系统\\test_weight_cg.py"
+    ]
+  },
+  {
+    "stage": 7,
+    "script": "test_equilibrium.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 8,
+    "elapsed_seconds": 0.543851199967321,
+    "log": "logs\\07_test_equilibrium.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\07_浮态与平衡求解\\test_equilibrium.py"
+    ]
+  },
+  {
+    "stage": 8,
+    "script": "test_stability.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 8,
+    "elapsed_seconds": 0.5107025999459438,
+    "log": "logs\\08_test_stability.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\08_大倾角稳性计算\\test_stability.py"
+    ]
+  },
+  {
+    "stage": 9,
+    "script": "test_criteria.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 3,
+    "elapsed_seconds": 0.5101712999748997,
+    "log": "logs\\09_test_criteria.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\09_风压进水角与稳性限值\\test_criteria.py"
+    ]
+  },
+  {
+    "stage": 10,
+    "script": "test_longitudinal.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 3,
+    "elapsed_seconds": 0.47170870000263676,
+    "log": "logs\\10_test_longitudinal.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\10_纵强度计算\\test_longitudinal.py"
+    ]
+  },
+  {
+    "stage": 11,
+    "script": "test_hold_mass.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 3,
+    "elapsed_seconds": 0.20732300000963733,
+    "log": "logs\\11_test_hold_mass.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\11_许用货舱载荷核对\\test_hold_mass.py"
+    ]
+  },
+  {
+    "stage": 12,
+    "script": "test_pipeline_report.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": 2,
+    "elapsed_seconds": 0.5327746000257321,
+    "log": "logs\\12_test_pipeline_report.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\12_批量复算与报告\\test_pipeline_report.py"
+    ]
+  }
+]

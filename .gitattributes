@@ -1,0 +1,3 @@
+# Keep exact file bytes: pipeline caches verify source files using SHA256.
+# Automatic newline conversion would invalidate those recorded fingerprints.
+* -text

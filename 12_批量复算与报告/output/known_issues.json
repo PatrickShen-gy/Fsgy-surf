@@ -1,0 +1,77 @@
+[
+  {
+    "id": "UPPER_BUOYANCY",
+    "stages": [
+      2,
+      8,
+      9
+    ],
+    "state": "open",
+    "detail": "缺少完整艉楼/艏楼/舱口围板浮力几何；高角度曲线、天气与限值仍是主船体诊断。"
+  },
+  {
+    "id": "COMPARTMENT_DETAILS",
+    "stages": [
+      2,
+      5,
+      6
+    ],
+    "state": "accepted_approximation",
+    "detail": "23主要空间不等于84实际舱室；06采用手册逐项工况重心，未冒充从小舱几何独立推得。"
+  },
+  {
+    "id": "PLATING",
+    "stages": [
+      4,
+      7,
+      8
+    ],
+    "state": "open",
+    "detail": "18mm仅作一阶排水体积修正；浮心/惯性矩未作完整外偏置。02钢材仍12mm。"
+  },
+  {
+    "id": "LD09C_REFERENCE",
+    "stages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "state": "preserved",
+    "detail": "总览与详细表的重量差190t等不一致；后续采用详细载荷与浮态，原值保留。"
+  },
+  {
+    "id": "WEATHER_R",
+    "stages": [
+      9
+    ],
+    "state": "sensitivity_reported",
+    "detail": "按手册文字r≤1；LD00天气b/a约1.746，取消r上限敏感性约0.992，参考0.979。主假设未按结果拟合。"
+  },
+  {
+    "id": "LONGITUDINAL_DISTRIBUTION",
+    "stages": [
+      10
+    ],
+    "state": "assumed",
+    "detail": "空船/舱载荷分布形状不完整，采用守恒质量矩的明确假设，未实现局部CORR剪力修正。"
+  },
+  {
+    "id": "HOLD_IMAGE_LIMITS",
+    "stages": [
+      11
+    ],
+    "state": "digitized_diagnostic",
+    "detail": "许用曲线来自图片标注，外包络读图、双层底耦合和双舱吃水位置约定保留；92项图域外、3项临界带未判为合格。"
+  },
+  {
+    "id": "LIMIT_TABLE_ANOMALIES",
+    "stages": [
+      10
+    ],
+    "state": "preserved",
+    "detail": "15页FR34负弯矩限值和FR220负的“POSITIVE”剪力限值均照原值保存。"
+  }
+]

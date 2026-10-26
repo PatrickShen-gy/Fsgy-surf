@@ -1,0 +1,10 @@
+{
+  "stages_with_programs": 12,
+  "case_count": 39,
+  "sources_fresh": true,
+  "tests_passed": true,
+  "test_count": 57,
+  "computation_pipeline_complete": true,
+  "full_pdf_reproduction_complete": false,
+  "known_issue_count": 8
+}

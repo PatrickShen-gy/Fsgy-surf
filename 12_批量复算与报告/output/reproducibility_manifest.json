@@ -1,0 +1,583 @@
+{
+  "generated_at": "2026-10-26T19:51:42+08:00",
+  "timezone": "Asia/Shanghai",
+  "stages": [
+    {
+      "stage": 1,
+      "directory": "01_输入整理与对照数据",
+      "entry": "01_输入整理与对照数据\\read_dxf.py",
+      "program_exists": true,
+      "status": "输入提取已落盘"
+    },
+    {
+      "stage": 2,
+      "directory": "02_母型计算几何重建",
+      "entry": "02_母型计算几何重建\\cad_reconstruction.py",
+      "program_exists": true,
+      "status": "主船体/主要分舱已建；上部浮力几何待补"
+    },
+    {
+      "stage": 3,
+      "directory": "03_邦戎曲线计算",
+      "entry": "03_邦戎曲线计算\\bonjean_calculation.py",
+      "program_exists": true,
+      "status": "邦戎计算与局部差异已记录"
+    },
+    {
+      "stage": 4,
+      "directory": "04_静水力计算",
+      "entry": "04_静水力计算\\hydrostatics_calculation.py",
+      "program_exists": true,
+      "status": "静水力计算与对照完成"
+    },
+    {
+      "stage": 5,
+      "directory": "05_舱室与舱容计算",
+      "entry": "05_舱室与舱容计算\\tank_capacity_calculation.py",
+      "program_exists": true,
+      "status": "舱容计算已跑通；实际小舱细分未齐"
+    },
+    {
+      "stage": 6,
+      "directory": "06_重量与重心系统",
+      "entry": "06_重量与重心系统\\weight_cg_calculation.py",
+      "program_exists": true,
+      "status": "重量/重心合成在打印舍入范围内一致"
+    },
+    {
+      "stage": 7,
+      "directory": "07_浮态与平衡求解",
+      "entry": "07_浮态与平衡求解\\equilibrium_calculation.py",
+      "program_exists": true,
+      "status": "39工况浮态均收敛"
+    },
+    {
+      "stage": 8,
+      "directory": "08_大倾角稳性计算",
+      "entry": "08_大倾角稳性计算\\stability_calculation.py",
+      "program_exists": true,
+      "status": "大倾角程序完成；完整船型高角度未复现"
+    },
+    {
+      "stage": 9,
+      "directory": "09_风压进水角与稳性限值",
+      "entry": "09_风压进水角与稳性限值\\stability_criteria.py",
+      "program_exists": true,
+      "status": "开口/风压/基本限值诊断完成"
+    },
+    {
+      "stage": 10,
+      "directory": "10_纵强度计算",
+      "entry": "10_纵强度计算\\longitudinal_strength.py",
+      "program_exists": true,
+      "status": "假设分布梁模型完成；局部CORR未实现"
+    },
+    {
+      "stage": 11,
+      "directory": "11_许用货舱载荷核对",
+      "entry": "11_许用货舱载荷核对\\hold_mass_check.py",
+      "program_exists": true,
+      "status": "图像外包络核对完成；临界/图域外保留"
+    },
+    {
+      "stage": 12,
+      "directory": "12_批量复算与报告",
+      "entry": "12_批量复算与报告\\run_pipeline.py",
+      "program_exists": true,
+      "status": "批算、测试与汇总报告完成"
+    }
+  ],
+  "sources_fresh": true,
+  "freshness_checks": [
+    {
+      "stage": 3,
+      "input": "02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+      "recorded_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "current_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "fresh": true
+    },
+    {
+      "stage": 4,
+      "input": "02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+      "recorded_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "current_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "fresh": true
+    },
+    {
+      "stage": 5,
+      "input": "02_母型计算几何重建\\CAD_mesh\\01_展示模型\\compartments.npz",
+      "recorded_sha256": "cafbb1447944a22b73d0fafa8151b9df135e4d261d7ade4ecd7d2c082cb2e1d0",
+      "current_sha256": "cafbb1447944a22b73d0fafa8151b9df135e4d261d7ade4ecd7d2c082cb2e1d0",
+      "fresh": true
+    },
+    {
+      "stage": 6,
+      "input": "05_舱室与舱容计算\\output\\loading_reference_catalog.json",
+      "recorded_sha256": "d652a664b5c25af81c874c4970589815a19be673ecc010944505b53a594bafa9",
+      "current_sha256": "d652a664b5c25af81c874c4970589815a19be673ecc010944505b53a594bafa9",
+      "fresh": true
+    },
+    {
+      "stage": 7,
+      "input": "06_重量与重心系统\\output\\equilibrium_inputs.json",
+      "recorded_sha256": "614d0aa9018ed4d383a3227642c599ba921c57ad7c5bed8ccd4294947add5d7b",
+      "current_sha256": "614d0aa9018ed4d383a3227642c599ba921c57ad7c5bed8ccd4294947add5d7b",
+      "fresh": true
+    },
+    {
+      "stage": 7,
+      "input": "02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+      "recorded_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "current_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "fresh": true
+    },
+    {
+      "stage": 8,
+      "input": "07_浮态与平衡求解\\output\\stability_inputs.json",
+      "recorded_sha256": "c69b30f294b487993a372698fdd1b15d15ebabbdb28f6dfc8abd6ab86d406ef4",
+      "current_sha256": "c69b30f294b487993a372698fdd1b15d15ebabbdb28f6dfc8abd6ab86d406ef4",
+      "fresh": true
+    },
+    {
+      "stage": 8,
+      "input": "02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+      "recorded_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "current_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "fresh": true
+    },
+    {
+      "stage": 9,
+      "input": "08_大倾角稳性计算\\output\\stability_results.json",
+      "recorded_sha256": "7d45db2369f0af6aabf3bc6cab08cb89039fa752afcd229322884da6423ffafa",
+      "current_sha256": "7d45db2369f0af6aabf3bc6cab08cb89039fa752afcd229322884da6423ffafa",
+      "fresh": true
+    },
+    {
+      "stage": 9,
+      "input": "07_浮态与平衡求解\\output\\equilibrium_results.json",
+      "recorded_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "current_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "fresh": true
+    },
+    {
+      "stage": 10,
+      "input": "06_重量与重心系统\\output\\loading_cases.json",
+      "recorded_sha256": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+      "current_sha256": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+      "fresh": true
+    },
+    {
+      "stage": 10,
+      "input": "07_浮态与平衡求解\\output\\equilibrium_results.json",
+      "recorded_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "current_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "fresh": true
+    },
+    {
+      "stage": 10,
+      "input": "02_母型计算几何重建\\CAD_mesh\\02_计算网格\\calculation_mesh.npz",
+      "recorded_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "current_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+      "fresh": true
+    },
+    {
+      "stage": 11,
+      "input": "06_重量与重心系统\\output\\loading_cases.json",
+      "recorded_sha256": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+      "current_sha256": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+      "fresh": true
+    },
+    {
+      "stage": 11,
+      "input": "07_浮态与平衡求解\\output\\equilibrium_results.json",
+      "recorded_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "current_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+      "fresh": true
+    },
+    {
+      "stage": 3,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 4,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 5,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 6,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 7,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 8,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 9,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 10,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    },
+    {
+      "stage": 11,
+      "input": "DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+      "recorded_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "current_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+      "fresh": true
+    }
+  ],
+  "programs": [
+    {
+      "stage": 1,
+      "path": "01_输入整理与对照数据\\read_dxf.py",
+      "sha256": "616290bb989f0222dad685ac605e6ec72ad4b7ec1c0858c7e0b778f82135ad0a"
+    },
+    {
+      "stage": 2,
+      "path": "02_母型计算几何重建\\cad_reconstruction.py",
+      "sha256": "0813065bf8e7092e0b7fee22c5f516997a00f1037fd32f20b3ec024d2f2357a9"
+    },
+    {
+      "stage": 3,
+      "path": "03_邦戎曲线计算\\bonjean_calculation.py",
+      "sha256": "51458c207f64f667fa9b38803ec38ff73ad1191951f510ab471c92fe279f2160"
+    },
+    {
+      "stage": 4,
+      "path": "04_静水力计算\\hydrostatics_calculation.py",
+      "sha256": "85579b9c3d672e7ec6945a7b76287c2feb9efb28f177d3c9f6ecf8788443280d"
+    },
+    {
+      "stage": 5,
+      "path": "05_舱室与舱容计算\\tank_capacity_calculation.py",
+      "sha256": "ca2ab3eace7bd48658ae0cccc51a1cb2f9b9f628dcac3ab2e7a36cee4049c68b"
+    },
+    {
+      "stage": 6,
+      "path": "06_重量与重心系统\\weight_cg_calculation.py",
+      "sha256": "f385b745a926b800556062d5953516e00c65a2c1a05fd9a4db150d0ff4bcc1f1"
+    },
+    {
+      "stage": 7,
+      "path": "07_浮态与平衡求解\\equilibrium_calculation.py",
+      "sha256": "9eeb54acd25e5338611e41323014045c4e6913ce33aadd02d457f466e423f954"
+    },
+    {
+      "stage": 8,
+      "path": "08_大倾角稳性计算\\stability_calculation.py",
+      "sha256": "7a4a5270939dc945d386e8db871670e2efb05be8c13532e49a9553bede788d7f"
+    },
+    {
+      "stage": 9,
+      "path": "09_风压进水角与稳性限值\\stability_criteria.py",
+      "sha256": "4d12ffd87930df8c8b40bd4f294ccee9838418fd496f89c65818e179afb7d4b0"
+    },
+    {
+      "stage": 10,
+      "path": "10_纵强度计算\\longitudinal_strength.py",
+      "sha256": "a40dc57913192fe02bb4db54717856d8c97b49423f30765f6434b4e22fe524ef"
+    },
+    {
+      "stage": 11,
+      "path": "11_许用货舱载荷核对\\hold_mass_check.py",
+      "sha256": "52746e974c0362a85d630f308a49748c13090dd3d93c2a77556d9df255f24e73"
+    },
+    {
+      "stage": 12,
+      "path": "12_批量复算与报告\\run_pipeline.py",
+      "sha256": "511d175e79e10d508e018d3164ea4f40c5f5f147a3265e10cf7bdaeec2e1f77c"
+    }
+  ],
+  "common_sha256": "3d032bca9cb8b56db785103eea5df9d1ad3e97aacaa39bbde058070813d71301",
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "tests": [
+    {
+      "stage": 2,
+      "script": "test_partitions.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 4,
+      "elapsed_seconds": 0.46069679997162893,
+      "log": "logs\\02_test_partitions.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\02_母型计算几何重建\\test_partitions.py"
+      ]
+    },
+    {
+      "stage": 3,
+      "script": "test_bonjean.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 6,
+      "elapsed_seconds": 0.205627600022126,
+      "log": "logs\\03_test_bonjean.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\03_邦戎曲线计算\\test_bonjean.py"
+      ]
+    },
+    {
+      "stage": 4,
+      "script": "test_hydrostatics.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 6,
+      "elapsed_seconds": 0.20708870002999902,
+      "log": "logs\\04_test_hydrostatics.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\04_静水力计算\\test_hydrostatics.py"
+      ]
+    },
+    {
+      "stage": 5,
+      "script": "test_tank_capacity.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 6,
+      "elapsed_seconds": 0.4973905000369996,
+      "log": "logs\\05_test_tank_capacity.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\05_舱室与舱容计算\\test_tank_capacity.py"
+      ]
+    },
+    {
+      "stage": 6,
+      "script": "test_weight_cg.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 8,
+      "elapsed_seconds": 0.5421788999810815,
+      "log": "logs\\06_test_weight_cg.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\06_重量与重心系统\\test_weight_cg.py"
+      ]
+    },
+    {
+      "stage": 7,
+      "script": "test_equilibrium.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 8,
+      "elapsed_seconds": 0.543851199967321,
+      "log": "logs\\07_test_equilibrium.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\07_浮态与平衡求解\\test_equilibrium.py"
+      ]
+    },
+    {
+      "stage": 8,
+      "script": "test_stability.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 8,
+      "elapsed_seconds": 0.5107025999459438,
+      "log": "logs\\08_test_stability.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\08_大倾角稳性计算\\test_stability.py"
+      ]
+    },
+    {
+      "stage": 9,
+      "script": "test_criteria.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 3,
+      "elapsed_seconds": 0.5101712999748997,
+      "log": "logs\\09_test_criteria.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\09_风压进水角与稳性限值\\test_criteria.py"
+      ]
+    },
+    {
+      "stage": 10,
+      "script": "test_longitudinal.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 3,
+      "elapsed_seconds": 0.47170870000263676,
+      "log": "logs\\10_test_longitudinal.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\10_纵强度计算\\test_longitudinal.py"
+      ]
+    },
+    {
+      "stage": 11,
+      "script": "test_hold_mass.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 3,
+      "elapsed_seconds": 0.20732300000963733,
+      "log": "logs\\11_test_hold_mass.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\11_许用货舱载荷核对\\test_hold_mass.py"
+      ]
+    },
+    {
+      "stage": 12,
+      "script": "test_pipeline_report.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": 2,
+      "elapsed_seconds": 0.5327746000257321,
+      "log": "logs\\12_test_pipeline_report.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\12_批量复算与报告\\test_pipeline_report.py"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "stage": 9,
+      "script": "stability_criteria.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": null,
+      "elapsed_seconds": 1.471179599990137,
+      "log": "logs\\09_stability_criteria.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\09_风压进水角与稳性限值\\stability_criteria.py"
+      ]
+    },
+    {
+      "stage": 10,
+      "script": "longitudinal_strength.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": null,
+      "elapsed_seconds": 17.98552499996731,
+      "log": "logs\\10_longitudinal_strength.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\10_纵强度计算\\longitudinal_strength.py"
+      ]
+    },
+    {
+      "stage": 11,
+      "script": "hold_mass_check.py",
+      "returncode": 0,
+      "passed": true,
+      "test_count": null,
+      "elapsed_seconds": 0.5704722999944352,
+      "log": "logs\\11_hold_mass_check.log",
+      "command": [
+        "D:\\python\\python.exe",
+        "-X",
+        "utf8",
+        "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\11_许用货舱载荷核对\\hold_mass_check.py"
+      ]
+    }
+  ],
+  "case_ids": [
+    "LD00",
+    "LD01A",
+    "LD01B",
+    "LD01C",
+    "LD01D",
+    "LD01E",
+    "LD01F",
+    "LD02",
+    "LD03A",
+    "LD03B",
+    "LD03C",
+    "LD03D",
+    "LD03E",
+    "LD03F",
+    "LD04A",
+    "LD04B",
+    "LD04C",
+    "LD05A",
+    "LD05B",
+    "LD05C",
+    "LD06A",
+    "LD06B",
+    "LD06C",
+    "LD07",
+    "LD08A",
+    "LD08B",
+    "LD08C",
+    "LD09A",
+    "LD09B",
+    "LD09C",
+    "LD09D",
+    "LD09E",
+    "LD09F",
+    "LD10A",
+    "LD10B",
+    "LD11A",
+    "LD11B",
+    "LD12A",
+    "LD12B"
+  ],
+  "case_count": 39,
+  "full_pdf_reproduction_complete": false
+}
