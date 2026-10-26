@@ -1,0 +1,156 @@
+{
+  "stage": "07_浮态与平衡求解",
+  "source_weights_sha256": "614d0aa9018ed4d383a3227642c599ba921c57ad7c5bed8ccd4294947add5d7b",
+  "source_mesh_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "source_pdf": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+  "source_hydrostatics_code_sha256": "85579b9c3d672e7ec6945a7b76287c2feb9efb28f177d3c9f6ecf8788443280d",
+  "case_count": 39,
+  "comparison_count": 312,
+  "rho_t_m3": 1.025,
+  "shell_thickness_m": 0.018,
+  "all_numerical_converged": true,
+  "usable_small_angle_cases": 39,
+  "deck_limit_cases": [],
+  "nonpositive_GM_cases": [],
+  "max_mass_residual_t": 2.641900209710002e-08,
+  "max_longitudinal_lever_residual_m": 1.9693718877888955e-11,
+  "max_transverse_lever_residual_m": 1.0841417790363652e-14,
+  "metric_summary": {
+    "T_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.010881233047777928,
+      "max_absolute_difference": 0.01492239659230421,
+      "worst": {
+        "case_id": "LD02",
+        "metric": "T_m",
+        "calculated": 3.014922396592304,
+        "reference": 3.0,
+        "difference": 0.01492239659230421,
+        "error_percent": 0.4974132197434737,
+        "unit": "m",
+        "pdf_page": 142
+      }
+    },
+    "trim_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.031001679408296193,
+      "max_absolute_difference": 0.04503624144497598,
+      "worst": {
+        "case_id": "LD02",
+        "metric": "trim_m",
+        "calculated": -0.325036241444976,
+        "reference": -0.28,
+        "difference": -0.04503624144497598,
+        "error_percent": 16.084371944634277,
+        "unit": "m",
+        "pdf_page": 142
+      }
+    },
+    "TA_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.0088602877259464,
+      "max_absolute_difference": 0.03744051731479203,
+      "worst": {
+        "case_id": "LD02",
+        "metric": "TA_m",
+        "calculated": 3.177440517314792,
+        "reference": 3.14,
+        "difference": 0.03744051731479203,
+        "error_percent": 1.192373162891466,
+        "unit": "m",
+        "pdf_page": 142
+      }
+    },
+    "TF_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.02380070986650095,
+      "max_absolute_difference": 0.03226716565729504,
+      "worst": {
+        "case_id": "LD12A",
+        "metric": "TF_m",
+        "calculated": 9.300267165657296,
+        "reference": 9.268,
+        "difference": 0.03226716565729504,
+        "error_percent": 0.3481567291464721,
+        "unit": "m",
+        "pdf_page": 322
+      }
+    },
+    "heel_deg": {
+      "unit": "deg",
+      "mean_absolute_difference": 0.016746444645736578,
+      "max_absolute_difference": 0.050598148483612035,
+      "worst": {
+        "case_id": "LD03A",
+        "metric": "heel_deg",
+        "calculated": -0.050598148483612035,
+        "reference": -0.0,
+        "difference": -0.050598148483612035,
+        "error_percent": null,
+        "unit": "deg",
+        "pdf_page": 148
+      }
+    },
+    "KM_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.021603133625304076,
+      "max_absolute_difference": 0.24111821360568442,
+      "worst": {
+        "case_id": "LD00",
+        "metric": "KM_m",
+        "calculated": 29.721118213605685,
+        "reference": 29.48,
+        "difference": 0.24111821360568442,
+        "error_percent": 0.8179043880789838,
+        "unit": "m",
+        "pdf_page": 100
+      }
+    },
+    "GM0_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.021449820325015533,
+      "max_absolute_difference": 0.24534064518253373,
+      "worst": {
+        "case_id": "LD00",
+        "metric": "GM0_m",
+        "calculated": 19.525340645182535,
+        "reference": 19.28,
+        "difference": 0.24534064518253373,
+        "error_percent": 1.2725137198264198,
+        "unit": "m",
+        "pdf_page": 100
+      }
+    },
+    "GM_m": {
+      "unit": "m",
+      "mean_absolute_difference": 0.02102598556355095,
+      "max_absolute_difference": 0.24834064518253385,
+      "worst": {
+        "case_id": "LD00",
+        "metric": "GM_m",
+        "calculated": 19.525340645182535,
+        "reference": 19.277,
+        "difference": 0.24834064518253385,
+        "error_percent": 1.288274343427576,
+        "unit": "m",
+        "pdf_page": 100
+      }
+    }
+  },
+  "notes": [
+    "输入重量、LCG/TCG/KG及FSM来自06；参考T/纵倾/横倾不参与初值、残差或参数拟合。正浮体积先反求吃水，再用网格初稳性估计初值。",
+    "水面：z=T+(trim/172)*(x-86)+tan(phi)*y。trim=TF-TA，phi正值为左舷下沉；TA/TF为中线处垂线型吃水。",
+    "求解rho*(VOLM+t*WSA)=W及两个水面切向力臂为零，纵向方程包含trim/LBP*(VCB-KG)，不简单令LCB=LCG。",
+    "通过旋转坐标复用04三角面裁切积分，再把浮心旋回原船体坐标；旋转不改变体积/面积。",
+    "06只有横向FSM；小横倾方程用KG+FSM/W，纵倾方程用原KG。未把横向FSM虚升错误地当成纵向自由液面修正。",
+    "横倾限制在±5度。液体随姿态变化的真实舱内重心未重算，采用固定工况重心和线性自由液面等效项；大倾角稳性属于08。",
+    "默认rho=1.025t/m3、外板18mm一阶排水体积修正，与04/PDF一致；02钢材仍为12mm。另列0/12/18mm敏感性，不改变母型几何。",
+    "一阶外板修正仅用于排水量；浮心和惯性矩保留型线网格口径，未做完整外偏置积分。这是当前平衡计算的几何近似，不是精确18mm外表面模型。",
+    "GM0=IT/V+dot(B-G,n)，GM=GM0-FSM/W；KM导出横稳心的船体z坐标。倾斜时GM不必严格等于KM_bodyZ-KG，差异随倾角消失。",
+    "参考采用PDF详细工况表，修正GM优先用同页GM0.15判据栏的三位小数值。LD09C继续沿用详细表，保留06发现的总览差异。",
+    "收敛要求质量残差<0.01t、纵横两个切向力臂残差各<1e-6m。数值收敛与PDF几何复现是分别报告的量，不通过调整输入消除模型差异。",
+    "触及虚拟封顶或GM非正的结果不标为可用小倾角平衡；未计风、缆绳、海底接触和船体挠曲。"
+  ],
+  "elapsed_seconds": 33.03033899998991
+}

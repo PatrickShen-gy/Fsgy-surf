@@ -1,0 +1,47 @@
+[
+  {
+    "stage": 9,
+    "script": "stability_criteria.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": null,
+    "elapsed_seconds": 1.471179599990137,
+    "log": "logs\\09_stability_criteria.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\09_风压进水角与稳性限值\\stability_criteria.py"
+    ]
+  },
+  {
+    "stage": 10,
+    "script": "longitudinal_strength.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": null,
+    "elapsed_seconds": 17.98552499996731,
+    "log": "logs\\10_longitudinal_strength.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\10_纵强度计算\\longitudinal_strength.py"
+    ]
+  },
+  {
+    "stage": 11,
+    "script": "hold_mass_check.py",
+    "returncode": 0,
+    "passed": true,
+    "test_count": null,
+    "elapsed_seconds": 0.5704722999944352,
+    "log": "logs\\11_hold_mass_check.log",
+    "command": [
+      "D:\\python\\python.exe",
+      "-X",
+      "utf8",
+      "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\11_许用货舱载荷核对\\hold_mass_check.py"
+    ]
+  }
+]

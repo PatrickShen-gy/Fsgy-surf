@@ -1,0 +1,102 @@
+{
+  "case_id": "CUSTOM_DEMO",
+  "items": [
+    {
+      "id": "SPARE",
+      "description": "指定重量及坐标的物资",
+      "category": "Mass Load",
+      "mass_t": 20.0,
+      "LCG_m": 98.2,
+      "TCG_m": 0.0,
+      "KG_m": 19.2,
+      "FSM_tm": 0.0,
+      "data_source": "user_case_input"
+    },
+    {
+      "id": "GEOMETRY_WATER_DEMO",
+      "description": "现有3号左边舱几何空间装水演示",
+      "category": "Ballast Water",
+      "mass_t": 381.18044661131313,
+      "LCG_m": 97.00000000000001,
+      "TCG_m": 13.71411466363306,
+      "KG_m": 6.718360468572233,
+      "FSM_tm": 36.10824317043711,
+      "data_source": "geometry_05",
+      "geometry_id": "WBT_3_P",
+      "fill_fraction": 0.5,
+      "density_t_m3": 1.025,
+      "note": "采用现有几何空间，边舱/双层底/端部包络不自动等同真实独立水舱"
+    }
+  ],
+  "total": {
+    "mass_t": 9051.180446611314,
+    "LCG_m": 80.08717841800267,
+    "TCG_m": 0.5775547601992136,
+    "KG_m": 10.073261513424063,
+    "FSM_tm": 36.10824317043711,
+    "longitudinal_moment_tm": 724883.5033212974,
+    "transverse_moment_tm": 5227.552352362408,
+    "vertical_moment_tm": 91174.90764390616,
+    "item_count": 3,
+    "positive_mass_items": 3,
+    "KG_correction_m": 0.003989340769794921,
+    "KG_effective_m": 10.077250854193858
+  },
+  "deadweight": {
+    "mass_t": 401.18044661131313,
+    "LCG_m": 97.05982345401608,
+    "TCG_m": 13.030426573673875,
+    "KG_m": 7.340606125700218,
+    "FSM_tm": 36.10824317043711,
+    "longitudinal_moment_tm": 38938.50332129738,
+    "transverse_moment_tm": 5227.552352362408,
+    "vertical_moment_tm": 2944.9076439061546,
+    "item_count": 2,
+    "positive_mass_items": 2,
+    "KG_correction_m": 0.09000499270449458,
+    "KG_effective_m": 7.430611118404713
+  },
+  "groups": [
+    {
+      "category": "Mass Load",
+      "mass_t": 20.0,
+      "LCG_m": 98.2,
+      "TCG_m": 0.0,
+      "KG_m": 19.2,
+      "FSM_tm": 0.0,
+      "longitudinal_moment_tm": 1964.0,
+      "transverse_moment_tm": 0.0,
+      "vertical_moment_tm": 384.0,
+      "item_count": 1,
+      "positive_mass_items": 1,
+      "KG_correction_m": 0.0,
+      "KG_effective_m": 19.2
+    },
+    {
+      "category": "Ballast Water",
+      "mass_t": 381.18044661131313,
+      "LCG_m": 97.00000000000001,
+      "TCG_m": 13.71411466363306,
+      "KG_m": 6.718360468572232,
+      "FSM_tm": 36.10824317043711,
+      "longitudinal_moment_tm": 36974.50332129738,
+      "transverse_moment_tm": 5227.552352362408,
+      "vertical_moment_tm": 2560.9076439061546,
+      "item_count": 1,
+      "positive_mass_items": 1,
+      "KG_correction_m": 0.09472742763024364,
+      "KG_effective_m": 6.813087896202476
+    }
+  ],
+  "lightweight": {
+    "id": "LIGHTSHIP",
+    "description": "采用手册空船输入",
+    "mass_t": 8650.0,
+    "LCG_m": 79.3,
+    "TCG_m": 0.0,
+    "KG_m": 10.2,
+    "data_source": "adopted_pdf_lightship",
+    "FSM_tm": 0.0,
+    "category": "Lightweight"
+  }
+}

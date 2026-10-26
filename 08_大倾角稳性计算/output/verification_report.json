@@ -1,0 +1,76 @@
+{
+  "stage": "08_大倾角稳性计算",
+  "case_count": 39,
+  "angle_count": 56,
+  "mesh_point_count": 2184,
+  "comparison_count": 1755,
+  "reference_curve_rows": 351,
+  "reference_KN_cells": 1827,
+  "conditions": {
+    "rho_t_m3": 1.025,
+    "shell_thickness_m": 0.018
+  },
+  "source_mesh_sha256": "92d516a0046d4a54c55e8272613dcbe993f599ecc86ffe099448b7e3d4edff06",
+  "source_equilibrium_sha256": "c69b30f294b487993a372698fdd1b15d15ebabbdb28f6dfc8abd6ab86d406ef4",
+  "source_pdf": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "all_numerical_converged": true,
+  "max_mass_residual_t": 0.009545919650918222,
+  "max_pitch_lever_residual_m": 9.852270463142632e-07,
+  "max_GM_slope_difference_from07_m": 0.004287707629508475,
+  "GZ_all_reference_points": {
+    "count": 351,
+    "mean_absolute_difference_m": 0.21953264012536255,
+    "max_absolute_difference_m": 0.8727024809102732,
+    "worst": {
+      "case_id": "LD09F",
+      "angle_deg": 70.0,
+      "side": "PS",
+      "metric": "GZ_m",
+      "calculated": 3.2272975190897264,
+      "reference": 4.1,
+      "difference": -0.8727024809102732,
+      "unit": "m",
+      "pdf_page": 295,
+      "deck_immersed": true,
+      "comparison_geometry": "sealed main hull; upper structures missing"
+    }
+  },
+  "GZ_before_first_deck_contact": {
+    "count": 146,
+    "mean_absolute_difference_m": 0.004075588596762336,
+    "max_absolute_difference_m": 0.019815156719256155,
+    "worst": {
+      "case_id": "LD00",
+      "angle_deg": 10.0,
+      "side": "PS",
+      "metric": "GZ_m",
+      "calculated": 3.129815156719256,
+      "reference": 3.11,
+      "difference": 0.019815156719256155,
+      "unit": "m",
+      "pdf_page": 103,
+      "deck_immersed": false,
+      "comparison_geometry": "sealed main hull; upper structures missing"
+    }
+  },
+  "post_deck_point_count": 1768,
+  "full_vessel_geometry_complete": false,
+  "reference_identity_checks_passed": true,
+  "notes": [
+    "指定横倾、恒定总重量并自由求纵倾；使用02网格、06载荷和07姿态初值，不将PDF GZ/KN作为网格计算输入或拟合目标。",
+    "按各PDF图中PS/SB方向计算，PS为左舷下沉。GZ为沿该横倾方向的有符号恢复力臂，包含该工况TCG。",
+    "绕x旋转后同时求水面高度和纵倾，令浮力等于重量且世界水平纵向重心投影与浮心重合；不能固定中吃水直接旋转，也不能在大横倾时仅令LCB=LCG。",
+    "自由液面采用手册同一等效虚升口径：FSMOM=FSM*sin(theta)，DGZ=FSMOM/W，GZ=GZ_fixed-DGZ；未重建各液舱随角度变化的真实液面。",
+    "PDF68页明确横稳性包括艉楼、艏楼和舱口围板。当前02外包络不含这些完整浮力体积，故封顶触水后继续计算的是封闭主船体假设的诊断曲线。",
+    "封顶开始浸水不是船舶进水角；它标记缺失上部浮力几何开始影响本模型，09再处理实际进水点与限制。",
+    "0—90度每2.5度（另加12度），90—180度每5度。大于70度的结果用于封闭主船体稳性范围诊断，PDF工况表没有对应点，不外插其参考曲线。",
+    "GZmax、AVS和面积均来自本模型；封顶浸水后的峰值、AVS及面积不能当成已复现完整母型船的数值，也不用于宣布判据合格。",
+    "面积用弧度积分，采用PCHIP解析原函数。输出0—30/40度和30—40度原始面积，未按实际进水角截断。",
+    "MS列经全部351行数值核对支持MS=GZ-GM*sin(theta)，这是对符号的数值推断，保留原列和原值；GM取GZ在0度附近的中心差分斜率。",
+    "KN参考表仅涵盖2—12m、203档吃水和9档角度，共1827个KN。另用7档吃水、9档角度做零纵倾恒排水网格诊断，不把KN插值当成独立几何计算结果。",
+    "沿用07的水密度及18mm一阶排水体积修正；浮心仍为型线网格口径，未做全部外板偏置积分。02钢材厚度保持12mm。",
+    "收敛只代表指定姿态下的重量及纵倾平衡；大角度受强制横倾，GZ通常非零，不要求横向力矩为零。"
+  ],
+  "elapsed_seconds": 160.90425640001195
+}

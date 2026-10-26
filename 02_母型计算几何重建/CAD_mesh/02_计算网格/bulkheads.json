@@ -1,0 +1,299 @@
+{
+  "thickness_m": 0.008,
+  "bulkheads": [
+    {
+      "id": "BULKHEAD_01",
+      "name": "1号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 1238,
+        "triangles": 2472,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            7.396000000000001,
+            -11.438058502922688,
+            2.3710826698679903
+          ],
+          [
+            7.404,
+            11.438062558450262,
+            14.718949495175796
+          ]
+        ],
+        "signed_volume_m3": 1.31572883614316
+      },
+      "center_x_m": 7.4,
+      "start_m": 7.396000000000001,
+      "end_m": 7.404,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 164.46610451782578,
+      "material_volume_m3": 1.3157288361424617,
+      "cg_m": [
+        7.4,
+        0.00014886823765262327,
+        10.658157682839484
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 10.328471363718323,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_02",
+      "name": "2号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 788,
+        "triangles": 1572,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.796,
+            -14.346765999804635,
+            0.012049994991506932
+          ],
+          [
+            25.804000000000002,
+            14.346765808122639,
+            14.602126696265815
+          ]
+        ],
+        "signed_volume_m3": 2.6932254071077018
+      },
+      "center_x_m": 25.8,
+      "start_m": 25.796,
+      "end_m": 25.804000000000002,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 336.65317588855333,
+      "material_volume_m3": 2.693225407109326,
+      "cg_m": [
+        25.8,
+        -3.6474651379816657e-06,
+        8.46179107585834
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 21.141819445808206,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_03",
+      "name": "3号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 258,
+        "triangles": 512,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.796,
+            -14.38795,
+            0.012050000042980997
+          ],
+          [
+            53.803999999999995,
+            14.38795,
+            14.59995
+          ]
+        ],
+        "signed_volume_m3": 3.3213043030843967
+      },
+      "center_x_m": 53.8,
+      "start_m": 53.796,
+      "end_m": 53.803999999999995,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 415.16303788557633,
+      "material_volume_m3": 3.32130430308277,
+      "cg_m": [
+        53.8,
+        -1.8419864647660025e-06,
+        7.3806645243866456
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.072238779199743,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_04",
+      "name": "4号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 36,
+        "triangles": 68,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.59599999999999,
+            -14.38795,
+            0.012049999999999983
+          ],
+          [
+            82.604,
+            14.38795,
+            14.59995
+          ]
+        ],
+        "signed_volume_m3": 3.345176670029978
+      },
+      "center_x_m": 82.6,
+      "start_m": 82.59599999999999,
+      "end_m": 82.604,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 418.14708375360834,
+      "material_volume_m3": 3.345176670032955,
+      "cg_m": [
+        82.6,
+        6.430324381611957e-17,
+        7.332879961683989
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.259636859758693,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_05",
+      "name": "5号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 36,
+        "triangles": 68,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.396,
+            -14.387950000029495,
+            0.012049998550029908
+          ],
+          [
+            111.40400000000001,
+            14.38795,
+            14.59995
+          ]
+        ],
+        "signed_volume_m3": 3.3451766710980504
+      },
+      "center_x_m": 111.4,
+      "start_m": 111.396,
+      "end_m": 111.40400000000001,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 418.14708388711955,
+      "material_volume_m3": 3.345176671101044,
+      "cg_m": [
+        111.4,
+        -2.45670752676589e-10,
+        7.332879959476419
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.259636868143193,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_06",
+      "name": "6号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 660,
+        "triangles": 1316,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.196,
+            -14.305148927255084,
+            0.012050000307895251
+          ],
+          [
+            140.20399999999998,
+            14.305148944680695,
+            14.602747010008835
+          ]
+        ],
+        "signed_volume_m3": 3.2874636921390237
+      },
+      "center_x_m": 140.2,
+      "start_m": 140.196,
+      "end_m": 140.20399999999998,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 410.9329615193797,
+      "material_volume_m3": 3.2874636921473748,
+      "cg_m": [
+        140.2,
+        2.1678656870592027e-06,
+        7.3928831103333605
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 25.80658998335689,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    },
+    {
+      "id": "BULKHEAD_07",
+      "name": "7号横隔板",
+      "category": "bulkhead",
+      "color": "#dec086",
+      "checks": {
+        "vertices": 792,
+        "triangles": 1580,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            164.996,
+            -9.908777207853987,
+            0.012050000060933447
+          ],
+          [
+            165.004,
+            9.90873789931509,
+            14.781077002023913
+          ]
+        ],
+        "signed_volume_m3": 1.6950152562017518
+      },
+      "center_x_m": 165.0,
+      "start_m": 164.996,
+      "end_m": 165.004,
+      "thickness_m": 0.008,
+      "cross_section_area_m2": 211.87690702494368,
+      "material_volume_m3": 1.6950152561955996,
+      "cg_m": [
+        165.0,
+        -2.2553227350194866e-05,
+        8.263095042658279
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 13.305869761135456,
+      "source": {
+        "basis": "总布置主舱段边界；按用户指定厚度的连续平板近似",
+        "shell_fit": "板厚区间内5处内壁截面交集",
+        "edge_clearance_m": 5e-05
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>05 · 舱容与装载曲线</title>
+<style>
+:root{font:14px/1.65 system-ui,"Microsoft YaHei",sans-serif;color:#1b3642;background:#eef3f5}*{box-sizing:border-box}body{margin:0}main{max-width:1440px;margin:auto;padding:30px 26px 60px}h1{font-size:30px;margin:2px 0}h2{font-size:18px;margin:0 0 12px}p{color:#607d87;margin:6px 0}.eyebrow{font-size:12px;color:#18867a;letter-spacing:.15em;font-weight:bold}.panel,.card{background:white;border:1px solid #dce6ea;border-radius:14px;padding:19px;margin-bottom:18px}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:18px}label{font-size:13px;color:#5d7985}select,input[type=search]{padding:8px;border:1px solid #cbdce1;background:white;border-radius:7px;color:#214a59}input{accent-color:#148d80}input[type=range]{width:220px;vertical-align:middle}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}.card{margin:0}.card strong{display:block;font-size:24px;color:#1a5362}.card span{font-size:12px;color:#6b818a}.charts{display:grid;grid-template-columns:1fr 1fr .8fr;gap:15px;margin-top:18px}svg{width:100%;height:auto;display:block}.notice{background:#fff3db;color:#825b23;border-radius:9px;padding:12px 15px;margin-top:16px}.muted{font-size:12px;color:#70858f}.scroll{overflow:auto;max-height:530px}table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}th,td{padding:9px;text-align:right;border-bottom:1px solid #e4ecef;white-space:nowrap}th{font-size:12px;color:#5b7985;position:sticky;top:0;background:#f7fafb}th:first-child,td:first-child,td.left{text-align:left}.tag{font-size:11px;background:#e4f3ee;color:#24735f;border-radius:12px;padding:3px 7px}.tag.partial{background:#fff0d8;color:#967035}.tag.ref{background:#eef1f7;color:#637a94}ul{padding-left:20px;color:#5a737d;font-size:13px}li{margin:7px 0}a{color:#087e77}button{border:1px solid #cbdce1;border-radius:7px;background:#e9f5f1;color:#166f62;padding:8px 12px;cursor:pointer}@media(max-width:950px){.charts{grid-template-columns:1fr 1fr}.charts>div:last-child{grid-column:1 / -1;max-width:420px}.cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){main{padding:18px 10px}.charts{grid-template-columns:1fr}.cards{gap:8px}.card{padding:12px}.card strong{font-size:20px}h1{font-size:24px}}
+</style>
+<main><header><div class="eyebrow">FSGY SURF / STAGE 05</div><h1>舱容、容积中心与装载曲线</h1><p id="overview"></p></header>
+<section class="panel" style="margin-top:22px"><div class="controls"><label>选择模型空间 <select id="compartment"></select></label><label>几何装载率 <input id="fill" type="range" min="0" max="50" value="25"> <b id="fillText"></b></label><button id="half">50%</button><button id="full">100%</button></div>
+<div class="cards" id="cards"></div><div class="charts"><div><h2>液位—舱容</h2><svg id="volumeChart" viewBox="0 0 460 320" role="img" aria-label="液位与舱容曲线"></svg></div><div><h2>液体自由液面惯性矩</h2><svg id="itChart" viewBox="0 0 460 320" role="img" aria-label="装载率与自由液面惯性矩曲线"></svg></div><div><h2>舱段中点横剖面</h2><svg id="section" viewBox="0 0 380 320" role="img" aria-label="舱段中点截面液位示意图"></svg></div></div><p class="muted">横剖面来自实际网格切片；液位为水平面。FSM 水参考值采用 ρ = 1.025 t/m³；散货不能直接套用液体自由液面公式。</p><div id="notice" class="notice"></div></section>
+<section class="panel"><h2>23 个现有模型空间 · 满容积</h2><div class="scroll"><table><thead><tr><th>空间</th><th>容积 / m³</th><th>CGX / m</th><th>CGY / m</th><th>CGZ / m</th><th>底高—顶高 / m</th><th>部分充液最大 IT / m⁴</th></tr></thead><tbody id="summary"></tbody></table></div></section>
+<section class="panel"><div class="controls" style="justify-content:space-between;margin-bottom:12px"><h2 style="margin:0">PDF 舱表与几何覆盖范围</h2><input id="search" type="search" placeholder="搜索舱名 / 类别 / 覆盖状态"></div><p>参考值独立提取，保留原始数值与页码。“部分几何”表示边界尚未一致，不作为同舱容积校核。表中 FSM 为手册最大值口径。</p><div class="scroll"><table><thead><tr><th>PDF 舱名</th><th>几何覆盖</th><th>型容积 / m³</th><th>净容积 / m³</th><th>CGX / m</th><th>CGY / m</th><th>CGZ / m</th><th>最大 FSM / t·m</th><th>密度 / t/m³</th><th>页</th></tr></thead><tbody id="reference"></tbody></table></div></section>
+<section class="panel"><h2>校核与计算口径</h2><p id="checks"></p><div id="anomalies" class="notice"></div><ul id="notes"></ul><p><a href="compartment_capacities.csv">舱容 CSV</a> · <a href="filling_curves.csv">装载率曲线 CSV</a> · <a href="level_curves.csv">液位曲线 CSV</a> · <a href="tank_capacity_data.npz">计算数组 NPZ</a> · <a href="loading_reference_catalog.json">后续工况参考舱表</a> · <a href="verification_report.json">完整报告</a></p></section></main>
+<script>
+const D=__DATA__,R=D.report,$=id=>document.getElementById(id),ids=Object.keys(D.calculated);
+const states={approximate_cargo_geometry:'货舱近似几何',partial_geometry:'部分几何',envelope_only:'端部包络',reference_only:'仅参考数据'};
+const categories={cargo:'货舱',ballast:'边舱',double_bottom:'双层底',peak:'端部空间',machinery:'机舱包络'};
+const fmt=(v,p=2)=>v===null||v===undefined?'—':Number(v).toLocaleString('en-US',{minimumFractionDigits:p,maximumFractionDigits:p});
+$('overview').textContent=`${R.geometry_count} 个主要空间的几何积分 · ${R.fill_points_per_compartment} 档装载率 · PDF ${R.reference_location_count} 个位置记录、${R.reference_capacity_count} 个舱容记录 · 离线可用`;
+$('compartment').innerHTML=ids.map(id=>`<option value="${id}" ${id==='HOLD_3'?'selected':''}>${D.calculated[id].summary.name} · ${id}</option>`).join('');
+$('notes').innerHTML=R.notes.map(t=>`<li>${t}</li>`).join('');
+$('checks').textContent=`数值自检${R.numerical_checks.passed?'通过':'未通过'}：全容积复核、液位面积与体积导数、装载率反求残差以及5对左右边舱镜像检查。5货舱当前几何容积合计 ${fmt(R.cargo_total.geometry_volume_m3)} m³，PDF ${fmt(R.cargo_total.pdf_volume_m3)} m³，差异 ${fmt(R.cargo_total.error_percent)}%。`;
+$('anomalies').textContent='参考表已保留的差异：CLS 有位置记录但未列独立舱容；柴油位置表密度0.86，容量表为0.85；粮舱表头 Reduction=1 与净容积比约0.998的关系未明确。未自动改写原表。';
+$('summary').innerHTML=ids.map(id=>{const r=D.calculated[id].summary;return `<tr><td><a href="#" data-comp="${id}">${r.name}</a> <span class="muted">${id}</span></td><td>${fmt(r.volume_m3)}</td><td>${fmt(r.CGX_m,3)}</td><td>${fmt(r.CGY_m,3)}</td><td>${fmt(r.CGZ_m,3)}</td><td>${fmt(r.zmin_m)}—${fmt(r.zmax_m)}</td><td>${fmt(r.ITmax_liquid_m4)}</td></tr>`}).join('');
+function referenceTable(){const q=$('search').value.toLowerCase();$('reference').innerHTML=D.reference.filter(r=>{const m=D.mapping.find(m=>m.reference_id===r.id);return `${r.id} ${r.description} ${r.category} ${states[m.geometry_status]}`.toLowerCase().includes(q)}).map(r=>{const m=D.mapping.find(m=>m.reference_id===r.id),tag=m.geometry_status==='reference_only'?'ref':m.geometry_status==='approximate_cargo_geometry'?'':'partial';return `<tr><td title="${r.description}">${r.id}</td><td class="left"><span class="tag ${tag}" title="${m.note}">${states[m.geometry_status]}</span></td><td>${fmt(r.VOLM,1)}</td><td>${fmt(r.VNET,1)}</td><td>${fmt(r.CGX)}</td><td>${fmt(r.CGY)}</td><td>${fmt(r.CGZ)}</td><td>${fmt(r.FSM,1)}</td><td>${fmt(r.density_t_m3,3)}</td><td>${r.capacity_page??r.location_page}</td></tr>`}).join('')}
+function chart(id,data,selected,xTitle,yTitle,color){
+ const w=460,h=320,m={l:65,r:17,t:22,b:47},xx=data.map(r=>r[0]),yy=data.map(r=>r[1]);let xmin=Math.min(...xx),xmax=Math.max(...xx),ymax=Math.max(...yy)*1.08||1;
+ const x=v=>m.l+(v-xmin)/(xmax-xmin)*(w-m.l-m.r),y=v=>h-m.b-v/ymax*(h-m.t-m.b);
+ let html=`<text x="${m.l}" y="14" fill="#5e7b87" font-size="11">${yTitle}</text>`;
+ for(let i=0;i<=4;i++){let v=i*ymax/4,py=y(v);html+=`<path d="M${m.l} ${py}H${w-m.r}" stroke="#e1eaed"/><text x="${m.l-6}" y="${py+4}" text-anchor="end" fill="#75909a" font-size="10">${Number(v.toPrecision(4))}</text>`;let vx=xmin+(xmax-xmin)*i/4;html+=`<text x="${x(vx)}" y="${h-27}" text-anchor="middle" fill="#75909a" font-size="10">${Number(vx.toFixed(2))}</text>`}
+ let p=data.map((r,i)=>`${i?'L':'M'}${x(r[0]).toFixed(2)} ${y(r[1]).toFixed(2)}`).join(' ');
+ html+=`<path d="${p}" stroke="${color}" stroke-width="2.3" fill="none"/><path d="M${x(selected[0])} ${m.t}V${h-m.b}" stroke="#879fa9" stroke-dasharray="4 4"/><circle cx="${x(selected[0])}" cy="${y(selected[1])}" r="4" fill="${color}"/><text x="${w/2}" y="${h-6}" text-anchor="middle" fill="#5e7b87" font-size="11">${xTitle}</text>`;
+ $(id).innerHTML=html;
+}
+function section(c,r){
+ const rings=c.mid_section_yz.flatMap(p=>[p.outer,...p.holes]),pts=rings.flat(),ys=pts.map(p=>p[0]),zs=pts.map(p=>p[1]);
+ const ymin=Math.min(...ys),ymax=Math.max(...ys),zmin=Math.min(...zs),zmax=Math.max(...zs),scale=Math.min(310/(ymax-ymin),240/(zmax-zmin)),x=y=>190+(y-(ymax+ymin)/2)*scale,z=v=>285-(v-zmin)*scale;
+ let path=rings.map(p=>p.map((v,i)=>`${i?'L':'M'}${x(v[0]).toFixed(2)},${z(v[1]).toFixed(2)}`).join(' ')+'Z').join(' ');
+ $('section').innerHTML=`<defs><clipPath id="compClip"><path d="${path}" fill-rule="evenodd" clip-rule="evenodd"/></clipPath></defs><path d="${path}" fill="#f4ead5" fill-rule="evenodd"/><rect x="0" y="${z(r.level_BL_m)}" width="380" height="500" fill="#78b9d2" opacity=".8" clip-path="url(#compClip)"/><path d="${path}" fill="none" stroke="#66838c" stroke-width="1.5"/><path d="M25 ${z(r.level_BL_m)}H355" stroke="#197a97" stroke-dasharray="4 3"/><text x="190" y="310" text-anchor="middle" font-size="11" fill="#6d8792">Y / Z（同尺度） · 液位 ${fmt(r.level_BL_m)} m</text>`;
+}
+function update(){
+ const id=$('compartment').value,c=D.calculated[id],s=c.summary,r=c.fill_curve[+$('fill').value];
+ $('fillText').textContent=fmt(r.requested_fill_fraction*100,0)+'%';
+ const values=[[fmt(r.volume_m3)+' m³','当前几何填充体积 / 满容积 '+fmt(s.volume_m3)], [fmt(r.level_BL_m)+' m','液位（基线以上） / 舱底以上 '+fmt(r.height_from_bottom_m)+' m'],[fmt(r.CGZ_m,3)+' m','当前垂向容积中心 / CGX '+fmt(r.CGX_m,3)+' m'],[fmt(r.FSM_water_1p025_tm)+' t·m','当前假设水液体 FSM / 未修正全船 GM']];
+ $('cards').innerHTML=values.map(([v,l])=>`<div class="card"><strong>${v}</strong><span>${l}</span></div>`).join('');
+ chart('volumeChart',c.level_curve.map(r=>[r.level_BL_m,r.volume_m3]),[r.level_BL_m,r.volume_m3],'液位 / m','体积 / m³','#0d9182');
+ chart('itChart',c.fill_curve.map(r=>[r.fill_fraction*100,r.free_surface_IT_m4]),[r.fill_fraction*100,r.free_surface_IT_m4],'几何装载率 / %','IT / m⁴','#547ca2');
+ section(c,r);
+ let notice=`${categories[s.category]}：最大部分充液惯性矩 ${fmt(s.ITmax_liquid_m4)} m⁴，对应装载率约 ${fmt(s.ITmax_fill_fraction*100)}%。空舱、压满舱的实际自由液面设为0。`;
+ if(s.category==='cargo'){let ref=D.reference.find(r=>r.id==='CH'+id.slice(-1));notice+=` PDF 型舱容 ${fmt(ref.VOLM)} m³，当前差异 ${fmt((s.volume_m3-ref.VOLM)/ref.VOLM*100)}%；模型未含顶高14.6m以上的舱口围板容积等细节。`}
+ else notice+=' 此空间尚不能直接作为PDF同名独立液舱使用：真实水舱/管弄/油舱划分仍需细化。';
+ $('notice').textContent=notice;
+}
+$('compartment').addEventListener('input',update);$('fill').addEventListener('input',update);$('search').addEventListener('input',referenceTable);
+$('half').onclick=()=>{$('fill').value=25;update()};$('full').onclick=()=>{$('fill').value=50;update()};
+document.querySelectorAll('[data-comp]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();$('compartment').value=a.dataset.comp;update();window.scrollTo({top:0,behavior:'smooth'})}));
+update();referenceTable();
+</script></html>

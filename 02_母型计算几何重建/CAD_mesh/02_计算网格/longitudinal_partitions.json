@@ -1,0 +1,515 @@
+{
+  "thickness_m": 0.008,
+  "partitions": [
+    {
+      "id": "PARTITION_5_P",
+      "name": "5号货舱左内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            4.519255697294415,
+            1.75
+          ],
+          [
+            53.796,
+            13.10400008750864,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.5662286040763624
+      },
+      "start_m": 25.804,
+      "end_m": 53.796,
+      "center_x_m": 39.799999999998136,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.5662286040705453,
+      "cg_m": [
+        39.14678760978069,
+        11.6851856881482,
+        8.084714738096304
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 27.99489454195378,
+      "midsurface_area_m2": 446.6062505934782,
+      "thin_plate_volume_m3": 3.5728500047478255,
+      "source": {
+        "hold": "HOLD_5",
+        "side": "P",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_5",
+          "name": "第5货舱",
+          "start_m": 25.79999999999814,
+          "end_m": 53.799999999998136,
+          "source_handle": "1E8678"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_5_S",
+      "name": "5号货舱右内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            25.804,
+            -13.10400008750864,
+            1.75
+          ],
+          [
+            53.796,
+            -4.519255697294415,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.566228604061507
+      },
+      "start_m": 25.804,
+      "end_m": 53.796,
+      "center_x_m": 39.799999999998136,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.5662286040704885,
+      "cg_m": [
+        39.14678760978146,
+        -11.685185688148634,
+        8.084714738096451
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 27.994894541953332,
+      "midsurface_area_m2": 446.6062505934782,
+      "thin_plate_volume_m3": 3.5728500047478255,
+      "source": {
+        "hold": "HOLD_5",
+        "side": "S",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_5",
+          "name": "第5货舱",
+          "start_m": 25.79999999999814,
+          "end_m": 53.799999999998136,
+          "source_handle": "1E8678"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_4_P",
+      "name": "4号货舱左内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            9.996,
+            1.75
+          ],
+          [
+            82.596,
+            13.104000000028018,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3417283264658786
+      },
+      "start_m": 53.804,
+      "end_m": 82.596,
+      "center_x_m": 68.19999999999813,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.3417283264531648,
+      "cg_m": [
+        68.19856346947121,
+        12.28746642785969,
+        8.569240767300132
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.232567362657342,
+      "midsurface_area_m2": 417.7150854066414,
+      "thin_plate_volume_m3": 3.341720683253131,
+      "source": {
+        "hold": "HOLD_4",
+        "side": "P",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_4",
+          "name": "第4货舱",
+          "start_m": 53.799999999998136,
+          "end_m": 82.59999999999813,
+          "source_handle": "1E867B"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_4_S",
+      "name": "4号货舱右内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            53.804,
+            -13.104000000028018,
+            1.75
+          ],
+          [
+            82.596,
+            -9.996,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3417283264367748
+      },
+      "start_m": 53.804,
+      "end_m": 82.596,
+      "center_x_m": 68.19999999999813,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.34172832645325,
+      "cg_m": [
+        68.19856346947147,
+        -12.287466427859604,
+        8.56924076730025
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.23256736265801,
+      "midsurface_area_m2": 417.7150854066414,
+      "thin_plate_volume_m3": 3.341720683253131,
+      "source": {
+        "hold": "HOLD_4",
+        "side": "S",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_4",
+          "name": "第4货舱",
+          "start_m": 53.799999999998136,
+          "end_m": 82.59999999999813,
+          "source_handle": "1E867B"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_3_P",
+      "name": "3号货舱左内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            9.996,
+            1.75
+          ],
+          [
+            111.396,
+            13.104,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3413502109876085
+      },
+      "start_m": 82.604,
+      "end_m": 111.396,
+      "center_x_m": 96.99999999999906,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.34135021097228,
+      "cg_m": [
+        96.99999999999996,
+        12.288248701679377,
+        8.569940196826321
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.229599156132394,
+      "midsurface_area_m2": 417.6687763716051,
+      "thin_plate_volume_m3": 3.341350210972841,
+      "source": {
+        "hold": "HOLD_3",
+        "side": "P",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_3",
+          "name": "第3货舱",
+          "start_m": 82.59999999999813,
+          "end_m": 111.4,
+          "source_handle": "1E867C"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_3_S",
+      "name": "3号货舱右内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            82.604,
+            -13.104,
+            1.75
+          ],
+          [
+            111.396,
+            -9.996,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3413502109475908
+      },
+      "start_m": 82.604,
+      "end_m": 111.396,
+      "center_x_m": 96.99999999999906,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.341350210972223,
+      "cg_m": [
+        96.99999999999993,
+        -12.28824870167934,
+        8.569940196826375
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.22959915613195,
+      "midsurface_area_m2": 417.6687763716051,
+      "thin_plate_volume_m3": 3.341350210972841,
+      "source": {
+        "hold": "HOLD_3",
+        "side": "S",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_3",
+          "name": "第3货舱",
+          "start_m": 82.59999999999813,
+          "end_m": 111.4,
+          "source_handle": "1E867C"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_2_P",
+      "name": "2号货舱左内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            9.996,
+            1.75
+          ],
+          [
+            140.196,
+            13.10400004981976,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3410933819729203
+      },
+      "start_m": 111.404,
+      "end_m": 140.196,
+      "center_x_m": 125.79999999999956,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.341093381955119,
+      "cg_m": [
+        125.79906633085523,
+        12.275136243042466,
+        8.565619656059647
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.227583048347682,
+      "midsurface_area_m2": 417.6322114880344,
+      "thin_plate_volume_m3": 3.3410576919042754,
+      "source": {
+        "hold": "HOLD_2",
+        "side": "P",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_2",
+          "name": "第2货舱",
+          "start_m": 111.4,
+          "end_m": 140.19999999999908,
+          "source_handle": "1E867D"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_2_S",
+      "name": "2号货舱右内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 294,
+        "triangles": 584,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            111.404,
+            -13.10400004981976,
+            1.75
+          ],
+          [
+            140.196,
+            -9.996,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 3.3410933819256265
+      },
+      "start_m": 111.404,
+      "end_m": 140.196,
+      "center_x_m": 125.79999999999956,
+      "thickness_m": 0.008,
+      "material_volume_m3": 3.3410933819552042,
+      "cg_m": [
+        125.79906633085542,
+        -12.275136243042471,
+        8.565619656059669
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 26.22758304834835,
+      "midsurface_area_m2": 417.6322114880344,
+      "thin_plate_volume_m3": 3.3410576919042754,
+      "source": {
+        "hold": "HOLD_2",
+        "side": "S",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_2",
+          "name": "第2货舱",
+          "start_m": 111.4,
+          "end_m": 140.19999999999908,
+          "source_handle": "1E867D"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_1_P",
+      "name": "1号货舱左内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            4.145596223008081,
+            1.75
+          ],
+          [
+            164.996,
+            12.996782340060474,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 2.8841417368433517
+      },
+      "start_m": 140.204,
+      "end_m": 164.996,
+      "center_x_m": 152.6000000000411,
+      "thickness_m": 0.008,
+      "material_volume_m3": 2.8841417368391262,
+      "cg_m": [
+        152.70516594707746,
+        10.362257445538628,
+        8.21085991418238
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 22.64051263418714,
+      "midsurface_area_m2": 361.5004172800175,
+      "thin_plate_volume_m3": 2.8920033382401398,
+      "source": {
+        "hold": "HOLD_1",
+        "side": "P",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_1",
+          "name": "第1货舱",
+          "start_m": 140.20000000008102,
+          "end_m": 165.00000000000117,
+          "source_handle": "1E867E"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    },
+    {
+      "id": "PARTITION_1_S",
+      "name": "1号货舱右内舷隔板",
+      "category": "partition",
+      "color": "#c9ac7a",
+      "checks": {
+        "vertices": 322,
+        "triangles": 640,
+        "closed_edges": true,
+        "bounds_m": [
+          [
+            140.204,
+            -12.996782340060474,
+            1.75
+          ],
+          [
+            164.996,
+            -4.145596223008081,
+            14.6
+          ]
+        ],
+        "signed_volume_m3": 2.884141736826374
+      },
+      "start_m": 140.204,
+      "end_m": 164.996,
+      "center_x_m": 152.6000000000411,
+      "thickness_m": 0.008,
+      "material_volume_m3": 2.88414173683924,
+      "cg_m": [
+        152.70516594707766,
+        -10.362257445538525,
+        8.210859914182315
+      ],
+      "density_kg_m3": 7850.0,
+      "mass_t": 22.64051263418803,
+      "midsurface_area_m2": 361.5004172800175,
+      "thin_plate_volume_m3": 2.8920033382401398,
+      "source": {
+        "hold": "HOLD_1",
+        "side": "S",
+        "boundary": "货舱与边压载舱共同内舷界面，含上部斜板",
+        "nominal_boundary": {
+          "id": "HOLD_1",
+          "name": "第1货舱",
+          "start_m": 140.20000000008102,
+          "end_m": 165.00000000000117,
+          "source_handle": "1E867E"
+        },
+        "setback": "各侧法向半板厚，变剖面为离散偏移近似"
+      }
+    }
+  ]
+}

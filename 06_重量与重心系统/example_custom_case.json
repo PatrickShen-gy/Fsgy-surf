@@ -1,0 +1,33 @@
+{
+  "case_id": "CUSTOM_DEMO",
+  "description": "自定义载荷接口演示；不是手册工况",
+  "lightweight": {
+    "id": "LIGHTSHIP",
+    "description": "采用手册空船输入",
+    "mass_t": 8650.0,
+    "LCG_m": 79.3,
+    "TCG_m": 0.0,
+    "KG_m": 10.2,
+    "data_source": "adopted_pdf_lightship"
+  },
+  "items": [
+    {
+      "id": "SPARE",
+      "description": "指定重量及坐标的物资",
+      "category": "Mass Load",
+      "mass_t": 20.0,
+      "LCG_m": 98.2,
+      "TCG_m": 0.0,
+      "KG_m": 19.2,
+      "FSM_tm": 0.0
+    },
+    {
+      "id": "GEOMETRY_WATER_DEMO",
+      "description": "现有3号左边舱几何空间装水演示",
+      "category": "Ballast Water",
+      "geometry_id": "WBT_3_P",
+      "fill_fraction": 0.5,
+      "density_t_m3": 1.025
+    }
+  ]
+}

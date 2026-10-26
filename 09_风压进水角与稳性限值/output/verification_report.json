@@ -1,0 +1,58 @@
+{
+  "stage": 9,
+  "case_count": 39,
+  "criterion_comparisons": 273,
+  "full_vessel_geometry_complete": false,
+  "geometry_mode": "08 sealed main hull diagnostic",
+  "wind_profile_extrapolated_cases": [
+    "LD04A",
+    "LD05A",
+    "LD06A",
+    "LD09F",
+    "LD10A",
+    "LD11A",
+    "LD12A"
+  ],
+  "criterion_difference_summary": {
+    "AREA30": {
+      "count": 39,
+      "mean_abs": 0.005320055791330101,
+      "max_abs": 0.013661039781260653
+    },
+    "AREA40": {
+      "count": 39,
+      "mean_abs": 0.06012346635164004,
+      "max_abs": 0.20232854236423625
+    },
+    "AREA3040": {
+      "count": 39,
+      "mean_abs": 0.05590141843182156,
+      "max_abs": 0.19399567046925414
+    },
+    "GZ0.2": {
+      "count": 39,
+      "mean_abs": 0.3464453273832576,
+      "max_abs": 0.7673199169108607
+    },
+    "MAXGZ25": {
+      "count": 39,
+      "mean_abs": 4.213871794871795,
+      "max_abs": 11.744
+    },
+    "GM0.15": {
+      "count": 39,
+      "mean_abs": 0.020662127153687145,
+      "max_abs": 0.24405293755302537
+    },
+    "IMOWEATH.": {
+      "count": 39,
+      "mean_abs": 0.28253390998702377,
+      "max_abs": 0.7844575927227777
+    }
+  },
+  "sources": {
+    "stage08": "7d45db2369f0af6aabf3bc6cab08cb89039fa752afcd229322884da6423ffafa",
+    "stage07": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+    "pdf": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data_source": "02 partial steel material mesh; diagnostic only",
+  "source_sha256": "1836f6ebd678e2432c295cfe7bde3303fb9154ea73ec2dc6860c0ef54a4d8415",
+  "modeled_steel_mass_t": 1274.357823108134,
+  "modeled_steel_CG_m": [
+    89.1297153156682,
+    -1.1582529508525036e-05,
+    5.800738164527695
+  ],
+  "adopted_lightship": {
+    "id": "LIGHTSHIP",
+    "description": "Lightweight",
+    "category": "Lightweight",
+    "mass_t": 8650.0,
+    "LCG_m": 79.3,
+    "TCG_m": 0.0,
+    "KG_m": 10.2,
+    "FSM_tm": 0.0,
+    "data_source": "pdf_lightship_input",
+    "pdf_page": 100,
+    "source_row": "Lightweight 8650.0 79.30 0.00 10.20",
+    "numeric_tokens": [
+      "8650.0",
+      "79.30",
+      "0.00",
+      "10.20"
+    ]
+  },
+  "modeled_fraction_of_adopted_lightship": 0.14732460382752993,
+  "note": "02仅计部分船壳/隔板；未计完整甲板、骨架、机械、上建等，不替代空船重量，且不再加到手册空船中。"
+}

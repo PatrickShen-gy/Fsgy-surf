@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>04 · 母型船静水力校核</title>
+<style>
+:root{color-scheme:light;font:15px/1.6 system-ui,"Microsoft YaHei",sans-serif;color:#18313b;background:#edf3f4}*{box-sizing:border-box}body{margin:0}main{max-width:1350px;margin:auto;padding:32px 26px 64px}h1{font-size:30px;margin:4px 0}h2{font-size:18px;margin:0 0 14px}p{margin:6px 0;color:#53707a}.eyebrow{font-size:12px;letter-spacing:.16em;color:#16897f;font-weight:700}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}.card,.panel{background:white;border:1px solid #dce6e9;border-radius:15px;padding:20px}.card strong{display:block;font-size:26px;color:#163f4c}.card span{font-size:13px;color:#647d86}.controls{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin-bottom:18px}label{font-size:13px;color:#53707a}select,input{accent-color:#0f8f83}select{padding:7px;border:1px solid #cedce0;border-radius:7px;background:white;color:#153f4b}input{width:220px;vertical-align:middle}.charts{display:grid;grid-template-columns:1.45fr 1fr;gap:16px}svg{width:100%;height:auto;display:block}.legend{font-size:12px;color:#53707a}.teal{color:#048b7c}.orange{color:#c77836}.notice{padding:12px 16px;background:#fff4dd;color:#805a26;border-radius:9px;margin:18px 0}table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:9px;border-bottom:1px solid #e6edef}th{font-size:12px;color:#617a83}th:first-child,td:first-child{text-align:left}.table-wrap{overflow:auto}.panel{margin-bottom:18px}.notes{font-size:13px;color:#5b737b}.notes li{margin:8px 0}.tag{display:inline-block;padding:3px 9px;background:#e9f5f2;color:#197b68;border-radius:20px;font-size:12px}.bad{background:#fff0df;color:#a3601b}.small{font-size:12px}a{color:#087e77}@media(max-width:800px){main{padding:18px 12px}.cards{grid-template-columns:repeat(2,1fr)}.charts{grid-template-columns:1fr}h1{font-size:24px}.card{padding:14px}.card strong{font-size:22px}}
+</style>
+<main>
+<header><div class="eyebrow">FSGY SURF / STAGE 04</div><h1>母型船 · 静水力与 PDF 对照</h1><p>从船体三角网格积分，查看随吃水变化的静水力曲线及差异。全部数据已嵌入本页，可离线打开。</p></header>
+<div class="cards" id="cards"></div>
+<section class="panel"><div class="controls">
+<label>计算指标 <select id="metric"></select></label>
+<label>纵倾 TF − TA <select id="trim"></select></label>
+<label>型吃水 <input type="range" id="draft" min="0" max="128" value="79"> <b id="draftText"></b></label>
+<button id="design" style="border:1px solid #cbdedc;background:#e8f4f1;color:#126f65;border-radius:7px;padding:7px 12px;cursor:pointer">设计吃水 9.83 m</button>
+</div><div class="legend"><span class="teal">━━ 网格计算</span>　<span class="orange">┄┄ PDF 参考</span>　X：型吃水 / m</div>
+<div class="charts"><div><svg id="curve" viewBox="0 0 680 360" role="img" aria-label="静水力曲线"></svg></div><div><svg id="error" viewBox="0 0 500 360" role="img" aria-label="相对误差曲线"></svg></div></div>
+<div id="status" class="notice"></div></section>
+<section class="panel"><h2 id="tableTitle"></h2><div class="table-wrap"><table><thead><tr><th>指标</th><th>单位</th><th>网格计算</th><th>PDF</th><th>差值</th><th>相对差异</th><th>PDF 页</th></tr></thead><tbody id="table"></tbody></table></div></section>
+<section class="panel"><h2>数值检查与适用范围</h2><p id="checks"></p><ul class="notes" id="notes"></ul><p class="small">下载：<a href="hydrostatics_even_keel.csv">正浮数据 CSV</a> · <a href="hydrostatics_trimmed.csv">纵倾数据 CSV</a> · <a href="hydrostatics_data.npz">计算数组 NPZ</a> · <a href="verification_report.json">完整校核报告</a> · <a href="hydrostatic_comparison.png">对比图 PNG</a></p></section>
+</main>
+<script>
+const D=__DATA__,R=D.report,names=R.names,units=R.units;
+const metrics=Object.keys(units),drafts=D.reference.map(r=>r.draft_m),$=id=>document.getElementById(id);
+$('cards').innerHTML=[['1,032','吃水 × 纵倾计算工况'],['129','正浮吃水点 / 2.00—14.60 m'],['1,935','正浮参考值逐项对照'],['1.025','海水密度 / t·m⁻³']].map(([v,t])=>`<div class="card"><strong>${v}</strong><span>${t}</span></div>`).join('');
+$('metric').innerHTML=metrics.map(k=>`<option value="${k}">${k} · ${names[k]}</option>`).join('');
+$('trim').innerHTML=[-4,-3,-2,-1.5,-1,-.5,0,.5].map(t=>`<option ${t===0?'selected':''} value="${t}">${t.toFixed(1)} m</option>`).join('');
+$('draft').value=drafts.indexOf(9.83);
+$('notes').innerHTML=R.notes.map(t=>`<li>${t}</li>`).join('');
+const nc=R.numerical_checks;
+$('checks').textContent=`数值自检${nc.passed?'通过':'未通过'}：水线面面积与体积对吃水的数值导数相符；9.83 m 吃水的独立剖面积分与网格体积相对差异 ${(nc.section_integral_relative_difference*100).toExponential(2)}%。PDF 正浮表和纵倾表中重复的 ${R.repeated_reference_zero_trim_cells_checked} 个参考值已核对一致。`;
+function fmt(x,p=3){return x===undefined||x===null?'—':Number(x).toLocaleString('en-US',{maximumFractionDigits:p,minimumFractionDigits:p})}
+function chart(id,lines,width,title){
+ const svg=$(id),h=360,m={l:72,r:18,t:35,b:42},w=width-m.l-m.r,hh=h-m.t-m.b;
+ let vals=lines.flatMap(l=>l.data.map(p=>p[1])).filter(Number.isFinite);
+ if(!vals.length){svg.innerHTML=`<text x="${width/2}" y="180" text-anchor="middle" fill="#637e86">该纵倾未提供此项 PDF 参考</text>`;return}
+ let lo=Math.min(...vals),hi=Math.max(...vals),pad=(hi-lo)*.08||.01;lo-=pad;hi+=pad;
+ const x=v=>m.l+(v-2)/12.6*w,y=v=>m.t+(hi-v)/(hi-lo)*hh;
+ let html=`<text x="${m.l}" y="19" fill="#42636e" font-size="13">${title}</text>`;
+ for(let i=0;i<5;i++){let v=lo+(hi-lo)*i/4,yy=y(v);html+=`<path d="M${m.l} ${yy}H${width-m.r}" stroke="#e1e9ec"/><text x="${m.l-8}" y="${yy+4}" text-anchor="end" fill="#69808a" font-size="11">${Number(v.toPrecision(4))}</text>`}
+ for(const v of [2,4,6,8,10,12,14])html+=`<text x="${x(v)}" y="${h-15}" text-anchor="middle" fill="#69808a" font-size="11">${v}</text>`;
+ for(const l of lines){let path=l.data.filter(p=>Number.isFinite(p[1])).map((p,i)=>`${i?'L':'M'}${x(p[0]).toFixed(2)},${y(p[1]).toFixed(2)}`).join(' ');html+=`<path d="${path}" fill="none" stroke="${l.color}" stroke-width="2.1" ${l.dash?'stroke-dasharray="6 4"':''}/>`}
+ let selected=drafts[+$('draft').value];html+=`<path d="M${x(selected)} ${m.t}V${h-m.b}" stroke="#93aab3" stroke-dasharray="3 4"/>`;
+ svg.innerHTML=html;
+}
+function update(){
+ const key=$('metric').value,tr=+$('trim').value,t=drafts[+$('draft').value];
+ const calc=D.calculated.filter(r=>r.trim_m===tr),refs=tr===0?D.reference:D.trimmed_reference.filter(r=>r.trim_m===tr);
+ const r=calc.find(r=>r.draft_m===t),ref=refs.find(r=>r.draft_m===t),refmap=new Map(refs.map(r=>[r.draft_m,r]));
+ $('draftText').textContent=t.toFixed(2)+' m';
+ const errs=calc.map(r=>[r.draft_m,refmap.get(r.draft_m)?.[key]===undefined?null:100*(r[key]-refmap.get(r.draft_m)[key])/refmap.get(r.draft_m)[key]]);
+ chart('curve',[{data:calc.map(r=>[r.draft_m,r[key]]),color:'#048b7c'},{data:refs.map(r=>[r.draft_m,r[key]]),color:'#c77836',dash:true}],680,`${key} · ${units[key]}`);
+ chart('error',[{data:errs,color:'#4b6f93'}],500,'相对差异 / %');
+ $('tableTitle').textContent=`T = ${t.toFixed(2)} m，纵倾 = ${tr.toFixed(1)} m`;
+ $('table').innerHTML=metrics.map(k=>{let v=ref?.[k],e=v===undefined?null:r[k]-v,p=e===null?null:100*e/v;return `<tr><td>${k} · ${names[k]}</td><td>${units[k]}</td><td>${fmt(r[k],k==='DISP'?1:3)}</td><td>${fmt(v,k==='DISP'?1:3)}</td><td>${fmt(e)}</td><td>${p===null?'—':fmt(p,2)+'%'}</td><td>${ref?.pages?.[k]??'—'}</td></tr>`}).join('');
+ $('status').textContent=(r.deck_limit_reached?'此工况水线已到达或越过模型封顶：积分值仅用于诊断，后续需补充甲板以上几何及进水边界。 ':'')+`型排水量 ${fmt(r.displacement_moulded_t,1)} t；18 mm 外板一阶修正 +${fmt(r.shell_correction_18mm_t,1)} t。KMT 是稳心高度，实际 GM 尚需 KG 和自由液面修正。`;
+}
+for(const id of ['metric','trim','draft'])$(id).addEventListener('input',update);
+$('design').onclick=()=>{$('draft').value=drafts.indexOf(9.83);update()};update();
+</script></html>

@@ -1,0 +1,271 @@
+{
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "curves": [
+    {
+      "id": "H1",
+      "holds": [
+        1
+      ],
+      "page": 334,
+      "image_index": 0,
+      "sea0": 4108.0,
+      "sea_end": 9034.0,
+      "sea_cap": 8554.0,
+      "harbour0": 5391.0,
+      "harbour_end": 10317.0,
+      "knee": null,
+      "sea_min_start": 8.524,
+      "sea_min_end": 837.0,
+      "harbour_min_start": 10.27,
+      "harbour_min_end": 0.0,
+      "source_image": "source_p334_1.jpeg",
+      "source_image_sha256": "70a8ad7ce98336d8846e49963489b723eaa7f128c9090d6ab4d0bf979d8f3caf",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "zero from visible hatched region; not separately printed",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H2",
+      "holds": [
+        2
+      ],
+      "page": 334,
+      "image_index": 1,
+      "sea0": 5131.0,
+      "sea_end": 9982.0,
+      "sea_cap": 9982.0,
+      "harbour0": 6628.0,
+      "harbour_end": 11479.0,
+      "knee": 6.8809,
+      "sea_min_start": 10.27,
+      "sea_min_end": 0.0,
+      "harbour_min_start": 10.27,
+      "harbour_min_end": 0.0,
+      "source_image": "source_p334_2.png",
+      "source_image_sha256": "c751d7e6dc1655177c086566f0eb89cb601ee60825a61e25b23c58b3c0ef9d28",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "zero from visible hatched region; not separately printed",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H3",
+      "holds": [
+        3
+      ],
+      "page": 335,
+      "image_index": 0,
+      "sea0": 6294.0,
+      "sea_end": 13544.0,
+      "sea_cap": 12824.0,
+      "harbour0": 8218.0,
+      "harbour_end": 15467.0,
+      "knee": null,
+      "sea_min_start": 8.524,
+      "sea_min_end": 1232.0,
+      "harbour_min_start": 10.27,
+      "harbour_min_end": 0.0,
+      "source_image": "source_p335_1.png",
+      "source_image_sha256": "25d85e4db066d237edd771fa4865b99f0721987ac00910a07ed75fb71e5aa9d3",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "zero from visible hatched region; not separately printed",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H4",
+      "holds": [
+        4
+      ],
+      "page": 335,
+      "image_index": 1,
+      "sea0": 5137.0,
+      "sea_end": 9994.0,
+      "sea_cap": 9994.0,
+      "harbour0": 6636.0,
+      "harbour_end": 11493.0,
+      "knee": 6.8809,
+      "sea_min_start": 10.27,
+      "sea_min_end": 0.0,
+      "harbour_min_start": 10.27,
+      "harbour_min_end": 0.0,
+      "source_image": "source_p335_2.png",
+      "source_image_sha256": "9098f08ad08f41028166cf91a97eda1e73bc1977dd0935617807cb885393142f",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "zero from visible hatched region; not separately printed",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H5",
+      "holds": [
+        5
+      ],
+      "page": 336,
+      "image_index": 0,
+      "sea0": 5738.0,
+      "sea_end": 12215.0,
+      "sea_cap": 11566.0,
+      "harbour0": 7473.0,
+      "harbour_end": 13949.0,
+      "knee": null,
+      "sea_min_start": 8.524,
+      "sea_min_end": 1101.0,
+      "harbour_min_start": 10.27,
+      "harbour_min_end": 0.0,
+      "source_image": "source_p336_1.png",
+      "source_image_sha256": "60f9ce3bdffff2a5450d77a25fc33cd476ccfc273a0526c4422ebe9f0fb0125e",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "zero from visible hatched region; not separately printed",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H12",
+      "holds": [
+        1,
+        2
+      ],
+      "page": 337,
+      "image_index": 0,
+      "sea0": 11812.0,
+      "sea_end": 19963.0,
+      "sea_cap": 19963.0,
+      "harbour0": 14807.0,
+      "harbour_end": 22958.0,
+      "knee": 6.881,
+      "sea_min_start": 7.703,
+      "sea_min_end": 3042.0,
+      "harbour_min_start": 10.23,
+      "harbour_min_end": 47.0,
+      "source_image": "source_p337_1.png",
+      "source_image_sha256": "e8e4deb216fe59d3b70d9eaecf2f957e67bc4f76fcf33640b08819537c4c1444",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "printed green endpoint and onset",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H23",
+      "holds": [
+        2,
+        3
+      ],
+      "page": 338,
+      "image_index": 0,
+      "sea0": 10255.0,
+      "sea_end": 19963.0,
+      "sea_cap": 19963.0,
+      "harbour0": 13250.0,
+      "harbour_end": 22958.0,
+      "knee": 6.881,
+      "sea_min_start": 7.703,
+      "sea_min_end": 3622.0,
+      "harbour_min_start": 9.825,
+      "harbour_min_end": 628.0,
+      "source_image": "source_p338_1.png",
+      "source_image_sha256": "b655cfb40257bdd8a86679e60127c3a81db25eb61feff5fefeed0c90167a6cd2",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "printed green endpoint and onset",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H34",
+      "holds": [
+        3,
+        4
+      ],
+      "page": 339,
+      "image_index": 0,
+      "sea0": 10273.0,
+      "sea_end": 19987.0,
+      "sea_cap": 19987.0,
+      "harbour0": 13271.0,
+      "harbour_end": 22986.0,
+      "knee": 6.881,
+      "sea_min_start": 7.703,
+      "sea_min_end": 3625.0,
+      "harbour_min_start": 9.826,
+      "harbour_min_end": 627.0,
+      "source_image": "source_p339_1.png",
+      "source_image_sha256": "85d16d26cbc1142e7e2e6315f8f4e3c7fdce62ac55e4f584823fd01cf7d6ebd5",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "printed green endpoint and onset",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    },
+    {
+      "id": "H45",
+      "holds": [
+        4,
+        5
+      ],
+      "page": 340,
+      "image_index": 0,
+      "sea0": 10791.0,
+      "sea_end": 19987.0,
+      "sea_cap": 19987.0,
+      "harbour0": 13798.0,
+      "harbour_end": 22986.0,
+      "knee": 6.881,
+      "sea_min_start": 7.703,
+      "sea_min_end": 3431.0,
+      "harbour_min_start": 9.946,
+      "harbour_min_end": 433.0,
+      "source_image": "source_p340_1.png",
+      "source_image_sha256": "9701fc95a59a0fe113291e5d4d69b98fed77c34ee75e629660fad71be4650d07",
+      "digitization_method": "manual transcription of printed breakpoints + visual line interpretation",
+      "domain_draft_m": [
+        0.0,
+        10.27
+      ],
+      "mass_unit": "t",
+      "uncertainty_band_t": 5.0,
+      "harbour_minimum_single_holds": "printed green endpoint and onset",
+      "unresolved_issue": "figure families/double-bottom ballast effects not independently reconstructed"
+    }
+  ],
+  "note": "转录图片标注；5t仅用于识别读图/打印临界带，不改变原包络，不表示可超载5t。"
+}

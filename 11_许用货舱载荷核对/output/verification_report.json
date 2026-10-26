@@ -1,0 +1,25 @@
+{
+  "stage": 11,
+  "case_count": 39,
+  "curves": 9,
+  "checks": 702,
+  "status_counts": {
+    "within_digitized_envelope": 595,
+    "boundary_digitization_band": 3,
+    "outside_digitized_envelope": 12,
+    "outside_chart_domain": 92
+  },
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "source_stage06_sha256": "76c7adae47bfb34b65a4a7e42fa965079557cd3118f9ac4ebc4819e909c1d226",
+  "source_stage07_sha256": "a201a1b97560ba04dd948306f4f1697a74df10aa3f39b74c02e774000902db50",
+  "digitized_image_bounds": true,
+  "independent_structural_derivation": false,
+  "notes": [
+    "端点来自图片标注，不是结构强度理论反推；港内单舱最小值按可见区域取0并记录解释。",
+    "5t临界带仅反映读图/舍入，不能把超出包络的临界点宣布合格。",
+    "按16页要求采用舱段中点局部吃水；双舱采用合并纵向范围中点，此为明确约定。",
+    "货舱内所有CH载荷均计入，包括以货舱装水的手册工况；边压载舱质量另列，不因归类将水舱重量漏计或混同。",
+    "图内灰色曲线族及双层底压载依赖没有独立推导，当前主要核对外包络；有相关压载时标明需复核。",
+    "海上和港内同时计算，超图域、临界带、明确图内/图外分别报告，不用截断吃水伪造可核对结论。"
+  ]
+}

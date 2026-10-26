@@ -1,0 +1,13 @@
+﻿stage,directory,entry,program_exists,status
+1,01_输入整理与对照数据,01_输入整理与对照数据\read_dxf.py,True,输入提取已落盘
+2,02_母型计算几何重建,02_母型计算几何重建\cad_reconstruction.py,True,主船体/主要分舱已建；上部浮力几何待补
+3,03_邦戎曲线计算,03_邦戎曲线计算\bonjean_calculation.py,True,邦戎计算与局部差异已记录
+4,04_静水力计算,04_静水力计算\hydrostatics_calculation.py,True,静水力计算与对照完成
+5,05_舱室与舱容计算,05_舱室与舱容计算\tank_capacity_calculation.py,True,舱容计算已跑通；实际小舱细分未齐
+6,06_重量与重心系统,06_重量与重心系统\weight_cg_calculation.py,True,重量/重心合成在打印舍入范围内一致
+7,07_浮态与平衡求解,07_浮态与平衡求解\equilibrium_calculation.py,True,39工况浮态均收敛
+8,08_大倾角稳性计算,08_大倾角稳性计算\stability_calculation.py,True,大倾角程序完成；完整船型高角度未复现
+9,09_风压进水角与稳性限值,09_风压进水角与稳性限值\stability_criteria.py,True,开口/风压/基本限值诊断完成
+10,10_纵强度计算,10_纵强度计算\longitudinal_strength.py,True,假设分布梁模型完成；局部CORR未实现
+11,11_许用货舱载荷核对,11_许用货舱载荷核对\hold_mass_check.py,True,图像外包络核对完成；临界/图域外保留
+12,12_批量复算与报告,12_批量复算与报告\run_pipeline.py,True,批算、测试与汇总报告完成

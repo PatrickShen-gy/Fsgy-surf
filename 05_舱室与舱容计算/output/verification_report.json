@@ -1,0 +1,832 @@
+{
+  "stage": "05_舱室与舱容计算",
+  "source_mesh": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\02_母型计算几何重建\\CAD_mesh\\01_展示模型\\compartments.npz",
+  "source_mesh_sha256": "cafbb1447944a22b73d0fafa8151b9df135e4d261d7ade4ecd7d2c082cb2e1d0",
+  "source_metadata_sha256": "112f229bfbc50b690d95a313ce692d570e358b46ebd404d64ec9466f49db97c8",
+  "source_pdf": "D:\\AAA交大——大三大四文件\\船舶设计2\\Fsgy-surf\\DC081210,101,001JS装载手册(初步)-A_20230206.pdf",
+  "source_pdf_sha256": "b1c5db84defc0cca44a7a5c967516f653e1a1c83f8b6b4ed2eae2b32e64c4d7b",
+  "geometry_count": 23,
+  "fill_points_per_compartment": 51,
+  "fill_rows": 1173,
+  "level_rows": 5226,
+  "reference_location_count": 84,
+  "reference_capacity_count": 83,
+  "mapping_counts": {
+    "approximate_cargo_geometry": 5,
+    "envelope_only": 2,
+    "partial_geometry": 10,
+    "reference_only": 67
+  },
+  "reference_anomalies": [
+    {
+      "id": "MDOSTORTKP",
+      "kind": "density_conflict",
+      "location_value": 0.86,
+      "capacity_value": 0.85,
+      "pages": [
+        81,
+        85
+      ]
+    },
+    {
+      "id": "MDOSTORTKS",
+      "kind": "density_conflict",
+      "location_value": 0.86,
+      "capacity_value": 0.85,
+      "pages": [
+        81,
+        85
+      ]
+    },
+    {
+      "id": "MDOSERVTK",
+      "kind": "density_conflict",
+      "location_value": 0.86,
+      "capacity_value": 0.85,
+      "pages": [
+        81,
+        85
+      ]
+    },
+    {
+      "id": "MDOSETTLTK",
+      "kind": "density_conflict",
+      "location_value": 0.86,
+      "capacity_value": 0.85,
+      "pages": [
+        81,
+        85
+      ]
+    },
+    {
+      "id": "CLS",
+      "kind": "capacity_missing",
+      "page": 83
+    },
+    {
+      "kind": "grain_reduction_header",
+      "pages": [
+        84
+      ],
+      "note": "Grain Load表头Reduction=1，而VNET/VOLM约0.998；原值保留，不使用1-Reduction推算净舱容。"
+    }
+  ],
+  "reference_total_checks": [
+    {
+      "category": "Grain Load",
+      "count": 5,
+      "page": 84,
+      "VOLM": {
+        "sum_of_printed_rows": 45648.9,
+        "printed_total": 45648.9,
+        "difference": 0.0,
+        "rounding_tolerance": 0.300006,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 45557.6,
+        "printed_total": 45557.6,
+        "difference": 0.0,
+        "rounding_tolerance": 0.300006,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 192336.6,
+        "printed_total": 192336.7,
+        "difference": -0.10000000000582077,
+        "rounding_tolerance": 0.300006,
+        "passed": true
+      }
+    },
+    {
+      "category": "Ballast Water",
+      "count": 12,
+      "page": 84,
+      "VOLM": {
+        "sum_of_printed_rows": 12887.0,
+        "printed_total": 12886.8,
+        "difference": 0.2000000000007276,
+        "rounding_tolerance": 0.650013,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 12629.1,
+        "printed_total": 12629.1,
+        "difference": 0.0,
+        "rounding_tolerance": 0.650013,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 48763.9,
+        "printed_total": 48764.2,
+        "difference": -0.2999999999956344,
+        "rounding_tolerance": 0.650013,
+        "passed": true
+      }
+    },
+    {
+      "category": "Fresh Water",
+      "count": 4,
+      "page": 84,
+      "VOLM": {
+        "sum_of_printed_rows": 299.59999999999997,
+        "printed_total": 299.6,
+        "difference": -5.684341886080802e-14,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 293.5,
+        "printed_total": 293.6,
+        "difference": -0.10000000000002274,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 343.6,
+        "printed_total": 343.6,
+        "difference": 0.0,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      }
+    },
+    {
+      "category": "Heavy Fuel Oil",
+      "count": 10,
+      "page": 85,
+      "VOLM": {
+        "sum_of_printed_rows": 1631.8,
+        "printed_total": 1631.7,
+        "difference": 0.09999999999990905,
+        "rounding_tolerance": 0.5500109999999999,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 1598.9,
+        "printed_total": 1599.0,
+        "difference": -0.09999999999990905,
+        "rounding_tolerance": 0.5500109999999999,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 388.3,
+        "printed_total": 388.2,
+        "difference": 0.10000000000002274,
+        "rounding_tolerance": 0.5500109999999999,
+        "passed": true
+      }
+    },
+    {
+      "category": "Lubricating Oil",
+      "count": 8,
+      "page": 85,
+      "VOLM": {
+        "sum_of_printed_rows": 117.0,
+        "printed_total": 117.0,
+        "difference": 0.0,
+        "rounding_tolerance": 0.450009,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 114.8,
+        "printed_total": 114.7,
+        "difference": 0.09999999999999432,
+        "rounding_tolerance": 0.450009,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 68.3,
+        "printed_total": 68.1,
+        "difference": 0.20000000000000284,
+        "rounding_tolerance": 0.450009,
+        "passed": true
+      }
+    },
+    {
+      "category": "Diesel Oil",
+      "count": 4,
+      "page": 85,
+      "VOLM": {
+        "sum_of_printed_rows": 148.9,
+        "printed_total": 148.9,
+        "difference": 0.0,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 146.0,
+        "printed_total": 145.9,
+        "difference": 0.09999999999999432,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 153.0,
+        "printed_total": 152.9,
+        "difference": 0.09999999999999432,
+        "rounding_tolerance": 0.250005,
+        "passed": true
+      }
+    },
+    {
+      "category": "Miscellaneous",
+      "count": 7,
+      "page": 85,
+      "VOLM": {
+        "sum_of_printed_rows": 71.2,
+        "printed_total": 71.2,
+        "difference": 0.0,
+        "rounding_tolerance": 0.400008,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 69.8,
+        "printed_total": 69.8,
+        "difference": 0.0,
+        "rounding_tolerance": 0.400008,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 43.6,
+        "printed_total": 43.7,
+        "difference": -0.10000000000000142,
+        "rounding_tolerance": 0.400008,
+        "passed": true
+      }
+    },
+    {
+      "category": "Void",
+      "count": 33,
+      "page": 86,
+      "VOLM": {
+        "sum_of_printed_rows": 2783.9,
+        "printed_total": 2784.2,
+        "difference": -0.29999999999972715,
+        "rounding_tolerance": 1.7000339999999998,
+        "passed": true
+      },
+      "VNET": {
+        "sum_of_printed_rows": 2728.6,
+        "printed_total": 2728.5,
+        "difference": 0.09999999999990905,
+        "rounding_tolerance": 1.7000339999999998,
+        "passed": true
+      },
+      "FSM": {
+        "sum_of_printed_rows": 17008.3,
+        "printed_total": 17008.3,
+        "difference": 0.0,
+        "rounding_tolerance": 1.7000339999999998,
+        "passed": true
+      }
+    }
+  ],
+  "numerical_checks": {
+    "passed": true,
+    "compartments": [
+      {
+        "id": "ENGINE_ROOM",
+        "relative_full_volume_difference": 2.1352760463569715e-15,
+        "max_area_derivative_relative_difference": 3.6558579733405946e-11,
+        "max_fill_fraction_residual": 1.7031431820413445e-11,
+        "max_waterline_closure_m": 1.7763568394002505e-14
+      },
+      {
+        "id": "HOLD_5",
+        "relative_full_volume_difference": 1.6989987581587507e-15,
+        "max_area_derivative_relative_difference": 1.27362773428671e-10,
+        "max_fill_fraction_residual": 1.416344819205051e-11,
+        "max_waterline_closure_m": 1.0658141036401503e-14
+      },
+      {
+        "id": "WBT_5_P",
+        "relative_full_volume_difference": 2.486278733963131e-14,
+        "max_area_derivative_relative_difference": 3.227155085551804e-10,
+        "max_fill_fraction_residual": 3.0259794669973417e-11,
+        "max_waterline_closure_m": 2.1316282072803006e-14
+      },
+      {
+        "id": "WBT_5_S",
+        "relative_full_volume_difference": 1.6837457248990816e-14,
+        "max_area_derivative_relative_difference": 3.953821796459233e-10,
+        "max_fill_fraction_residual": 3.0258906491553716e-11,
+        "max_waterline_closure_m": 2.1390168887322673e-14
+      },
+      {
+        "id": "DB_5",
+        "relative_full_volume_difference": 3.873294316800229e-16,
+        "max_area_derivative_relative_difference": 1.6135481110922184e-10,
+        "max_fill_fraction_residual": 1.0912859504941252e-10,
+        "max_waterline_closure_m": 1.6304788408914756e-14
+      },
+      {
+        "id": "HOLD_4",
+        "relative_full_volume_difference": 2.184603251935643e-15,
+        "max_area_derivative_relative_difference": 4.948781053145331e-11,
+        "max_fill_fraction_residual": 1.0612732914694334e-11,
+        "max_waterline_closure_m": 7.105427357601002e-15
+      },
+      {
+        "id": "WBT_4_P",
+        "relative_full_volume_difference": 3.8671772053447596e-14,
+        "max_area_derivative_relative_difference": 5.289279519147991e-10,
+        "max_fill_fraction_residual": 1.8262613643571513e-11,
+        "max_waterline_closure_m": 1.4210854715202004e-14
+      },
+      {
+        "id": "WBT_4_S",
+        "relative_full_volume_difference": 2.674924944408403e-14,
+        "max_area_derivative_relative_difference": 2.918287137952329e-10,
+        "max_fill_fraction_residual": 1.8263168755083825e-11,
+        "max_waterline_closure_m": 1.4238583238573986e-14
+      },
+      {
+        "id": "DB_4",
+        "relative_full_volume_difference": 1.6507552125010428e-16,
+        "max_area_derivative_relative_difference": 2.7633933522387315e-11,
+        "max_fill_fraction_residual": 1.0120504434496524e-10,
+        "max_waterline_closure_m": 9.769962616701378e-15
+      },
+      {
+        "id": "HOLD_3",
+        "relative_full_volume_difference": 1.7872618152553955e-15,
+        "max_area_derivative_relative_difference": 8.686122646804303e-11,
+        "max_fill_fraction_residual": 1.0637490888143475e-11,
+        "max_waterline_closure_m": 2.3092638912203256e-14
+      },
+      {
+        "id": "WBT_3_P",
+        "relative_full_volume_difference": 3.0264857393204776e-14,
+        "max_area_derivative_relative_difference": 1.5190593334644955e-10,
+        "max_fill_fraction_residual": 1.8263168755083825e-11,
+        "max_waterline_closure_m": 1.517719948885615e-14
+      },
+      {
+        "id": "WBT_3_S",
+        "relative_full_volume_difference": 2.231651100711045e-14,
+        "max_area_derivative_relative_difference": 5.845753032491163e-11,
+        "max_fill_fraction_residual": 1.8263723866596138e-11,
+        "max_waterline_closure_m": 1.7763568394002505e-14
+      },
+      {
+        "id": "DB_3",
+        "relative_full_volume_difference": 4.868255041650432e-16,
+        "max_area_derivative_relative_difference": 4.415293979588865e-11,
+        "max_fill_fraction_residual": 1.289818252203645e-10,
+        "max_waterline_closure_m": 1.517719948885615e-14
+      },
+      {
+        "id": "HOLD_2",
+        "relative_full_volume_difference": 1.7894265822355022e-15,
+        "max_area_derivative_relative_difference": 9.990159700194395e-11,
+        "max_fill_fraction_residual": 2.0280888080037585e-11,
+        "max_waterline_closure_m": 1.1546319456101628e-14
+      },
+      {
+        "id": "WBT_2_P",
+        "relative_full_volume_difference": 2.6775059914389807e-14,
+        "max_area_derivative_relative_difference": 4.709661294289689e-10,
+        "max_fill_fraction_residual": 3.041256135816184e-11,
+        "max_waterline_closure_m": 2.842170943040401e-14
+      },
+      {
+        "id": "WBT_2_S",
+        "relative_full_volume_difference": 1.3770030813114472e-14,
+        "max_area_derivative_relative_difference": 5.598784229280261e-10,
+        "max_fill_fraction_residual": 3.041233931355691e-11,
+        "max_waterline_closure_m": 2.847716647714797e-14
+      },
+      {
+        "id": "DB_2",
+        "relative_full_volume_difference": 0.0,
+        "max_area_derivative_relative_difference": 4.069506785622928e-11,
+        "max_fill_fraction_residual": 9.042258608538134e-11,
+        "max_waterline_closure_m": 1.5888218580782548e-14
+      },
+      {
+        "id": "HOLD_1",
+        "relative_full_volume_difference": 1.5051943717498086e-15,
+        "max_area_derivative_relative_difference": 9.600136790648783e-11,
+        "max_fill_fraction_residual": 1.924932435670712e-11,
+        "max_waterline_closure_m": 1.2434497875801753e-14
+      },
+      {
+        "id": "WBT_1_P",
+        "relative_full_volume_difference": 1.4077653872217732e-14,
+        "max_area_derivative_relative_difference": 4.946382838071075e-10,
+        "max_fill_fraction_residual": 3.366085188361012e-11,
+        "max_waterline_closure_m": 2.876656200481457e-14
+      },
+      {
+        "id": "WBT_1_S",
+        "relative_full_volume_difference": 1.4707996582914007e-14,
+        "max_area_derivative_relative_difference": 3.7430475997032686e-10,
+        "max_fill_fraction_residual": 3.366118495051751e-11,
+        "max_waterline_closure_m": 2.8435583831733384e-14
+      },
+      {
+        "id": "DB_1",
+        "relative_full_volume_difference": 7.089345787577812e-16,
+        "max_area_derivative_relative_difference": 1.2720446152379095e-10,
+        "max_fill_fraction_residual": 1.0432243957581022e-10,
+        "max_waterline_closure_m": 2.8916994303251375e-14
+      },
+      {
+        "id": "AFT_PEAK",
+        "relative_full_volume_difference": 5.761468117580136e-16,
+        "max_area_derivative_relative_difference": 1.9219492283931964e-10,
+        "max_fill_fraction_residual": 3.318645358518779e-11,
+        "max_waterline_closure_m": 1.1737425677117758e-14
+      },
+      {
+        "id": "FORE_PEAK",
+        "relative_full_volume_difference": 1.6213536205445067e-15,
+        "max_area_derivative_relative_difference": 3.198113809726169e-10,
+        "max_fill_fraction_residual": 1.555844342249202e-11,
+        "max_waterline_closure_m": 5.728578676879116e-14
+      }
+    ],
+    "mirror_pairs": [
+      {
+        "number": 1,
+        "volume_difference_m3": -1.8189894035458565e-12,
+        "CGY_sum_m": 0.0,
+        "ITmax_difference_m4": 4.092726157978177e-12
+      },
+      {
+        "number": 2,
+        "volume_difference_m3": -5.7980287238024175e-12,
+        "CGY_sum_m": 0.0,
+        "ITmax_difference_m4": -3.637978807091713e-12
+      },
+      {
+        "number": 3,
+        "volume_difference_m3": 1.2505552149377763e-12,
+        "CGY_sum_m": 0.0,
+        "ITmax_difference_m4": -3.637978807091713e-12
+      },
+      {
+        "number": 4,
+        "volume_difference_m3": 1.1368683772161603e-12,
+        "CGY_sum_m": 0.0,
+        "ITmax_difference_m4": 3.637978807091713e-12
+      },
+      {
+        "number": 5,
+        "volume_difference_m3": 5.4569682106375694e-12,
+        "CGY_sum_m": 0.0,
+        "ITmax_difference_m4": 4.547473508864641e-13
+      }
+    ]
+  },
+  "cargo_comparisons": [
+    {
+      "geometry_id": "HOLD_1",
+      "reference_id": "CH1",
+      "metric": "VOLM",
+      "unit": "m³",
+      "calculated": 6646.61116681688,
+      "reference": 6666.2,
+      "difference": -19.588833183120187,
+      "error_percent": -0.2938530674615251,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_1",
+      "reference_id": "CH1",
+      "metric": "CGX",
+      "unit": "m",
+      "calculated": 151.51001599695886,
+      "reference": 151.18,
+      "difference": 0.3300159969588492,
+      "error_percent": 0.21829342304461516,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_1",
+      "reference_id": "CH1",
+      "metric": "CGY",
+      "unit": "m",
+      "calculated": -3.207090280716929e-17,
+      "reference": 0.0,
+      "difference": -3.207090280716929e-17,
+      "error_percent": null,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_1",
+      "reference_id": "CH1",
+      "metric": "CGZ",
+      "unit": "m",
+      "calculated": 8.208940786857582,
+      "reference": 8.68,
+      "difference": -0.47105921314241783,
+      "error_percent": -5.426949460166104,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_1",
+      "reference_id": "CH1",
+      "metric": "IYMAX",
+      "unit": "m⁴",
+      "calculated": 25188.13457073369,
+      "reference": 21042.0,
+      "difference": 4146.134570733691,
+      "error_percent": 19.704089776322075,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "IYMAX为潜在液体自由液面最大惯性矩；散货不按液体FSM使用"
+    },
+    {
+      "geometry_id": "HOLD_2",
+      "reference_id": "CH2",
+      "metric": "VOLM",
+      "unit": "m³",
+      "calculated": 9148.687515003141,
+      "reference": 9981.7,
+      "difference": -833.0124849968597,
+      "error_percent": -8.345396926343806,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_2",
+      "reference_id": "CH2",
+      "metric": "CGX",
+      "unit": "m",
+      "calculated": 125.78622315337525,
+      "reference": 125.57,
+      "difference": 0.21622315337525322,
+      "error_percent": 0.17219332115573244,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_2",
+      "reference_id": "CH2",
+      "metric": "CGY",
+      "unit": "m",
+      "calculated": -9.941258790197258e-17,
+      "reference": 0.0,
+      "difference": -9.941258790197258e-17,
+      "error_percent": null,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_2",
+      "reference_id": "CH2",
+      "metric": "CGZ",
+      "unit": "m",
+      "calculated": 7.897324310750246,
+      "reference": 8.67,
+      "difference": -0.7726756892497537,
+      "error_percent": -8.912061006340872,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_2",
+      "reference_id": "CH2",
+      "metric": "IYMAX",
+      "unit": "m⁴",
+      "calculated": 43014.924234528786,
+      "reference": 43163.0,
+      "difference": -148.07576547121425,
+      "error_percent": -0.34306180170797734,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "IYMAX为潜在液体自由液面最大惯性矩；散货不按液体FSM使用"
+    },
+    {
+      "geometry_id": "HOLD_3",
+      "reference_id": "CH3",
+      "metric": "VOLM",
+      "unit": "m³",
+      "calculated": 9159.768586883458,
+      "reference": 9994.1,
+      "difference": -834.3314131165425,
+      "error_percent": -8.348239592525015,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_3",
+      "reference_id": "CH3",
+      "metric": "CGX",
+      "unit": "m",
+      "calculated": 97.0,
+      "reference": 96.78,
+      "difference": 0.21999999999999886,
+      "error_percent": 0.22731969415168304,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_3",
+      "reference_id": "CH3",
+      "metric": "CGY",
+      "unit": "m",
+      "calculated": 1.737615653720527e-16,
+      "reference": 0.0,
+      "difference": 1.737615653720527e-16,
+      "error_percent": null,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_3",
+      "reference_id": "CH3",
+      "metric": "CGZ",
+      "unit": "m",
+      "calculated": 7.893776859993309,
+      "reference": 8.67,
+      "difference": -0.7762231400066906,
+      "error_percent": -8.952977393387435,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_3",
+      "reference_id": "CH3",
+      "metric": "IYMAX",
+      "unit": "m⁴",
+      "calculated": 43111.84148875132,
+      "reference": 43163.0,
+      "difference": -51.15851124867913,
+      "error_percent": -0.11852399334772637,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "IYMAX为潜在液体自由液面最大惯性矩；散货不按液体FSM使用"
+    },
+    {
+      "geometry_id": "HOLD_4",
+      "reference_id": "CH4",
+      "metric": "VOLM",
+      "unit": "m³",
+      "calculated": 9159.046806909097,
+      "reference": 9993.7,
+      "difference": -834.6531930909041,
+      "error_percent": -8.351793560852377,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_4",
+      "reference_id": "CH4",
+      "metric": "CGX",
+      "unit": "m",
+      "calculated": 68.20096566253461,
+      "reference": 67.98,
+      "difference": 0.22096566253460992,
+      "error_percent": 0.3250451052289054,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_4",
+      "reference_id": "CH4",
+      "metric": "CGY",
+      "unit": "m",
+      "calculated": 9.930014781525667e-17,
+      "reference": 0.0,
+      "difference": 9.930014781525667e-17,
+      "error_percent": null,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_4",
+      "reference_id": "CH4",
+      "metric": "CGZ",
+      "unit": "m",
+      "calculated": 7.894225671013948,
+      "reference": 8.67,
+      "difference": -0.7757743289860519,
+      "error_percent": -8.947800795686874,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_4",
+      "reference_id": "CH4",
+      "metric": "IYMAX",
+      "unit": "m⁴",
+      "calculated": 43111.8414887513,
+      "reference": 43163.0,
+      "difference": -51.15851124870096,
+      "error_percent": -0.11852399334777694,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "IYMAX为潜在液体自由液面最大惯性矩；散货不按液体FSM使用"
+    },
+    {
+      "geometry_id": "HOLD_5",
+      "reference_id": "CH5",
+      "metric": "VOLM",
+      "unit": "m³",
+      "calculated": 8564.994623149176,
+      "reference": 9013.2,
+      "difference": -448.2053768508249,
+      "error_percent": -4.972766352137142,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_5",
+      "reference_id": "CH5",
+      "metric": "CGX",
+      "unit": "m",
+      "calculated": 40.11936362830892,
+      "reference": 40.05,
+      "difference": 0.06936362830892051,
+      "error_percent": 0.17319258004724222,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_5",
+      "reference_id": "CH5",
+      "metric": "CGY",
+      "unit": "m",
+      "calculated": 1.5928113357738302e-16,
+      "reference": 0.0,
+      "difference": 1.5928113357738302e-16,
+      "error_percent": null,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_5",
+      "reference_id": "CH5",
+      "metric": "CGZ",
+      "unit": "m",
+      "calculated": 8.067916783681808,
+      "reference": 9.09,
+      "difference": -1.022083216318192,
+      "error_percent": -11.244039783478462,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "未拟合PDF，几何范围差异见报告"
+    },
+    {
+      "geometry_id": "HOLD_5",
+      "reference_id": "CH5",
+      "metric": "IYMAX",
+      "unit": "m⁴",
+      "calculated": 41711.90393110048,
+      "reference": 41805.0,
+      "difference": -93.09606889951829,
+      "error_percent": -0.2226912304736713,
+      "pdf_page": 84,
+      "boundary_match": "approximate",
+      "note": "IYMAX为潜在液体自由液面最大惯性矩；散货不按液体FSM使用"
+    }
+  ],
+  "cargo_total": {
+    "geometry_volume_m3": 42679.10869876175,
+    "pdf_volume_m3": 45648.9,
+    "error_percent": -6.505723689373125
+  },
+  "notes": [
+    "23个主要分舱空间为典型横剖面限宽近似，尚未细分油水小舱、管弄和墩座。",
+    "各舱段按横隔板半厚度退让，隔板厚度区间不计入舱室空间。",
+    "货舱与左右边压载舱沿共同内舷界面各退让半板厚，含斜板法向偏移。",
+    "彩色展示的平滑法向仅改变渲染，不改变导出的几何。",
+    "只读02网格；当前23个主要空间不等同于PDF的84个实际舱室。边压载舱、双层底、艏艉包络不能按名称直接替代真实油水舱。",
+    "货舱模型顶高14.6m，PDF位置表为16.85m，缺少舱口围板上方容积；另有墩座、管弄和小舱边界未细分。",
+    "现有分舱空间并非全部按12mm外壳内表面或内底板厚修剪；8mm横/纵隔板退让已继承02。几何容积不是已扣完所有结构的净舱容。",
+    "未按参考容积缩放几何，不用参考满舱重心反算部分装载重心。PDF参考数据保留独立来源供06等明确选用。",
+    "液位为基线以上绝对高度，装载率为几何体积比。默认水平液面，零横倾、零纵倾；实际浮态下的舱内液面需另解。",
+    "自由液面惯性矩IT对过液面形心的纵向轴积分；FSM=rho_liquid*IT，单位t·m；后续自由液面修正为sum(FSM)/displacement。",
+    "空舱及封闭压满舱实际FSM为0；ITmax/FSMmax是部分装载扫描的最大值，不能当成满舱实际值。",
+    "货舱液位曲线采用水平填充假设；真实散货有安息角、堆形与不同密度，不默认把液体自由液面公式用于粮食或矿砂。",
+    "机舱、双层底及艏艉空间的填充曲线用于几何诊断，尚不代表可实际加注的独立液舱。",
+    "水密拓扑和有向体积继承02；尚未认证所有分舱与船壳的全局布尔包含/自交，不能把23空间体积之和当成可利用总舱容。",
+    "NPZ中空舱的重心用NaN标记，其余数值有限；JSON/CSV用null/空字段。"
+  ],
+  "elapsed_seconds": 5.544314900005702
+}
