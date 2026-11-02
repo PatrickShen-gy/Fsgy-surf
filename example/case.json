@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "name": "example_ship",
+  "mother_ship": {
+    "adapter": "mother_ship_offsets_v1",
+    "drawings": {
+      "lines": "35000DWT散货船型线图_2010VER.dxf",
+      "general_arrangement": "35000DWT散货船总布置图_2010VER.dxf",
+      "typical_section": "35000DWT散货船_典型横剖面图.dxf"
+    }
+  },
+  "design": {
+    "method": "affine",
+    "target_dimensions": {
+      "lbp_m": 172.0,
+      "beam_m": 28.8,
+      "depth_m": 14.6,
+      "design_draft_m": 9.83,
+      "scantling_draft_m": 10.27
+    }
+  },
+  "environment": {
+    "water_density_t_m3": 1.025,
+    "hydro_shell_thickness_mm": 0.0
+  },
+  "mesh": {
+    "samples": 129,
+    "subdivisions": 8,
+    "shell_thickness_mm": 12.0,
+    "bulkhead_thickness_mm": 8.0,
+    "partition_thickness_mm": 8.0,
+    "steel_density_t_m3": 7.85,
+    "bow_closure": "nominal",
+    "export_formats": ["obj", "stl"]
+  },
+  "bonjean": {
+    "draft_step_m": 0.5
+  },
+  "hydrostatics": {
+    "draft_step_m": 0.5,
+    "trims_m": [0.0]
+  },
+  "capacity": {
+    "fill_fractions": [0.0, 0.25, 0.5, 0.75, 1.0],
+    "level_samples": 51
+  },
+  "loading": "loading.example.json",
+  "tasks": [
+    "geometry",
+    "bonjean",
+    "hydrostatics",
+    "compartments",
+    "weights",
+    "equilibrium",
+    "stability",
+    "longitudinal",
+    "report"
+  ]
+}

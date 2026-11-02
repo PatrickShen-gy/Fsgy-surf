@@ -1,3 +1,8 @@
-# Keep exact file bytes: pipeline caches verify source files using SHA256.
-# Automatic newline conversion would invalidate those recorded fingerprints.
-* -text
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.txt text eol=lf
+*.dxf -text
+*.png binary

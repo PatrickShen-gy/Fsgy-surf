@@ -1,53 +1,42 @@
 # Fsgy-surf
 
-金课杀手3.0 专杀船舶设计
+用母型 DXF 和用户指定的目标主尺度生成设计船型，计算邦戎、静水力、舱容及装载性能。正常运行不读取 PDF，不输出参考值对照或误差报告。
 
-母型船建模与装载性能计算：从DXF输入整理到全工况性能对照的01—12计算流程。
-
-入口：**[12阶段总报告](12_批量复算与报告/output/report.html)**。HTML内嵌计算数据，可直接用浏览器打开；各工况下可切换结果表和对照曲线。
-
-01—12已建立程序，现有39个装载工况已计算至12。这里的“计算链条完成”不代表全部PDF数值已精确复现；总报告将来源、假设、误差与尚未解决的问题一并列出。
-
-## 使用
-
-使用Python 3.10及以上，在本目录安装`requirements.txt`中的依赖。现有工程也会复用上一级`.cad_deps`中的依赖。
+首次使用请按 [用户操作指南](docs/userguide.md) 准备算例、填写配置并运行程序。
 
 ```powershell
-cd 12_批量复算与报告
-python run_pipeline.py --test
+python -m pip install -r requirements.txt
+python main.py cases/example_ship/case.json
 ```
 
-默认复用01—08输出，重算09—11、更新12报告，并运行02—12测试。其他入口：
+打开 `cases/example_ship/results/12/report.html` 查看结果。第一次运行读取图纸并计算；再次运行复用 `cache/`。强制重算使用 `--force`。所有相对路径均相对于 `case.json`，可以从任意工作目录运行入口脚本。
+
+## 01—05 HTML 报告
+
+当本次任务包含 01—05 时，`main.py` 会在计算结束后自动汇总输入、三维分舱、邦戎、静水力和舱容结果：
 
 ```powershell
-python run_pipeline.py --report-only
-python run_pipeline.py --from-stage 3 --test
-python run_pipeline.py --from-stage 1 --test
+python main.py example/case.json
 ```
 
-完整重建前应保留本目录原始DXF和PDF。更换上游数据后，应从受影响的最早阶段重算；12会检查各阶段记录的来源SHA256，来源不一致时不会标为最新结果。`--report-only`仅汇总现有结果，不会重算上游。
+如果终端位于 `example` 目录：`python ../main.py case.json`。报告输出到 `example/results/report_01_05.html`，无需额外运行报告脚本。计算命中缓存时也会自动更新报告。报告读取已有结果，曲线和数据表嵌入 HTML；三维模型引用同一结果目录中的 `02/ship.html`。仅运行部分阶段且未包含完整 01—05 时，不生成这份报告。
 
-## 阶段与输出
+## 算例与任务
 
-| 阶段 | 工作 | 主要输出目录 |
-|---|---|---|
-| 01 | DXF提取、坐标和输入核对 | `01_输入整理与对照数据/output` |
-| 02 | 主船体、钢板、主要分舱及计算网格 | `02_母型计算几何重建/CAD_mesh` |
-| 03 | 邦戎曲线 | `03_邦戎曲线计算/output` |
-| 04 | 静水力 | `04_静水力计算/output` |
-| 05 | 舱容与装载参考目录 | `05_舱室与舱容计算/output` |
-| 06 | 逐项重量、重心及自由液面矩 | `06_重量与重心系统/output` |
-| 07 | 吃水、纵倾、横倾平衡 | `07_浮态与平衡求解/output` |
-| 08 | 大倾角GZ曲线 | `08_大倾角稳性计算/output` |
-| 09 | 风压、开口进水角与稳性限值 | `09_风压进水角与稳性限值/output` |
-| 10 | 重量/浮力分布、剪力、弯矩 | `10_纵强度计算/output` |
-| 11 | 单舱/相邻双舱许用载荷外包络 | `11_许用货舱载荷核对/output` |
-| 12 | 批算、测试、来源检查、全工况报告 | `12_批量复算与报告/output` |
+示例包含现有母型的三份 DXF，默认执行 01—05 和 12。修改 `design.target_dimensions` 即可调整设计船型；三向仿射变换分别使用 LBP、型宽、型深的比值。LOA 随船长同比变化，设计吃水单独指定。母型图纸和源文件不会被改写。
 
-## 计算边界
+`tasks` 可选：`input`、`geometry`、`bonjean`、`hydrostatics`、`compartments`、`weights`、`equilibrium`、`stability`、`criteria`、`longitudinal`、`hold_loads`、`report`。程序自动补齐计算依赖，无需分别运行阶段脚本。
 
-- PDF中的工况载荷、重心、开口和风压条件作为输入；相应对照结果只用于验证。06的手册重量合成，不等于由23个近似舱室独立重建了全部84个实际空间。
-- 02的12mm钢板模型与手册静水力18mm外板口径分别记录。07/08的外板排水量修正是一阶近似。
-- 主船体缺少完整上层储备浮力几何，08/09高角度结果保留为诊断；10仍有重量分布假设与局部剪力CORR修正缺项；11采用图像外包络，双层底压载耦合尚待补齐。
-- 所有差异和源表异常保存在12的`known_issues.json`。本工程复核所提供历史装载手册，当前结果不作为完整船型审批结论。
+在配置中加入 `"loading": "loading.example.json"`，并将 `weights`、`equilibrium`、`stability` 或 `longitudinal` 加入 `tasks`，即可继续计算装载性能。示例重量和重心仅演示输入格式，需要按设计船修改。主尺度变化不会自动缩放用户给定的重量、重心和载荷区间；这些输入统一采用目标船坐标。
 
+也可临时覆盖任务：
+
+```powershell
+python main.py cases/my_ship/case.json --tasks equilibrium longitudinal report
+```
+
+## 程序目录
+
+`src/01_*` 至 `src/12_*` 对应 12 项任务，各提供 `run(context)` 接口。`src/fsgy_surf` 提供配置、数据读写、流程调度和结果展示公共代码。网格、舱室和装载结果在同次运行中共享，并按算例持久化；输入变更只更新受影响的阶段。
+
+详细输入与模型范围见 [docs/case_format.md](docs/case_format.md)。
