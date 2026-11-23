@@ -16,7 +16,7 @@ python -m pip install -r requirements.txt
 
 ## 2. 准备算例文件夹
 
-本次使用的目录如下：
+请先准备本机有权使用的三份母型 DXF。以下目录以本地 `example/` 为例，图纸名称按实际文件调整。
 
 ```text
 Fsgy-surf/

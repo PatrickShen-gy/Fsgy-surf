@@ -13,7 +13,7 @@ python src/js/serve.py
 
 服务启动后，系统默认浏览器会自动打开 [本地工作台](http://127.0.0.1:8765/)。需要只启动服务时，运行 `python src/js/serve.py --no-browser`。按 `Ctrl+C` 停止服务。
 
-工作台默认载入 `34000t` 示例，下载项目后即可使用随附的装载工况和母型 DXF 试算。[算例配置](cases/34000t/case.json) · [装载工况](cases/34000t/loading.json) · [母型图纸](cases/example_ship/drawings)
+工作台默认载入 `34000t` 示例。试算前，请在「算例与母型」填写本机有权使用的型线图、总布置图和典型横剖面图路径。也可以将这三份 DXF 按 `lines.dxf`、`arrangement.dxf`、`section.dxf` 放入本地 `cases/example_ship/drawings/`，直接使用算例中预设的路径。[算例配置](cases/34000t/case.json) · [装载工况](cases/34000t/loading.json)
 
 也可选择其他模板、从空白目标尺度开始或导入已有的 `case.json`。填写主尺度和设计参数、勾选计算任务后，点击「开始计算」。计算完成后，可从同页打开报告、三维船体或图纸，也可单独导出当前表单的 `case.json`。
 

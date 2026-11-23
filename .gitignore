@@ -6,3 +6,11 @@ cases/*/results/
 cases/web-runs/
 example/cache/
 example/results/
+
+# 本地母型原图及其算例副本
+35000DWT散货船型线图_2010VER.dxf
+35000DWT散货船总布置图_2010VER.dxf
+35000DWT散货船_典型横剖面图.dxf
+/cases/example_ship/drawings/lines.dxf
+/cases/example_ship/drawings/arrangement.dxf
+/cases/example_ship/drawings/section.dxf
