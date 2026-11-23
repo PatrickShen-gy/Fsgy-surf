@@ -2,7 +2,8 @@
 import html
 import os
 from pathlib import Path
-from fsgy_surf.io.files import read_json, save_json, write_csv
+from urllib.parse import quote
+from fsgy_surf.io.files import save_json, write_csv
 from fsgy_surf.reporting.html import table, chart, document
 
 
@@ -10,14 +11,20 @@ def run(ctx):
     out = ctx.output(12)
     sections, inventory = [], []
     for stage, data in sorted(ctx.data.items()):
-        folder = ctx.output(stage)
+        if stage == 13:
+            index = Path(data['index_file'])
+            files = [(index, '打开设计图纸索引')] if index.is_file() else []
+            heading = '13 · 设计图纸'
+        else:
+            files = [(path, path.name) for path in sorted(ctx.output(stage).iterdir())
+                     if path.suffix in ('.csv', '.json', '.html', '.obj', '.stl', '.vtk', '.dxf')]
+            heading = f'{stage:02d}'
         links = []
-        for path in sorted(folder.glob('*')):
-            if path.suffix in ('.csv', '.json', '.html', '.obj', '.stl', '.vtk', '.dxf'):
-                relative = os.path.relpath(path, out).replace(os.sep, '/')
-                links.append(f'<a href="{html.escape(relative, quote=True)}">{html.escape(path.name)}</a>')
+        for path, label in files:
+            relative = quote(os.path.relpath(path, out).replace(os.sep, '/'))
+            links.append(f'<a href="{relative}">{html.escape(label)}</a>')
         inventory.append(dict(stage=stage, result_files=len(links)))
-        body = f'<h2>{stage:02d}</h2><p>{" · ".join(links)}</p>'
+        body = f'<h2>{heading}</h2><p>{" · ".join(links)}</p>'
         if stage == 2:
             body += table([data['dimensions']])
             body += table([dict(structure_mass_t=data['structure_mass_t'], structure_center_m=data['structure_center_m'])])
@@ -29,6 +36,10 @@ def run(ctx):
                                     arrays['area_m2'][::max(1, len(arrays['x_m'])//5)])], '吃水 / m', '面积 / m²')
         elif stage == 4:
             body += table([data['design_point']])
+            if scantling_point := data.get('scantling_point'):
+                body += '<h3>结构吃水 Ts</h3>'+table([scantling_point])
+            if particulars := data.get('principal_particulars', {}).get('rows'):
+                body += '<h3>设计输入与复算</h3>'+table(particulars)
             arrays = ctx.arrays(data['arrays_file'])
             for field in ('VOLM', 'KMT', 'LCB'):
                 body += chart(field, [(f'trim={trim:g} m', arrays['draft_m'], values)

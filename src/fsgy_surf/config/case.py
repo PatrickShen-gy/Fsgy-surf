@@ -1,13 +1,15 @@
 """Case configuration, relative paths and user-provided loading data."""
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 import math
 from fsgy_surf.io.files import read_json
 
 TASKS = {
     'input': 1, 'geometry': 2, 'bonjean': 3, 'hydrostatics': 4,
     'compartments': 5, 'weights': 6, 'equilibrium': 7, 'stability': 8,
-    'criteria': 9, 'longitudinal': 10, 'hold_loads': 11, 'report': 12,
+    'criteria': 9, 'longitudinal': 10, 'hold_loads': 11, 'report': 12, 'drawings': 13,
 }
+CASE_OUTPUT_NAMES = {'by-config', 'run.json', 'report_01_05.html',
+                     *(f'{number:02d}' for number in TASKS.values())}
 
 
 def positive(value, name, allow_zero=False):
@@ -18,8 +20,23 @@ def positive(value, name, allow_zero=False):
     return float(value)
 
 
-def load_case(path):
+def resolve_case_path(path):
     path = Path(path).resolve()
+    return path / 'case.json' if path.is_dir() else path
+
+
+def case_directory(case_path, directory):
+    base = case_path.parent / directory
+    if case_path.name == 'case.json':
+        return base
+    stem = case_path.stem
+    if stem.casefold() in CASE_OUTPUT_NAMES:
+        base /= 'by-config'
+    return base / stem
+
+
+def load_case(path):
+    path = resolve_case_path(path)
     config = read_json(path)
     if config.get('schema_version') != '1.0':
         raise ValueError('case.json requires schema_version = "1.0"')
@@ -38,14 +55,24 @@ def load_case(path):
     design = config['design']
     if design.get('method', 'affine') != 'affine':
         raise ValueError('Supported design method: affine')
-    target = design['target_dimensions']
-    for key in ('lbp_m', 'beam_m', 'depth_m', 'design_draft_m'):
-        positive(target[key], f'design.target_dimensions.{key}')
-    if target['design_draft_m'] > target['depth_m']:
-        raise ValueError('design_draft_m must not exceed depth_m')
-    for key in ('loa_m', 'scantling_draft_m'):
+    target = design.setdefault('target_dimensions', {})
+    dimensions = ('loa_m', 'lbp_m', 'beam_m', 'depth_m', 'design_draft_m', 'scantling_draft_m')
+    if not isinstance(target, dict):
+        raise ValueError('design.target_dimensions must be an object')
+    for key in dimensions:
         if key in target:
-            positive(target[key], key)
+            positive(target[key], f'design.target_dimensions.{key}')
+    for key in ('design_draft_m', 'scantling_draft_m'):
+        if 'depth_m' in target and key in target and target[key] > target['depth_m']:
+            raise ValueError(f'{key} must not exceed depth_m')
+    parameters = design.get('target_parameters', {})
+    if not isinstance(parameters, dict):
+        raise ValueError('design.target_parameters must be an object')
+    for key in ('displacement_t', 'lightweight_t', 'deadweight_t', 'block_coefficient'):
+        if key in parameters:
+            positive(parameters[key], f'design.target_parameters.{key}')
+    if parameters.get('block_coefficient', 0) > 1:
+        raise ValueError('block_coefficient must not exceed 1')
     environment = config.setdefault('environment', {})
     environment.setdefault('water_density_t_m3', 1.025)
     positive(environment['water_density_t_m3'], 'water_density_t_m3')
@@ -65,6 +92,17 @@ def load_case(path):
     config.setdefault('tasks', ['geometry', 'bonjean', 'hydrostatics', 'compartments', 'report'])
     if not config['tasks'] or any(task not in TASKS for task in config['tasks']):
         raise ValueError(f'tasks must be a nonempty list selected from {list(TASKS)}')
+    settings = config.get('drawings', {})
+    if not isinstance(settings, dict):
+        raise ValueError('drawings must be an object')
+    revision = settings.get('revision', '')
+    if not isinstance(revision, str):
+        raise ValueError('drawings.revision must be a relative directory path')
+    revision_path = PureWindowsPath(revision)
+    if revision_path.anchor or '..' in revision_path.parts:
+        raise ValueError('drawings.revision must be relative to results/13')
+    if revision:
+        settings['revision'] = revision_path.as_posix()
     loading = config.get('loading')
     if isinstance(loading, str):
         loading = read_json((path.parent / loading).resolve())

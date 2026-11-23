@@ -1,5 +1,11 @@
 # 用户算例格式
 
+## 算例目录与入口
+
+`python main.py --list-cases` 列出 `cases/` 下的算例，`python main.py --case 34000t` 按名称选择。也可以传入算例目录或 JSON 路径。新增的 `example` 与 `34000t` 通过相对路径读取 `cases/example_ship/drawings/` 下的同一套母型 DXF，各自保存结果。
+
+`case.json` 默认写入同目录的 `results/` 和 `cache/`。同目录的其他 JSON 文件默认写入 `results/<文件名>/` 和 `cache/<文件名>/`，路径中的文件名不含扩展名。遇到阶段编号等保留名称时，在文件名目录前加入 `by-config/`，避免覆盖标准算例结果。可用 `results_dir` 和 `cache_dir` 指定位置。
+
 ## 单位与坐标
 
 几何及配置长度 m，重量 t，密度 t/m³，自由液面矩 t·m。AP 为 x=0，X 向艏，Y 向左舷，Z 从基线向上；纵倾为 TF−TA，左舷下沉横倾为正。图纸适配器负责从原始绘图坐标转入母型坐标。
@@ -8,7 +14,9 @@
 
 `mother_ship.drawings` 明确指定 `lines`、`general_arrangement`、`typical_section`。当前 `mother_ship_offsets_v1` 适配器支持现有母型型值表和布置布局；改成其他名称的图纸文件仍可读取，任意新布局需要新的适配器。`mother_ship.dimensions` 可补充图中缺失的母型主尺度。
 
-`design.target_dimensions` 必填 `lbp_m`、`beam_m`、`depth_m`、`design_draft_m`。可选 `scantling_draft_m` 和 `loa_m`；指定 LOA 时须与 LBP 保持相同纵向缩放比例。几何在目标尺度下重新生成钢板及隔板材料域，板厚按配置保持，不随船型比例缩放。
+`design.target_dimensions` 支持 `loa_m`、`lbp_m`、`beam_m`、`depth_m`、`design_draft_m` 和 `scantling_draft_m`，单位 m。省略 LBP、B、D 时采用母型值，省略 LOA 时随 LBP 同比缩放，省略 T 或 Ts 时随型深缩放。独立指定 LOA 时，AP 到 FP 按 LBP 比例缩放，艏艉伸出段按 LOA 与 LBP 之差的比例缩放。该适配器要求 LOA 大于 LBP，完整 LOA 采用 `mesh.bow_closure: "nominal"`。钢板和隔板按目标船型重建，板厚取配置值。
+
+`design.target_parameters` 支持 `displacement_t`、`lightweight_t`、`deadweight_t` 和 `block_coefficient`。Δ、DW 和 Cb 的参考吃水为 Ts，设计输入和网格复算值分别记录。LW0 优先取显式输入，其次取输入的 Δ−DW，最后取全局装载配置。采用的 LW0 会更新全局空船重量，空船分项按比例调整，工况中单独指定的空船输入优先。缺少空船重量来源时，核对表的复算 LW0 和 DW 留空。04 和 13 输出 `principal_particulars.json` 与 `principal_particulars.csv`，差值按复算值减输入值计算。
 
 当前分舱沿用原模型的 5 货舱、10 边舱、5 双层底空间、机舱及艏艉空间近似；其余小舱、甲板以上储备浮力、内底板和完整骨架尚不包含。钢结构质量仅包含已生成的船壳和主隔板，不能自动作为整船空船重量。高角度结果保留虚拟甲板浸没标记。
 
@@ -24,6 +32,26 @@
 - `capacity` 配置 `fill_fractions`（0—1）和 `level_samples`。
 - `stability` 配置 `angles_deg`（从 0 开始，最多 180°）和 `sides`（`port`、`starboard`）。默认计算完整 0—180°曲线；面积使用弧度积分。
 - `longitudinal.cells` 默认 450，控制纵向积分初始网格，随后加入船体站位及载荷边界。
+
+## 13 设计图纸
+
+`tasks` 中加入 `drawings` 即可出图。单独运行该任务时，程序自动执行或复用 01、02。同时选择 `report` 时，综合报告链接至第 13 工序索引。第 13 工序输出 DXF R2010、SVG 和图纸数据表。DXF 主图模型空间用 mm，比例 1:1。局部放大图使用图面所注比例。见 [工序说明](../src/13_设计图纸输出/README.md)。
+
+可在算例的顶层 `drawings` 对象中设置：
+
+| 字段 | 默认值与含义 |
+|---|---|
+| `template` | `mother_35000` 使用母型版式；`simple` 为型线图、典型横剖面图和总布置图选用简化版式 |
+| `revision` | 默认空字符串，写入 `results/13/`；可设置一个相对的修订子目录 |
+| `types` | 默认生成 `lines_plan`、`typical_section`、`general_arrangement` 和 `capacity_plan`，可选其中一部分 |
+| `structure_details` | 默认为 `true`，在平行货舱典型横剖面上绘制母型参考构件 |
+| `stations_m` | 默认使用变换到目标船的母型站位 |
+| `waterlines_m` | 默认使用按型深缩放的模板水线及设计、结构吃水；水线需切入船体 |
+| `buttocks_m` | 默认按型宽缩放模板纵剖半宽；数值非负且小于 B/2 |
+| `section_x_m` | 默认为 3 号货舱中部；须在船体内部并避开横舱壁 |
+| `plan_z_m` | 母型版式总布置图默认取内底板上方 0.1 m，简化版式总布置图和舱容图默认取 D/2；自定义值须大于 0、小于型深 D |
+
+手动指定的站位、水线和剖面坐标采用目标船坐标。型线、主舱壁及舱容来自 02 计算模型。甲板室、设备和局部构件用于图面参考。舱容图中各空间的体积和容积重心由模型计算，导出到 `capacity_plan.csv`。母型版式的型值表在图中按 mm 取整，`offsets.csv` 以 m 保存未取整数值。模板 JSON 和 DXF 参与第 13 工序的缓存校验。见 [母型出图模板](../src/13_设计图纸输出/templates/mother_35000/README.md)。
 
 ## 装载输入
 
@@ -95,6 +123,6 @@
 
 ## 中间数据与结果
 
-`cache/01` 保存 DXF 解析，`cache/02` 保存几何网格，其他阶段缓存表格数组与阶段数据。缓存签名包括相关配置、来源内容及程序内容，产物缺失或变化会重算。修改载荷复用几何；修改主尺度更新几何及其下游。`results/01` 至 `results/12` 输出 JSON、CSV、三维模型和离线结果页面。`results/run.json` 记录实际执行的任务与缓存使用情况。
+`cache/01` 保存 DXF 解析，`cache/02` 保存几何网格，其他阶段缓存表格数组与阶段数据。缓存签名包括相关配置、来源内容及程序内容，产物缺失或变化会重算。修改载荷复用几何；修改主尺度更新几何及其下游。`results/01` 至 `results/12` 输出 JSON、CSV、三维模型和离线结果页面。`results/13` 输出工程图纸，图纸入口为 `index.html`。`results/run.json` 记录实际执行的任务与缓存使用情况。
 
 无需 PDF、PyMuPDF 或旧项目计算输出。程序仅保留避免无效输入、非法几何和数值不收敛所必需的错误处理。

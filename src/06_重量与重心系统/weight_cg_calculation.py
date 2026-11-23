@@ -1,5 +1,6 @@
 """User loading weights, moments and free-surface correction."""
 import math
+from fsgy_surf.config.design import requested_lightweight
 from fsgy_surf.io.files import save_json, write_csv
 
 def aggregate(items):
@@ -88,16 +89,32 @@ def ballast_items(ctx, states, existing_items):
 
 def run(ctx):
     loading = ctx.config['loading']
+    global_mass = requested_lightweight(ctx.config)
     cases, totals, item_rows = [], [], []
     for case in loading['cases']:
         cid = case['case_id']
         raw_light = case.get('lightweight', loading.get('lightweight'))
         components = case.get('lightweight_components', loading.get('lightweight_components'))
+        if 'lightweight' in case and 'lightweight_components' not in case:
+            components = None
+        override = None if 'lightweight' in case or 'lightweight_components' in case else global_mass
         if components:
             light_items = [load_item(ctx, dict(item, category='Lightweight')) for item in components]
-            light = dict(id='LIGHTSHIP', category='Lightweight', **aggregate(light_items))
+            properties = aggregate(light_items)
+            if override is not None:
+                if properties['mass_t'] <= 0:
+                    raise ValueError('Lightweight components need positive total mass to apply LW0')
+                factor = override / properties['mass_t']
+                for item in light_items:
+                    item['mass_t'] *= factor
+                properties = aggregate(light_items)
+            light = dict(id='LIGHTSHIP', category='Lightweight', **properties)
         elif raw_light:
+            if override is not None:
+                raw_light = dict(raw_light, mass_t=override)
             light = load_item(ctx, dict(raw_light, category='Lightweight'))
+            if override is not None:
+                light['mass_t'] = override
             light.setdefault('id', 'LIGHTSHIP')
             light_items = [light]
         else:

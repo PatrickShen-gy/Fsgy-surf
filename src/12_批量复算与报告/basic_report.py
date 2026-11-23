@@ -7,6 +7,7 @@ import html
 import math
 import os
 
+from fsgy_surf.config.case import case_directory, resolve_case_path
 from fsgy_surf.io.files import read_json
 from fsgy_surf.reporting.html import chart, table
 
@@ -64,12 +65,23 @@ def plot(title, xs, ys, xlabel, ylabel):
     return '<div class="plot">'+chart(title, [(title, xs, ys)], xlabel, ylabel)+'</div>'
 
 
+def results_directory(case_path, config):
+    if 'results_dir' in config:
+        return (case_path.parent / config['results_dir']).resolve()
+    results = case_directory(case_path, 'results')
+    legacy = case_path.parent / 'results'
+    manifest = legacy / 'run.json'
+    if results != legacy and not results.exists() and manifest.is_file():
+        saved_case = read_json(manifest).get('config_file')
+        if saved_case and Path(saved_case).resolve() == case_path:
+            return legacy
+    return results
+
+
 def generate_report(case_path, output=None):
-    case_path = Path(case_path).resolve()
-    if case_path.is_dir():
-        case_path /= 'case.json'
+    case_path = resolve_case_path(case_path)
     config = read_json(required(case_path))
-    results = (case_path.parent/config.get('results_dir', 'results')).resolve()
+    results = results_directory(case_path, config)
     output = Path(output).resolve() if output is not None else results/'report_01_05.html'
     mother = read_json(required(results/'01/mother_ship.json'))
     geometry = read_json(required(results/'02/geometry.json'))
@@ -100,7 +112,8 @@ def generate_report(case_path, output=None):
     sections.append(section(1, '输入与主尺度', body))
 
     sx, sy, sz = geometry['scale_xyz']
-    body = table([{'纵向缩放': sx, '横向缩放': sy, '垂向缩放': sz,
+    overhang_scale = geometry.get('longitudinal_mapping', {}).get('overhang_scale', sx)
+    body = table([{'垂线间纵向缩放': sx, '艏艉伸出段缩放': overhang_scale, '横向缩放': sy, '垂向缩放': sz,
                    '空间区块数': len(geometry['compartments']),
                    '已建钢结构质量 / t': geometry['structure_mass_t']}])
     viewer = link(results/'02/ship.html', '独立打开三维模型')
@@ -140,6 +153,17 @@ def generate_report(case_path, output=None):
     point = hydro['design_point']
     body = f'<p>设计吃水 {point["draft_m"]:g} m，纵倾 {point["trim_m"]:g} m；水密度 {hydro["water_density_t_m3"]:g} t/m³，排水量一阶外板修正厚度 {hydro["hydro_shell_thickness_m"]*1000:g} mm。</p>'
     body += table([{'指标': label, '设计吃水计算值': point.get(key), '单位': unit} for key, label, unit in HYDRO])
+    scantling_point = hydro.get('scantling_point')
+    if scantling_point:
+        body += f'<h3>结构吃水 Ts（{scantling_point["draft_m"]:g} m）</h3>'
+        body += table([{'指标': label, '结构吃水计算值': scantling_point.get(key), '单位': unit}
+                       for key, label, unit in HYDRO])
+    particulars = hydro.get('principal_particulars', {}).get('rows', [])
+    if particulars:
+        body += '<h3>设计输入与复算</h3>'+table([
+            {'参数': row['label'], '单位': row['unit'], '设计输入': row['input_value'],
+             '复算或采用值': row['calculated_value'], '差值': row['difference']}
+            for row in particulars])
     by_trim = defaultdict(list)
     for row in hydro_rows:
         by_trim[row['trim_m']].append(row)

@@ -1,5 +1,6 @@
 """Clipped-mesh hydrostatics for inclined waterplanes."""
 import numpy as np
+from fsgy_surf.config.design import principal_summary
 from fsgy_surf.io.files import save_json, write_csv
 
 class HydrostaticCalculator:
@@ -140,19 +141,26 @@ def run(ctx):
             row = kernel.evaluate(float(draft), float(trim), midship_area=amid if amid > 0 else None)
             row.pop('waterline_closure_m', None)
             rows.append(row)
-    path = ctx.output(4)/'hydrostatics.csv'
+    out = ctx.output(4)
+    path = out/'hydrostatics.csv'
     write_csv(path, rows)
     arrays = ctx.cache(4)/'hydrostatics.npz'
     np.savez_compressed(arrays, draft_m=drafts, trim_m=trims, **{
         key: np.array([r[key] if r[key] is not None else np.nan for r in rows]).reshape(len(trims), len(drafts))
         for key in rows[0] if key not in ('draft_m', 'trim_m')})
-    design_draft = ctx.data[2]['dimensions']['design_draft_m']
-    design_area = submerged_properties(midship, design_draft)['area_m2']
-    design_point = kernel.evaluate(design_draft,
-                                  midship_area=design_area if design_area > 0 else None)
-    design_point.pop('waterline_closure_m', None)
+    points = {}
+    dimensions = ctx.data[2]['dimensions']
+    for key in ('design', 'scantling'):
+        draft = dimensions[f'{key}_draft_m']
+        area = submerged_properties(midship, draft)['area_m2']
+        point = kernel.evaluate(draft, midship_area=area if area > 0 else None)
+        point.pop('waterline_closure_m', None)
+        points[f'{key}_point'] = point
+    summary = principal_summary(ctx, points['scantling_point'])
+    save_json(out/'principal_particulars.json', summary)
+    write_csv(out/'principal_particulars.csv', summary['rows'])
     result = dict(table_file=str(path), arrays_file=str(arrays), rows=len(rows),
                   water_density_t_m3=kernel.rho, hydro_shell_thickness_m=kernel.shell_t,
-                  design_point=design_point)
-    save_json(ctx.output(4)/'hydrostatics.json', result)
+                  principal_particulars=summary, **points)
+    save_json(out/'hydrostatics.json', result)
     return result

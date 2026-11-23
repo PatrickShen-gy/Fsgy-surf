@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "name": "34000t",
+  "mother_ship": {
+    "adapter": "mother_ship_offsets_v1",
+    "drawings": {
+      "lines": "../example_ship/drawings/lines.dxf",
+      "general_arrangement": "../example_ship/drawings/arrangement.dxf",
+      "typical_section": "../example_ship/drawings/section.dxf"
+    }
+  },
+  "design": {
+    "method": "affine",
+    "target_dimensions": {
+      "loa_m": 178.44,
+      "lbp_m": 170.56,
+      "beam_m": 28.8,
+      "depth_m": 14.6,
+      "design_draft_m": 9.83,
+      "scantling_draft_m": 10.27
+    },
+    "target_parameters": {
+      "displacement_t": 42504.71,
+      "lightweight_t": 8519.45,
+      "deadweight_t": 33985.26,
+      "block_coefficient": 0.8425
+    }
+  },
+  "environment": {
+    "water_density_t_m3": 1.025,
+    "hydro_shell_thickness_mm": 0.0
+  },
+  "mesh": {
+    "samples": 129,
+    "subdivisions": 8,
+    "shell_thickness_mm": 12.0,
+    "bulkhead_thickness_mm": 8.0,
+    "partition_thickness_mm": 8.0,
+    "steel_density_t_m3": 7.85,
+    "bow_closure": "nominal",
+    "export_formats": [
+      "obj",
+      "stl"
+    ]
+  },
+  "bonjean": {
+    "draft_step_m": 0.5
+  },
+  "hydrostatics": {
+    "draft_step_m": 0.5,
+    "trims_m": [
+      0.0
+    ]
+  },
+  "capacity": {
+    "fill_fractions": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "level_samples": 51
+  },
+  "loading": "loading.json",
+  "drawings": {
+    "template": "mother_35000",
+    "structure_details": true,
+    "types": [
+      "lines_plan",
+      "typical_section",
+      "general_arrangement",
+      "capacity_plan"
+    ]
+  },
+  "tasks": [
+    "geometry",
+    "bonjean",
+    "hydrostatics",
+    "compartments",
+    "weights",
+    "equilibrium",
+    "stability",
+    "longitudinal",
+    "report",
+    "drawings"
+  ]
+}

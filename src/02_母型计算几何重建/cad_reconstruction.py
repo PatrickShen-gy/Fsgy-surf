@@ -8,6 +8,7 @@ from shapely.geometry import Polygon
 from shapely.geometry.polygon import orient
 from shapely import constrained_delaunay_triangles
 import mesh_utils as mu
+from fsgy_surf.config.design import longitudinal_scales, longitudinal_x, resolve_dimensions
 from fsgy_surf.io.files import save_json, write_csv
 HERE = Path(__file__).resolve().parent
 
@@ -599,31 +600,30 @@ def spatial_blocks(components, mesh_file, purposes=None):
 def run(ctx):
     from read_dxf import load_drawings
     data = ctx.data[1]
-    inputs = load_drawings(data)
     source = data['dimensions']
-    target = dict(ctx.config['design']['target_dimensions'])
-    scale = np.array([target['lbp_m']/source['lbp_m'],
-                      target['beam_m']/source['beam_m'],
-                      target['depth_m']/source['depth_m']])
-    affine_loa = source['loa_m'] * scale[0]
-    if 'loa_m' in target and not np.isclose(target['loa_m'], affine_loa, rtol=1e-6):
-        raise ValueError('Affine design requires loa_m/lbp_m to match the mother hull; omit loa_m to derive it')
-    target['loa_m'] = affine_loa
-    target.setdefault('scantling_draft_m', source.get('scantling_draft_m', source['design_draft_m'])*scale[2])
+    requested = ctx.config['design'].get('target_dimensions', {})
+    target = resolve_dimensions(source, requested)
+    length_scale, overhang_scale = longitudinal_scales(source, target)
+    scale = np.array([length_scale, target['beam_m']/source['beam_m'], target['depth_m']/source['depth_m']])
     settings = ctx.config['mesh']
+    if settings['bow_closure'] == 'station' and not np.isclose(target['loa_m'], source['loa_m'] * length_scale,
+                                                             rtol=1e-6):
+        raise ValueError('Independent loa_m requires mesh.bow_closure = nominal for the complete hull')
+    inputs = load_drawings(data)
     sections, _, _ = reconstruct_sections(inputs, settings['samples'])
     outer, hydro_faces, plate_faces, rings, _ = make_hull(
         sections, settings['subdivisions'], source, settings['bow_closure'])
-    outer = outer * scale
-    rings = [ring * scale for ring in rings]
-    source_stations = np.array([ring[0, 0]*scale[0] for ring in sections])
+    yz_scale = scale[1:]
+    outer = np.column_stack((longitudinal_x(outer[:, 0], source, target), outer[:, 1:] * yz_scale))
+    rings = [np.column_stack((longitudinal_x(ring[:, 0], source, target), ring[:, 1:] * yz_scale))
+             for ring in rings]
+    source_stations = longitudinal_x([ring[0, 0] for ring in sections], source, target)
     mu.validate(outer, hydro_faces)
     mu.THICKNESS = settings['shell_thickness_mm']/1000
     inner, solid_v, solid_f, _ = mu.offset_shell(outer, plate_faces)
     spans, layout = drawing_spans(inputs)
     for span in spans:
-        span['start_m'] *= scale[0]
-        span['end_m'] *= scale[0]
+        span['start_m'], span['end_m'] = longitudinal_x([span['start_m'], span['end_m']], source, target)
     for key in ('double_bottom_m', 'top_slope_start_m', 'top_slope_end_m'):
         layout[key] *= scale[2]
     for key in ('side_tank_m', 'inner_half_breadth_m', 'upper_half_breadth_m'):
@@ -695,6 +695,9 @@ def run(ctx):
         coordinates='AP=0; X forward; Y port; Z above baseline; units m', blocks=spaces))
     write_csv(out/'spatial_blocks.csv', spaces)
     result = dict(dimensions=target, mother_dimensions=source, scale_xyz=scale.tolist(),
+        longitudinal_mapping=dict(method='AP_FP_and_overhangs',
+                                  between_perpendiculars_scale=length_scale, overhang_scale=overhang_scale),
+        mesh_loa_m=float(np.ptp(outer[:, 0])),
         mesh_file=str(mesh_file), compartments_file=str(compartment_file),
         spatial_blocks_file=str(registry_file),
         compartments=spaces, materials=materials, structure_mass_t=mass,

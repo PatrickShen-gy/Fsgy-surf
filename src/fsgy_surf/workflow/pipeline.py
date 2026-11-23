@@ -4,7 +4,8 @@ from importlib import import_module
 import time
 import numpy as np
 from fsgy_surf import SOURCE
-from fsgy_surf.config.case import load_case, TASKS
+from fsgy_surf.config.case import TASKS, case_directory, load_case
+from fsgy_surf.config.design import lightweight_value
 from fsgy_surf.io.files import digest, fingerprint, read_json, save_json
 
 MODULES = {
@@ -13,19 +14,22 @@ MODULES = {
     6: 'weight_cg_calculation', 7: 'equilibrium_calculation',
     8: 'stability_calculation', 9: 'stability_criteria',
     10: 'longitudinal_strength', 11: 'hold_mass_check', 12: 'run_pipeline',
+    13: 'design_drawings',
 }
 DEPENDENCIES = {1: [], 2: [1], 3: [2], 4: [2], 5: [2], 6: [5],
-                7: [6], 8: [7], 9: [8], 10: [7], 11: [7], 12: []}
+                7: [6], 8: [7], 9: [8], 10: [7], 11: [7], 12: [], 13: [2]}
 CONFIG_KEYS = {
     1: ['mother_ship'], 2: ['design', 'mesh', 'compartments'],
-    3: ['bonjean'], 4: ['hydrostatics', 'environment'], 5: ['capacity', 'environment'],
-    6: ['loading', 'environment'], 7: ['environment'], 8: ['stability', 'environment'],
+    3: ['bonjean'], 4: ['hydrostatics', 'environment', 'design'],
+    5: ['capacity', 'environment'],
+    6: ['loading', 'environment', 'design'], 7: ['environment'], 8: ['stability', 'environment'],
     9: ['criteria', 'environment'], 10: ['longitudinal', 'environment'],
     11: ['hold_loads'], 12: ['name', 'tasks'],
+    13: ['name', 'drawings', 'design', 'environment'],
 }
 # Some stages use a numerical class from another stage without needing its output table.
 # Track those code dependencies separately from the calculation/data dependencies.
-CODE_DEPENDENCIES = {4: [3], 5: [4], 7: [4], 8: [4], 10: [3]}
+CODE_DEPENDENCIES = {4: [3], 5: [4], 7: [4], 8: [4], 10: [3], 13: [4]}
 
 
 def code_files(number):
@@ -36,17 +40,24 @@ def code_files(number):
             if dependency not in stages:
                 include(dependency)
     include(number)
-    return sorted(p for n in stages for folder in SOURCE.glob(f'{n:02d}_*')
-                  for p in folder.iterdir() if p.suffix in ('.py', '.html'))
+    files = [p for n in stages for folder in SOURCE.glob(f'{n:02d}_*')
+             for p in folder.iterdir() if p.suffix in ('.py', '.html')]
+    if number == 13:
+        files.extend(p for root in SOURCE.glob('13_*/templates') for p in root.rglob('*')
+                     if p.is_file() and p.suffix in ('.json', '.dxf'))
+    return sorted(files)
 
 
 class Context:
     def __init__(self, config, config_path):
+        config_path = Path(config_path).resolve()
         self.config = config
         self.config_path = config_path
         self.case_dir = config_path.parent
-        self.cache_root = (self.case_dir / config.get('cache_dir', 'cache')).resolve()
-        self.result_root = (self.case_dir / config.get('results_dir', 'results')).resolve()
+        cache_dir = config.get('cache_dir', case_directory(config_path, 'cache'))
+        results_dir = config.get('results_dir', case_directory(config_path, 'results'))
+        self.cache_root = (self.case_dir / cache_dir).resolve()
+        self.result_root = (self.case_dir / results_dir).resolve()
         if self.cache_root == self.result_root:
             raise ValueError('cache_dir and results_dir must be different')
         self.data = {}
@@ -65,6 +76,8 @@ class Context:
 
     def output(self, number):
         path = self.result_root / f'{number:02d}'
+        if number == 13:
+            path = path / self.config.get('drawings', {}).get('revision', '')
         path.mkdir(parents=True, exist_ok=True)
         return path
 
@@ -135,13 +148,14 @@ def selected_stages(config):
         raise ValueError('criteria task requires criteria settings')
     if 11 in selected and not config.get('hold_loads', {}).get('envelopes'):
         raise ValueError('hold_loads task requires hold_loads.envelopes')
-    return sorted(selected)
+    # The report summarizes the stages explicitly selected for the run, including drawings.
+    return sorted(selected, key=lambda number: (number == 12, number))
 
 
 def run_case(path, force=False, tasks=None):
     config, config_path = load_case(path)
     if tasks is not None:
-        if any(task not in TASKS for task in tasks):
+        if not tasks or any(task not in TASKS for task in tasks):
             raise ValueError(f'Unknown task; choose from {list(TASKS)}')
         config['tasks'] = tasks
     selected = selected_stages(config)
@@ -157,6 +171,13 @@ def run_case(path, force=False, tasks=None):
                               code={str(p.relative_to(SOURCE)): digest(p) for p in files},
                               config={k: config.get(k) for k in CONFIG_KEYS[number]},
                               dependencies={str(n): signatures[n] for n in DEPENDENCIES[number]})
+        if number == 2:
+            signature_data['config']['design'] = {
+                key: config['design'].get(key) for key in ('method', 'target_dimensions')}
+        elif number in (4, 13):
+            signature_data['config']['lightweight'] = lightweight_value(config)
+        elif number == 6:
+            signature_data['config']['design'] = config['design'].get('target_parameters')
         if number == 1:
             signature_data['drawings'] = {role: digest(filename) for role, filename
                                          in config['mother_ship']['drawings'].items()}
@@ -174,8 +195,11 @@ def run_case(path, force=False, tasks=None):
             payload = old['data']
         else:
             payload = module.run(ctx)
-            produced = [p for folder in (ctx.cache(number), ctx.output(number))
-                        for p in folder.rglob('*') if p.is_file() and p != manifest_path]
+            if number == 13:
+                produced = [Path(path) for path in payload['artifact_files']]
+            else:
+                produced = [p for folder in (ctx.cache(number), ctx.output(number))
+                            for p in folder.rglob('*') if p.is_file() and p != manifest_path]
             save_json(manifest_path, dict(signature=signature, data=payload,
                                          artifacts={str(p): digest(p) for p in produced}))
         signatures[number] = signature

@@ -12,7 +12,7 @@
 python -m pip install -r requirements.txt
 ```
 
-已经使用同一个 Python 环境成功运行过程序，则直接进行下一步。
+从旧版升级时也执行一次该命令，为第 13 工序安装生成中文轮廓所需的 `fonttools`。
 
 ## 2. 准备算例文件夹
 
@@ -35,7 +35,7 @@ Fsgy-surf/
 
 本次实际装载文件名是 `loading.example.json`。如果自行改名为 `loadexample.json`，也需要同步修改 `case.json` 中的 `loading` 字段。
 
-`example` 是本次操作的算例；`cases/example_ship` 是另一套示例目录。运行命令中的配置路径决定本次处理哪一套文件。
+`example/` 是本指南使用的原装载示例，按路径运行。`python main.py` 默认运行 `cases/example/` 中的母型尺度出图示例。`python main.py --case 34000t` 选择新船算例。使用 `--list-cases` 列出 `cases/` 中可按名称运行的配置。
 
 ## 3. 在 case.json 中指定图纸
 
@@ -79,13 +79,16 @@ Fsgy-surf/
 
 | 字段 | 含义 | 单位 |
 |---|---|---|
+| `loa_m` | 目标总长，可独立指定 | m |
 | `lbp_m` | 目标垂线间长 | m |
 | `beam_m` | 目标型宽 | m |
 | `depth_m` | 目标型深 | m |
 | `design_draft_m` | 设计吃水，也是静水力报告中的设计参考点 | m |
 | `scantling_draft_m` | 结构吃水，可选 | m |
 
-保持以上数值，得到的是当前母型尺度。改变长、宽、深后，程序按三个方向的比例生成目标船型，钢板厚度按 `mesh` 中的设置保持。总长 LOA 默认随垂线间长同比变化。
+保持以上数值，得到的是当前母型尺度。省略总长 LOA 时，程序随垂线间长同比缩放。独立给定 LOA 时，程序分别调整垂线间船体和艏艉伸出段。钢板厚度取 `mesh` 中的设置。
+
+可在 `design.target_parameters` 中填写设计排水量、空船重量、载重量和方形系数。04 的 `principal_particulars.csv` 汇总设计输入和结构吃水 Ts 下的复算结果。新增的 `cases/34000t/case.json` 提供完整示例。
 
 `design_draft_m` 是指定的计算参考吃水；07 的实际平衡吃水由装载重量和重心求解，两者可以不同。
 
@@ -140,6 +143,25 @@ Fsgy-surf/
 ```
 
 这时会执行 01—05 和 12，不要求装载数据。
+
+加入 `drawings` 可在同一次运行中生成工程图。只需要图纸时可覆盖本次任务：
+
+```powershell
+python main.py --case 34000t --tasks drawings
+```
+
+程序根据已有输入和船型数据生成四类图纸。打开 `cases/34000t/results/13/index.html` 可预览 SVG、下载 DXF 并查看计算数据。第 13 工序用 Windows 等线字体 `Deng.ttf` 生成中文轮廓，DXF 主图为 mm、1:1。
+
+例如仅画型线图和总布置图，可在 `case.json` 设定：
+
+```json
+"drawings": {
+  "types": ["lines_plan", "general_arrangement"],
+  "revision": "r1"
+}
+```
+
+此时图纸索引位于 `results/13/r1/index.html`。与 `report` 同时运行时，综合报告会链接到本次图纸索引。完整选项见 [配置字段说明](case_format.md#13-设计图纸)。
 
 ## 7. 编辑装载工况
 

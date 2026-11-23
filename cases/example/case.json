@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "name": "example",
+  "mother_ship": {
+    "adapter": "mother_ship_offsets_v1",
+    "drawings": {
+      "lines": "../example_ship/drawings/lines.dxf",
+      "general_arrangement": "../example_ship/drawings/arrangement.dxf",
+      "typical_section": "../example_ship/drawings/section.dxf"
+    }
+  },
+  "design": {
+    "method": "affine",
+    "target_dimensions": {}
+  },
+  "drawings": {
+    "template": "mother_35000",
+    "structure_details": true
+  },
+  "tasks": [
+    "geometry",
+    "bonjean",
+    "hydrostatics",
+    "compartments",
+    "report",
+    "drawings"
+  ]
+}

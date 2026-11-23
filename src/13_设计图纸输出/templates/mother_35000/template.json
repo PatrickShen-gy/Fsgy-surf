@@ -1,0 +1,535 @@
+{
+  "name": "mother_35000",
+  "description": "35000DWT母型型线及典型横剖面出图模板",
+  "source_dimensions": {
+    "lbp_m": 172.0,
+    "beam_m": 28.8,
+    "depth_m": 14.6
+  },
+  "palette": {
+    "REF_1": "#ff4d4d",
+    "REF_2": "#fff23b",
+    "REF_3": "#46ff83",
+    "REF_4": "#27e8ff",
+    "REF_5": "#79a6ff",
+    "REF_6": "#ff64e5",
+    "REF_7": "#ffffff"
+  },
+  "lines": {
+    "frame": [
+      -9.0,
+      -36.0,
+      181.0,
+      46.0
+    ],
+    "profile_origin": [
+      0.0,
+      0.0
+    ],
+    "plan_origin": [
+      0.0,
+      -18.0
+    ],
+    "body_origin": [
+      88.0,
+      24.0
+    ],
+    "table_origin": [
+      3.0,
+      39.0
+    ],
+    "table_width": 62.0,
+    "table_height": 18.0,
+    "particulars_origin": [
+      144.0,
+      41.0
+    ],
+    "title_block": [
+      144.0,
+      -34.0,
+      179.0,
+      -24.0
+    ],
+    "view_text_height": 0.4,
+    "grid_text_height": 0.24,
+    "waterlines_m": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0
+    ],
+    "buttocks_m": [
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0
+    ],
+    "offset_columns": [
+      "ST",
+      "X",
+      "F.O.B.",
+      "WL1",
+      "WL2",
+      "WL3",
+      "WL4",
+      "WL5",
+      "WL6",
+      "WL7",
+      "WL8",
+      "WL9",
+      "T",
+      "WL11",
+      "WL12",
+      "WL13",
+      "WL14",
+      "DECK Y",
+      "CL Z",
+      "DECK Z"
+    ]
+  },
+  "section": {
+    "details_file": "typical_section_details.dxf",
+    "detail_polyline_count": 1896,
+    "source_y_knots_m": [
+      0.0,
+      10.0,
+      13.1,
+      14.4,
+      18.0
+    ],
+    "source_z_knots_m": [
+      -3.0,
+      0.0,
+      1.75,
+      5.75,
+      10.6,
+      12.673913,
+      14.6,
+      15.1,
+      16.85,
+      20.0
+    ],
+    "source_layout": {
+      "double_bottom_m": 1.75,
+      "inner_half_breadth_m": 13.1,
+      "upper_half_breadth_m": 10.0,
+      "side_tank_m": 1.3,
+      "top_slope_start_m": 10.6,
+      "top_slope_end_m": 12.673913
+    },
+    "deck_camber_m": 0.5,
+    "coaming_above_camber_m": 1.75,
+    "text_height": 0.22,
+    "dimension_text_height": 0.2
+  },
+  "sources": {
+    "section": {
+      "dwg": "35000DWT散货船_典型横剖面图.dwg",
+      "dxf": "35000DWT散货船_典型横剖面图.dxf",
+      "dwg_sha256": "af225d0ffbb76452c3c201b796e2a3b00237764fb0224aafed94dd359db76b3f",
+      "dxf_sha256": "d0b9aebaa16e8df36b207840d9220b78e92006b2deb9af54becb65f7115074e7",
+      "dxf_entities": {
+        "LINE": 260,
+        "ARC": 92,
+        "LWPOLYLINE": 102,
+        "INSERT": 113,
+        "TEXT": 10,
+        "CIRCLE": 22,
+        "HATCH": 8,
+        "DIMENSION": 11
+      },
+      "dwg_entities": {
+        "LINE": 260,
+        "ARC": 92,
+        "LWPOLYLINE": 102,
+        "INSERT": 113,
+        "TEXT": 10,
+        "CIRCLE": 22,
+        "HATCH": 8,
+        "DIMENSION": 11
+      }
+    },
+    "lines": {
+      "dwg": "35000DWT散货船型线图_2010VER.dwg",
+      "dxf": "35000DWT散货船型线图_2010VER.dxf",
+      "dwg_sha256": "10146a0ea5fbc6eedcad0a2ad9f4f564f607b44bfd01cb822baec7a8f71a0fc0",
+      "dxf_sha256": "61f31173570267e5b787bc04b728e8fdbf95414c3b120edbd79d8d6236e30398",
+      "dxf_entities": {
+        "TEXT": 1609,
+        "LINE": 263,
+        "LWPOLYLINE": 188,
+        "POLYLINE": 115,
+        "DIMENSION": 50,
+        "INSERT": 4,
+        "ARC": 7,
+        "POINT": 2,
+        "SPLINE": 4,
+        "CIRCLE": 1,
+        "REGION": 2
+      },
+      "dwg_entities": {
+        "TEXT": 1609,
+        "LINE": 263,
+        "LWPOLYLINE": 188,
+        "POLYLINE": 115,
+        "DIMENSION": 50,
+        "INSERT": 4,
+        "ARC": 7,
+        "POINT": 2,
+        "SPLINE": 4,
+        "CIRCLE": 1,
+        "REGION": 2
+      }
+    }
+  },
+  "revision": "r2",
+  "styles": {
+    "HULL": [
+      "#ffffff",
+      35
+    ],
+    "INNER": [
+      "#27e8ff",
+      18
+    ],
+    "GRID": [
+      "#8390a3",
+      9
+    ],
+    "CENTER": [
+      "#27e8ff",
+      13
+    ],
+    "STATIONS": [
+      "#79a6ff",
+      25
+    ],
+    "WATERLINES": [
+      "#79a6ff",
+      25
+    ],
+    "BUTTOCKS": [
+      "#79a6ff",
+      25
+    ],
+    "DIMENSIONS": [
+      "#fff23b",
+      18
+    ],
+    "TEXT": [
+      "#fff23b",
+      18
+    ],
+    "ANNOTATION": [
+      "#fff23b",
+      18
+    ]
+  },
+  "general_arrangement": {
+    "details_file": "general_arrangement_details.dxf",
+    "frame": [
+      -10,
+      -130,
+      232,
+      69
+    ],
+    "profile_origin": [
+      0,
+      0
+    ],
+    "accommodation_origin": [
+      0,
+      -4
+    ],
+    "deck_origin": [
+      0,
+      -62
+    ],
+    "tank_origin": [
+      0,
+      -103
+    ],
+    "title_block": [
+      185,
+      -128,
+      230,
+      -116
+    ],
+    "source_boundaries_m": [
+      7.4,
+      25.8,
+      53.8,
+      82.6,
+      111.4,
+      140.2,
+      165
+    ],
+    "views": {
+      "profile": {
+        "origin": [
+          -1825904.272255978,
+          -1662845.330265533
+        ],
+        "bounds": [
+          -5,
+          14.59,
+          179,
+          52
+        ],
+        "plane": "xz"
+      },
+      "accommodation": {
+        "origin": [
+          -1825904.272255978,
+          -1662845.330265533
+        ],
+        "bounds": [
+          25,
+          -38,
+          225,
+          -4
+        ],
+        "plane": "layout"
+      },
+      "deck": {
+        "origin": [
+          -1825904.272255978,
+          -1718702.039789164
+        ],
+        "bounds": [
+          -5,
+          -16,
+          179,
+          16
+        ],
+        "plane": "xy"
+      }
+    },
+    "labels": [
+      {
+        "text": "ER UPPER PLATFORM",
+        "at": [
+          36.57711825465318,
+          -7.2483109819381495
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "10,900 A.B.L.",
+        "at": [
+          41.17201354950014,
+          -9.223753253033152
+        ],
+        "height": 0.4
+      },
+      {
+        "text": "A DECK",
+        "at": [
+          78.50084478975809,
+          -7.285647474582074
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "ENGINE CASING",
+        "at": [
+          99.71067398022511,
+          -21.790248719051945
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "DOWN",
+        "at": [
+          101.95814253704901,
+          -19.79330335237109
+        ],
+        "height": 0.25
+      },
+      {
+        "text": "EM'CY GEN. RM",
+        "at": [
+          98.97736965563311,
+          -14.862315057312138
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "COFFERDAM",
+        "at": [
+          99.16547045728099,
+          -17.772171526903985
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "B DECK",
+        "at": [
+          104.39422804797115,
+          -6.968767453829059
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "FUNNEL",
+        "at": [
+          131.84232455778798,
+          -21.660192569574107
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "C DECK",
+        "at": [
+          134.28305944443798,
+          -7.387628604043043
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "D DECK",
+        "at": [
+          164.0555987314831,
+          -9.272131941694068
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "FUNNEL",
+        "at": [
+          157.5778925281542,
+          -21.49533648300497
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "FUNNEL",
+        "at": [
+          183.03358628317807,
+          -21.424255206765142
+        ],
+        "height": 0.3
+      },
+      {
+        "text": "BRIDGE DECK",
+        "at": [
+          185.27249352065917,
+          -8.033057187202154
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "COMPASS DECK",
+        "at": [
+          209.0713516490902,
+          -11.934935284312116
+        ],
+        "height": 0.45
+      },
+      {
+        "text": "LIFTING",
+        "at": [
+          45.750377330152084,
+          -21.27360923714214
+        ],
+        "height": 0.25
+      },
+      {
+        "text": "LIFTING",
+        "at": [
+          104.72099185925303,
+          -21.279089092757086
+        ],
+        "height": 0.25
+      },
+      {
+        "text": "LIFTING",
+        "at": [
+          136.33969929145206,
+          -21.279089092757086
+        ],
+        "height": 0.25
+      },
+      {
+        "text": "LIFTING",
+        "at": [
+          161.86108061025618,
+          -21.279089092757086
+        ],
+        "height": 0.25
+      },
+      {
+        "text": "LIFTING",
+        "at": [
+          187.22981944217602,
+          -21.279089092757086
+        ],
+        "height": 0.25
+      }
+    ],
+    "detail_counts": {
+      "profile": 7670,
+      "accommodation": 10794,
+      "deck": 7274
+    },
+    "source_dxf": "35000DWT散货船总布置图_2010VER.dxf",
+    "source_sha256": "90a1d4a62747c4835ccc3197bd3494a9bcde5326f8b44d4c9bd2d01f466033fe"
+  },
+  "capacity_plan": {
+    "frame": [
+      -10,
+      -106,
+      270,
+      55
+    ],
+    "profile_origin": [
+      0,
+      25
+    ],
+    "plan_origin": [
+      0,
+      -12
+    ],
+    "bottom_origin": [
+      0,
+      -59
+    ],
+    "table_origin": [
+      185,
+      8
+    ],
+    "table_width": 78,
+    "section_origins": [
+      [
+        199,
+        28
+      ],
+      [
+        240,
+        28
+      ]
+    ],
+    "title_block": [
+      223,
+      -104,
+      268,
+      -91
+    ],
+    "source_dwg": "DC081210,103,001舱容图-A.dwg",
+    "source_dwg_sha256": "bc8244c150fabb85223d71dc559033668ab4f0da8d0a6f93cc61e78d46ab94e4",
+    "source_dxf_sha256": "48757eec0c17d6e564bb7ef04fb99d90bdc453c8d51e6af1f8e2a536a95812fb"
+  }
+}
