@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="填写 Fsgy-surf 设计算例，运行船型计算并查看报告和图纸。">
+  <title>船舶设计算例 · Fsgy-surf</title>
+  <link rel="icon" href="/logo.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span>Fsgy-surf</span>
+      </div>
+      <span class="masthead-label">船舶设计工作台</span>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="page-heading">
+      <div class="hero-copy">
+        <h1>船舶设计算例</h1>
+        <p>设置目标船参数和计算任务，生成设计报告与图纸。</p>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <img src="/logo.png" width="1536" height="1024" alt="">
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <label class="template-picker" for="template-select">
+        <span>算例模板</span>
+        <select id="template-select" disabled>
+          <option value="">正在读取模板…</option>
+        </select>
+      </label>
+      <div class="file-actions">
+        <button type="button" id="import-case" class="button secondary" disabled>导入 JSON</button>
+        <button type="button" id="export-case" class="button secondary" disabled>导出 JSON</button>
+        <input id="case-file" type="file" accept=".json,application/json" hidden>
+        <input id="loading-file" type="file" accept=".json,application/json" hidden>
+      </div>
+    </div>
+
+    <div id="notice" class="notice" role="status" hidden></div>
+
+    <div class="workspace">
+      <nav id="section-nav" class="section-nav" aria-label="算例设置" hidden></nav>
+      <form id="case-form" class="editor" novalidate>
+        <div id="editor-content"><p class="loading-message">正在加载算例…</p></div>
+      </form>
+
+      <aside class="run-panel" aria-labelledby="run-title">
+        <h2 id="run-title">运行计算</h2>
+        <dl class="summary">
+          <div><dt>当前算例</dt><dd id="summary-name">—</dd></div>
+          <div><dt>已选任务</dt><dd id="summary-tasks">—</dd></div>
+        </dl>
+        <button type="submit" form="case-form" id="run-button" class="button primary" disabled>开始计算</button>
+        <div class="run-status" id="run-status" data-status="idle" role="status">
+          <span class="status-dot" aria-hidden="true"></span><span id="status-text">尚未运行</span>
+        </div>
+        <p id="run-message" class="run-message" hidden></p>
+        <button type="button" id="retry-status" class="button secondary" hidden>重新读取状态</button>
+        <details id="log-panel" class="log-panel" hidden>
+          <summary>计算日志</summary>
+          <pre id="run-log" tabindex="0"></pre>
+        </details>
+        <div id="output-panel" class="output-panel" hidden>
+          <h3>运行产物</h3>
+          <ul id="output-links"></ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <noscript><p class="noscript">启用 JavaScript 后即可填写和运行算例。</p></noscript>
+</body>
+</html>

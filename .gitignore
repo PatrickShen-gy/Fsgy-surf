@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 cases/*/cache/
 cases/*/results/
+cases/web-runs/
 example/cache/
 example/results/
